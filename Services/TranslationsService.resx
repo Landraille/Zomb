@@ -1,0 +1,490 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AAAA_DESCRIPTION" xml:space="preserve">
+    <value>a faire</value>
+  </data>
+  <data name="AAAH" xml:space="preserve">
+    <value>Aaah!</value>
+  </data>
+  <data name="AK47" xml:space="preserve">
+    <value>AK-47</value>
+  </data>
+  <data name="ASSAULT_RIFLE" xml:space="preserve">
+    <value>Fusil d'assaut</value>
+  </data>
+  <data name="AUTOMATIC_SHOTGUN" xml:space="preserve">
+    <value>a faire</value>
+  </data>
+  <data name="BASEBALL_BAT" xml:space="preserve">
+    <value>Batte de base-ball</value>
+  </data>
+  <data name="BETTY" xml:space="preserve">
+    <value>Betty</value>
+  </data>
+  <data name="BOW" xml:space="preserve">
+    <value>Arc</value>
+  </data>
+  <data name="BOW_DESCRIPTION" xml:space="preserve">
+    <value>+1 dégat pour chaque 6 sur le jet d'attaque à distance</value>
+  </data>
+  <data name="BULLETPROOF_VEST" xml:space="preserve">
+    <value>Gilet pare-balles</value>
+  </data>
+  <data name="BULLETPROOF_VEST_DESCRIPTION" xml:space="preserve">
+    <value>a faire</value>
+  </data>
+  <data name="CHAINSAW" xml:space="preserve">
+    <value>Tronçonneuse</value>
+  </data>
+  <data name="CLAW_HAMMER" xml:space="preserve">
+    <value>Marteau</value>
+  </data>
+  <data name="CONCRETE_SAW" xml:space="preserve">
+    <value>a faire</value>
+  </data>
+  <data name="COOKIES" xml:space="preserve">
+    <value>Cookies</value>
+  </data>
+  <data name="COOKIES_DESCRIPTION" xml:space="preserve">
+    <value>Gagne 1 point d'expérience.</value>
+  </data>
+  <data name="CROWBAR" xml:space="preserve">
+    <value>Pied de biche</value>
+  </data>
+  <data name="DAISHO" xml:space="preserve">
+    <value>Daisho</value>
+  </data>
+  <data name="DESCRIPTION_ADAM" xml:space="preserve">
+    <value>La plupart des gens se sentent mal à l’aise lorsqu’ils rencontrent Adam pour la première fois. Un gars aussi joyeux est forcément dingue ! Adam met les choses au clair en quelques minutes. Il a choisi d’apprécier sa nouvelle vie au cœur de l’apocalypse zombie et il est toujours prêt à partager ses vibrations positives avec ceux qui l’entourent. À part avec les zombies, bien sûr, qui peuvent goûter aux talents martiaux de ce guerrier jovial, notamment au corps à corps.</value>
+  </data>
+  <data name="DESCRIPTION_AMY" xml:space="preserve">
+    <value>Amy était une goth haineuse du monde entier, du consumérisme aveugle jusqu’à l’idiotie même de l’existence. Le monde que Amy méprisait tant s’est écroulé et de ses cendres émerge l’espoir d’un nouveau départ et d’une vie plus simple. Livrer une bataille désespérée aux zombies a ravivé la volonté de vivre d’Amy, mais elle ne se sent pas encore très à l’aise sans son fond-de-teint blanc.</value>
+  </data>
+  <data name="DESCRIPTION_BEAR" xml:space="preserve">
+    <value>Bear est une force de la nature, du genre qu’il faut redouter. Solide comme le roc, il peut soulever un homme d’une seule main. Son sport favori ? Le lancer de zombie.</value>
+  </data>
+  <data name="DESCRIPTION_BELLE" xml:space="preserve">
+    <value>Fille d’un ancien sergent-instructeur, Belle a grandi dans la rue et s’est épanouie par le parkour, le parcours d’obstacles urbain. De son point de vue, la ville est comme n’importe quelle étendue sauvage et a ses propres lois. Les proies ne regardent jamais en l’air pour voir les prédateurs sur les toits ! Les choses ont changé, toutefois, depuis que les gens sont devenus des monstres idiots. Le troupeau doit être décimé.</value>
+  </data>
+  <data name="DESCRIPTION_CATHY" xml:space="preserve">
+    <value>Sprinteuse au grand cœur dotée d’une haine farouche pour les zombies, Cathy peut distancer n’importe quoi ou n’importe qui (à l’exception d’une Bimbo en rollers).</value>
+  </data>
+  <data name="DESCRIPTION_DAN" xml:space="preserve">
+    <value>Sage et généreux, Dan a le don de trouver la solution à tous les problèmes en un rien de temps, y compris pour faire un aller-retour en enfer.</value>
+  </data>
+  <data name="DESCRIPTION_DEREK" xml:space="preserve">
+    <value>Derek arpentait le Grand Nord pour établir les limites des propriétés et trouver tout ce qu’on pourrait vouloir trouver là-bas. Œil d’aigle et nerfs d’acier, Derek n’a pas attendu les zombies pour être un survivant.
+Les zombies n’ont changé qu’une seule chose dans sa vie. Lorsque la civilisation s’est effondrée, il a pris la direction du sud et d’une vie plus facile. Il a marché sur mille ou deux mille kilomètres sans problème. Rien n’est difficile quand on sait survivre à un blizzard !</value>
+  </data>
+  <data name="DESCRIPTION_DOUG" xml:space="preserve">
+    <value>4 heures dans les transports, 12 heures de travail par jour, des collègues peu coopératifs et un patron indifférent appartiennent tous au passé de Doug. C’est certain, faire face aux zombies est un peu stressant mais pour être franc, c’est quand même mieux que le train-train quotidien. Un Uzi dans chaque main, c’est utile pour négocier avec les ex-collègues et les ex-patrons. De toute manière, Doug est persuadé qu’ils étaient déjà des zombies avant toute cette histoire.</value>
+  </data>
+  <data name="DESCRIPTION_ELSA" xml:space="preserve">
+    <value>Jolie fille née dans une famille pauvre, Elsa a appris que l’agilité, l’apparence et la subtilité pouvaient sont autant de voies vers la richesse. Voler des bien précieux était sa dose quotidienne d’adrénaline, surtout si cela comprenait quelques acrobaties et un vrai défi au niveau de la sécurité.
+Elsa était poursuivie par les policiers sur les toits quand les zombies sont apparus et ont changé sa vie. L’or n’a plus aucune valeur désormais mais les abris blindés dissimulent toujours des biens précieux. Joueuse et souriante au milieu du chaos, le chat se rie de l’apocalypse. Les barrières sociales sont tombées, seul compte le talent. Et Elsa est si talentueuse !</value>
+  </data>
+  <data name="DESCRIPTION_GRINDLOCK" xml:space="preserve">
+    <value>Le Heavy Metal n’est pas un genre musical, c’est une hygiène de vie, et c’est la voie que Grindlock a choisie. C’est certain, cette armoire à glace n’entrait pas vraiment dans le moule, mais il s’en moquait. Le travail devait être fait, la musique devait être forte, et tout le reste n’était que vanité.
+Grindlock n’a pas cillé quand les zombies sont venus le chercher. Il les a slammés comme des mouches, s’est emparé d’une tronçonneuse, et s’en est allé voir l’apocalypse droit dans les yeux avec un petit sourire. Il attend désormais un adversaire assez fort pour lui faire dire que la vie est vraiment devenue métal.</value>
+  </data>
+  <data name="DESCRIPTION_JAMES" xml:space="preserve">
+    <value>Tireur hors pair, James aime se considérer comme un chasseur moderne dans un safari permanent. Un safari zombie, bien entendu. Défi accepté !</value>
+  </data>
+  <data name="DESCRIPTION_JANE" xml:space="preserve">
+    <value>Jane est la gâchette la plus rapide de la ville. Elle conserve son côté cool et son humour au second degré même dans les pires situations. La connaître, c’est l’aimer !</value>
+  </data>
+  <data name="DESCRIPTION_JEFF" xml:space="preserve">
+    <value>Jeff est doté d’un esprit logique et s’avère être un tireur remarquable. Il aime donner son avis sur tout ce qui se passe dans ce monde de zombies. La plupart du temps, il préconise le travail d’équipe et les frappes précises pour atteindre le but recherché. Ce n’est que lorsqu’il abat des dizaines de zombies l’un après l’autre, d’une balle dans la tête, qu’il cesse enfin de parler.</value>
+  </data>
+  <data name="DESCRIPTION_JOE" xml:space="preserve">
+    <value>Joe sait comment transformer les trucs les plus bizarres en quelque chose d’utile, voire de mortel. Avant les zombies, il était considéré comme un crétin. Aujourd’hui, tout le monde a réalisé que c’est un génie !</value>
+  </data>
+  <data name="DESCRIPTION_JOSH" xml:space="preserve">
+    <value>Josh était un vaurien, un type qui a grandi dans un quartier pauvre et « difficile ». Survivre au jour le jour était tout ce qu’il pouvait faire avant les zombies. Maintenant qu’il n’y a plus de loi ni qui que ce soit pour lui dicter sa conduite, Josh remarque que sa connaissance de la rue est très prisée par les autres survivants. Le respect est tellement plus précieux que tout l’or du monde…</value>
+  </data>
+  <data name="DESCRIPTION_JOSHUA" xml:space="preserve">
+    <value>Joshua a longtemps étudié comment survivre à une invasion de zombies. Les films, les jeux vidéos et les livres disaient n’importe quoi mais contenait tout de même quelques astuces pour les esprits éclairés. Quand l’apocalypse est finalement arrivée, Joshua a fait son paquetage et a juré de sauver autant de gens que possible, à condition qu’ils l’écoutent et ne tentent rien d’idiot. Il a désormais trouvé une équipe et est prêt à tout pour la garder soudée. Joshua est toujours là pour sauver le monde !</value>
+  </data>
+  <data name="DESCRIPTION_JULIEN" xml:space="preserve">
+    <value>De nos jours, parler du passé est considéré comme impoli, mais de par son accent, il est facile de deviner que Julien vient d’un pays étranger, sans doute d’Europe. Julien est vraiment à l’aise au cœur des combats urbains. Il s’est créé un style de combat entre fureur et sang-froid et se révèle être un atout précieux avec toutes sortes de fusils à pompe.</value>
+  </data>
+  <data name="DESCRIPTION_KIM" xml:space="preserve">
+    <value>Adroite, maline et tête brûlée, Kim a travaillé pour un parrain du crime dans un casino clandestin pendant des années. Sa chance incroyable était comme une signature. Elle gagnait en un soir plus d’argent pour son gang que la plupart des gens en dix ans. Elle menait déjà une vie dangereuse avant l’arrivée des zombies et, pour elle, l’apocalypse est comme une nouvelle main de cartes. Toutes les traces de son passé criminel ont été lavées dans le sang. La survie est le jeu ultime et Kim sait déjà qu’elle va gagner. La chance est de son côté !</value>
+  </data>
+  <data name="DESCRIPTION_LAURIE" xml:space="preserve">
+    <value>Introvertie la plupart du temps, Laurie dévoile sa vraie personnalité au cœur du combat. Elle est si rapide qu’il est pénible de suivre ses mouvements. Surtout pour les zombies.</value>
+  </data>
+  <data name="DESCRIPTION_LOUISE" xml:space="preserve">
+    <value>Louise n’est pas le genre de fille à se cacher au fond d’un abri. Elle a parcouru la ville infestée de zombies en de nombreuses occasions et a dissimulé des armes dans les endroits les plus inattendus. Personne ne peut la prendre par surprise !</value>
+  </data>
+  <data name="DESCRIPTION_MADDIE" xml:space="preserve">
+    <value>Maddie ne pense plus au passé. Elle ne se préoccupe plus que des choses simples, comme la vie et la mort et aujourd’hui, elle est en guerre. En guerre contre les zombies en général et contre les porcs capitalistes zombies en particulier !</value>
+  </data>
+  <data name="DESCRIPTION_NED" xml:space="preserve">
+    <value>Ned le savait. Il savait que ÇA arriverait. Tout ÇA, c’est de LEUR faute. Mais personne ne l’a ECOUTÉ et maintenant ils se plaignent que c’est la CATA. Ned s’est préparé pendant des années : rassembler des armes et de la nourriture, construire un bunker, tout était prêt pour survivre à ÇA. Malheureusement, Ned a perdu la clé de son bunker et jusqu’à ce qu’il la retrouve, il aura besoin de tous les moyens de survie à sa disposition. Et peut-être même d’autres gens. Fait ch…</value>
+  </data>
+  <data name="DESCRIPTION_NEEMA" xml:space="preserve">
+    <value>Neema avait déjà la volonté de fer d’une survivante avant l’apocalypse. Sa détermination et son travail acharné lui ouvrirent les portes de l’ascenseur social pour grimper au sommet de la chaîne alimentaire. Son ambition n’était égalée que par son intelligence : devenir cadre supérieure n’était que le premier pas de son irrésistible ascension.
+Brisant le travail d’une vie, les zombies ont éveillé quelque chose en Neema. Quelque chose de sauvage. Neema est toujours une chef-née mais dans son âme explose un volcan. Elle est une alpha menant la meute avec sagesse et une juste furie. N’attirez pas le courroux de la lionne car son cœur ne connaît pas la peur.</value>
+  </data>
+  <data name="DESCRIPTION_PARKER" xml:space="preserve">
+    <value>En période d’invasion zombie, avoir un toubib sous le coude représente un atout indéniable. Ne vous méprenez pas cependant : Parker est un combattant endurci, capable si besoin de traîner sa carcasse (et la vôtre en prime) un peu partout.</value>
+  </data>
+  <data name="DESCRIPTION_PHIL" xml:space="preserve">
+    <value>Phil est un policier corps et âme, même s’il n’y a plus vraiment de police désormais. Il porte toujours son uniforme, conserve son arme de service et considère la protection des autres citoyens comme son devoir. Du moins, ceux qui sont encore humains. Être un policier lui permet de conserver le peu de santé mentale qui lui reste.</value>
+  </data>
+  <data name="DESCRIPTION_RAOUL" xml:space="preserve">
+    <value>Raoul est un ancien médicin militaire. Il a fait son boulot chez dans une boîte d’ambulanciers locaux en tant que chef d’équipe médicale… blasé. Il pensait avoir tout vu. En tout cas, jusqu’à ce que ses amis et collègues se fassent grignoter par la horde de zombies alors qu’ils composaient les numéros d’urgence au début de l’épidémie. Les naïfs. Désormais dénué d’empathie et de bandages, Raoul est en quête de revanche. Il est équipé, prêt à descendre dans la rue, et embarque tout les « médicaments » dont auront besoin les sacs à viande mangeurs qui se mettront en travers de sa route.</value>
+  </data>
+  <data name="DESCRIPTION_SHANNON" xml:space="preserve">
+    <value>D’ascendance irlandaise, Shannon est une femme d’action. Les guerres de gangs, les milices, l’armée, elle a tout fait mais n’a jamais trouvé une bataille dans laquelle s’engager corps et âme. De retour à la vie civile après un énième accident avec son dernier partenaire, Shannon cherchait un boulot de videuse quand les zombies sont arrivés et ont donné un vrai sens à son existence. Shannon a désormais plus d’une cause à défendre : survivre, protéger des civils et exterminer des zombies avec extrême préjudice. Auréolée de sang et de mort, Shannon se sent comme chez elle et plus vivante que jamais.</value>
+  </data>
+  <data name="DESCRIPTION_TERRY" xml:space="preserve">
+    <value>Ancien combattant, Terry a quitté un champ de bataille pour un autre. Ses compétences d’officier pourraient transformer des collégiennes en une escouade de commandos. Alors, imaginez ce qu’il peut faire avec des survivants endurcis.</value>
+  </data>
+  <data name="DESCRIPTION_TIFF" xml:space="preserve">
+    <value>Dotée d’un enthousiasme débordant et prête à tout pour protéger ses compagnons, Tiff incarne l’esprit rock’n’roll parmi les Survivants. Elle adore les bibelots pré-apocalyptiques, particulièrement ceux en rapport avec son mode de vie et sa musique. Elle aime se considérer comme une chasseuse de trésors. Son arme préférée reste tout de même son fidèle Pistolet mitrailleur !</value>
+  </data>
+  <data name="DESCRIPTION_TRAVIS" xml:space="preserve">
+    <value>Travis est un homme éduqué que la vie a transformé en tueur de zombies. Du genre patient et impitoyable, il y a une chose qu’il apprécie dans l’apocalypse zombie : c’est que les gens révèlent leur vraie nature.</value>
+  </data>
+  <data name="DESCRIPTION_WANDA" xml:space="preserve">
+    <value>Wanda servait de la bière et des hamburgers au drive-in du coin. L’apocalypse zombie n’a pas vraiment changé ses habitudes : elle esquive toujours des mains avides de chair, file sur ses rollers et repousse les prétendants un peu trop hardis. La tronçonneuse, par contre, c’est un bonus.</value>
+  </data>
+  <data name="DESCRIPTION_WATTS" xml:space="preserve">
+    <value>Après une jeunesse tumultueuse, Watts décida de mener une vie normale avec un boulot pépère, une femme, deux enfants et un Jack Russel. Ca a presque marché. Au bout de dix ans, son employeur a délocalisé son activité et l’a renvoyé pour faire des économies. Le père de famille était en train de se transformer en zombie quand les vrais zombies sont apparus et lui ont sauvé la vie en lui ouvrant les yeux. Watts installa sa famille dans un bus, ressortit sa vieille batte cloutée et retrouva ses vieilles habitudes. Le punk n’est pas mort. Il ne meurt jamais vraiment.</value>
+  </data>
+  <data name="DESERT_EAGLE" xml:space="preserve">
+    <value>Desert Eagle</value>
+  </data>
+  <data name="DOUBLE_BARREL" xml:space="preserve">
+    <value>a faire</value>
+  </data>
+  <data name="DOUGS_DREAM" xml:space="preserve">
+    <value>Doug's Dream</value>
+  </data>
+  <data name="EVILTWIN" xml:space="preserve">
+    <value>a faire</value>
+  </data>
+  <data name="FIREAXE" xml:space="preserve">
+    <value>Hache</value>
+  </data>
+  <data name="FLAMETHROWER" xml:space="preserve">
+    <value>Lance flamme</value>
+  </data>
+  <data name="FLAMETHROWER_DESCRIPTION" xml:space="preserve">
+    <value>Utilisez une carte essence pour tuer tout le monde dans la zone visée (effet identique au cocktail molotov).</value>
+  </data>
+  <data name="FLASHLIGHT" xml:space="preserve">
+    <value>Lampe torche</value>
+  </data>
+  <data name="FLASHLIGHT_DESCRIPTION" xml:space="preserve">
+    <value>a faire</value>
+  </data>
+  <data name="FOOD" xml:space="preserve">
+    <value>Boites de conserve</value>
+  </data>
+  <data name="GASMASK" xml:space="preserve">
+    <value>Masque à gaz</value>
+  </data>
+  <data name="GASMASK_DESCRIPTION" xml:space="preserve">
+    <value>Le survivant est immunisé aux éclaboussures de gaz toxiques.</value>
+  </data>
+  <data name="GASOLINE" xml:space="preserve">
+    <value>Essence</value>
+  </data>
+  <data name="GASOLINE_DESCRIPTION" xml:space="preserve">
+    <value>a faire</value>
+  </data>
+  <data name="GLASSBOTTLE" xml:space="preserve">
+    <value>Bouteille</value>
+  </data>
+  <data name="GLASSBOTTLE_DESCRIPTION" xml:space="preserve">
+    <value>a faire</value>
+  </data>
+  <data name="GOALIEMASK" xml:space="preserve">
+    <value>Masque de hockey</value>
+  </data>
+  <data name="GOALIEMASK_DESCRIPTION" xml:space="preserve">
+    <value>a faire</value>
+  </data>
+  <data name="GOLDEN_AK47" xml:space="preserve">
+    <value>AK-47 plaqué or</value>
+  </data>
+  <data name="GUNBLADE" xml:space="preserve">
+    <value>GunBlade</value>
+  </data>
+  <data name="HATCHET" xml:space="preserve">
+    <value>Hachette</value>
+  </data>
+  <data name="HOLLOW_POINT_ROUNDS" xml:space="preserve">
+    <value>a faire</value>
+  </data>
+  <data name="HOLLOW_POINT_ROUNDS_DESCRIPTION" xml:space="preserve">
+    <value>a faire</value>
+  </data>
+  <data name="JACK_JILL" xml:space="preserve">
+    <value>Jack &amp; Jill</value>
+  </data>
+  <data name="KATANA" xml:space="preserve">
+    <value>Katana</value>
+  </data>
+  <data name="KNIFE" xml:space="preserve">
+    <value>Couteau</value>
+  </data>
+  <data name="KNIFE_DESCRIPTION" xml:space="preserve">
+    <value>Si équipé, les autres armes de mélée équipées gagne +1dé.</value>
+  </data>
+  <data name="KUKRI" xml:space="preserve">
+    <value>Kukri</value>
+  </data>
+  <data name="LASER_POINTER" xml:space="preserve">
+    <value>Pointeur Laser</value>
+  </data>
+  <data name="LASER_POINTER_DESCRIPTION" xml:space="preserve">
+    <value>En combinaison avec le Pa's gun, les pistolets, les sub MG ou les evil twins. Un pointeur par arme. Pour les armes dual, chaque arme peux être combiner avec un pointeur.</value>
+  </data>
+  <data name="MAC10" xml:space="preserve">
+    <value>MAC 10</value>
+  </data>
+  <data name="MACHETE" xml:space="preserve">
+    <value>Machette</value>
+  </data>
+  <data name="MAGNUM44" xml:space="preserve">
+    <value>.44 Magnum</value>
+  </data>
+  <data name="MA_SHOTGUN" xml:space="preserve">
+    <value>a faire</value>
+  </data>
+  <data name="MEAT_CLEAVER" xml:space="preserve">
+    <value>a faire</value>
+  </data>
+  <data name="MOLOTOV" xml:space="preserve">
+    <value>Cocktail Molotov</value>
+  </data>
+  <data name="MP5" xml:space="preserve">
+    <value>MP5</value>
+  </data>
+  <data name="NAILBAT" xml:space="preserve">
+    <value>Batte cloutée</value>
+  </data>
+  <data name="NAILS" xml:space="preserve">
+    <value>Clous</value>
+  </data>
+  <data name="NAILS_DESCRIPTION" xml:space="preserve">
+    <value>Combinez avec une batte de baseball pour obtenir une batte de basse ball cloutée.</value>
+  </data>
+  <data name="NEDS_FLASHLIGHT" xml:space="preserve">
+    <value>Ned's Atomic Flashlight</value>
+  </data>
+  <data name="NIGHT_STICK" xml:space="preserve">
+    <value>a faire</value>
+  </data>
+  <data name="NIGHT_STICK_DESCRIPTION" xml:space="preserve">
+    <value>Si equipé, jeter pour empêcher une blessure infligée au survivant.</value>
+  </data>
+  <data name="PAN" xml:space="preserve">
+    <value>Poêle</value>
+  </data>
+  <data name="PAS_GUN" xml:space="preserve">
+    <value>PA's Gun</value>
+  </data>
+  <data name="PINK_M4" xml:space="preserve">
+    <value>M4 rose</value>
+  </data>
+  <data name="PISTOL" xml:space="preserve">
+    <value>Pistolet</value>
+  </data>
+  <data name="PLENTY_AMMO_BULLET" xml:space="preserve">
+    <value>Munitions en pagaille</value>
+  </data>
+  <data name="PLENTY_AMMO_BULLET_DESCRIPTION" xml:space="preserve">
+    <value>a faire</value>
+  </data>
+  <data name="PLENTY_AMMO_SHOTGUN" xml:space="preserve">
+    <value>Munitions en pagaille</value>
+  </data>
+  <data name="PLENTY_AMMO_SHOTGUN_DESCRIPTION" xml:space="preserve">
+    <value>a faire</value>
+  </data>
+  <data name="RICE" xml:space="preserve">
+    <value>Sac de riz</value>
+  </data>
+  <data name="RIFLE" xml:space="preserve">
+    <value>Fusil</value>
+  </data>
+  <data name="RIOT_SHIELD" xml:space="preserve">
+    <value>Bouclier anti-émeute</value>
+  </data>
+  <data name="RIOT_SHIELD_DESCRIPTION" xml:space="preserve">
+    <value>Si équipé : (1) Gagne la compétence Coriace. (2) Si jeté, évite une blessure infligée au survivant.</value>
+  </data>
+  <data name="SABER" xml:space="preserve">
+    <value>Sabre</value>
+  </data>
+  <data name="SAWED_OFF" xml:space="preserve">
+    <value>Canon scié</value>
+  </data>
+  <data name="SCOPE" xml:space="preserve">
+    <value>Viseur</value>
+  </data>
+  <data name="SCOPE_DESCRIPTION" xml:space="preserve">
+    <value>a faire</value>
+  </data>
+  <data name="SHOTGUN" xml:space="preserve">
+    <value>Fusil à pompe</value>
+  </data>
+  <data name="SPARE_CHANGE" xml:space="preserve">
+    <value>a faire</value>
+  </data>
+  <data name="SPARE_CHANGE_DESCRIPTION" xml:space="preserve">
+    <value>Les canons sciés deviennent des armes de dégat 2.</value>
+  </data>
+  <data name="SPAS12" xml:space="preserve">
+    <value>SPAS 12</value>
+  </data>
+  <data name="SPECIAL911" xml:space="preserve">
+    <value>911 Special</value>
+  </data>
+  <data name="SUBMG" xml:space="preserve">
+    <value>a faire</value>
+  </data>
+  <data name="SWEET_SISTERS" xml:space="preserve">
+    <value>Sweet Sisters</value>
+  </data>
+  <data name="SWORD" xml:space="preserve">
+    <value>Epée</value>
+  </data>
+  <data name="THOMPSON" xml:space="preserve">
+    <value>Thompson</value>
+  </data>
+  <data name="URBAN_MACE" xml:space="preserve">
+    <value>Masse urbaine</value>
+  </data>
+  <data name="WAKIZACHI" xml:space="preserve">
+    <value>Wakizachi</value>
+  </data>
+  <data name="WAKIZACHI_DESCRIPTION" xml:space="preserve">
+    <value>Si équipé : gagne +2 dés avec le katana</value>
+  </data>
+  <data name="WATER" xml:space="preserve">
+    <value>Eau</value>
+  </data>
+</root>

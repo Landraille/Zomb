@@ -1,0 +1,8 @@
+C:\Users\Landry\Documents\Visual Studio 2015\Zombicide\Do;qin\bin\Debug\Domain.dll
+C:\Users\Landry\Documents\Visual Studio 2015\Zombicide\Do;qin\bin\Debug\Domain.pdb
+C:\Users\Landry\Documents\Visual Studio 2015\Zombicide\Do;qin\obj\Debug\Domain.dll
+C:\Users\Landry\Documents\Visual Studio 2015\Zombicide\Do;qin\obj\Debug\Domain.pdb
+C:\Users\Landry\Documents\Visual Studio 2015\Zombicide\Domain\bin\Debug\Domain.dll
+C:\Users\Landry\Documents\Visual Studio 2015\Zombicide\Domain\bin\Debug\Domain.pdb
+C:\Users\Landry\Documents\Visual Studio 2015\Zombicide\Domain\obj\Debug\Domain.dll
+C:\Users\Landry\Documents\Visual Studio 2015\Zombicide\Domain\obj\Debug\Domain.pdb

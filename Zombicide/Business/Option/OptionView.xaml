@@ -1,0 +1,201 @@
+﻿<UserControl x:Class="Zombicide.Business.Option.OptionView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Zombicide.Business.Option"
+             xmlns:assets="clr-namespace:Zombicide.Assets"
+             mc:Ignorable="d" 
+             d:DesignHeight="800" d:DesignWidth="800"
+             Width="800"
+             Height="800">
+    <DockPanel>
+        <StatusBar DockPanel.Dock="Bottom" HorizontalAlignment="Center">
+            <StatusBarItem>
+                <TextBlock Name="ModeStatusBar"/>
+            </StatusBarItem>
+            <Separator/>
+            <StatusBarItem>
+                <StackPanel>
+                    <TextBlock Name="DifficultyStatusBarTitle" Text="{x:Static assets:Translations.DIFFICULTY}"/>
+                    <TextBlock Name="DifficultyStatusBar"/>
+                </StackPanel>
+            </StatusBarItem>
+            <Separator/>
+            <StatusBarItem>
+                <StackPanel>
+                    <TextBlock Name="PlayerStatusBarTitle" Text="{x:Static assets:Translations.PLAYERS}"/>
+                    <TextBlock Name="PlayerStatusBar" />
+                </StackPanel>
+            </StatusBarItem>
+            <Separator/>
+            <StatusBarItem>
+                <StackPanel>
+                    <TextBlock Name="CharacterStatusBarTitle" Text="{x:Static assets:Translations.CHARACTERS}" />
+                    <TextBlock Name="CharacterStatusBar" />
+                </StackPanel>
+            </StatusBarItem>
+        </StatusBar>
+        <StackPanel>
+            <!--option title-->
+            <TextBlock Style="{StaticResource Header1Style}" Text="OPTIONS"/>
+
+            <!--Mode game-->
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="120" />
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <StackPanel Grid.Column="0" HorizontalAlignment="Center">
+                    <TextBlock Style="{StaticResource Header2Style}" 
+                               Text="{x:Static assets:Translations.GAME_MODE}"/> <!--{x:Static assets:Translations.GAME_MODE}-->
+                    <RadioButton Margin="15, 0, 0, 0" 
+                                 Name="StandardGame" 
+                                 IsChecked="True" 
+                                 GroupName="GameModeGroup" 
+                                 Checked="RadioButton_OnChecked"
+                                 Content="{x:Static assets:Translations.STANDARD_GAME}"/> <!--{x:Static assets:Translations.STANDARD_GAME}-->
+                    <RadioButton Margin="15, 0, 0, 0" 
+                                 Name="CustomizedGame"
+                                 GroupName="GameModeGroup" 
+                                 Checked="RadioButton_OnChecked"
+                                 Content="{x:Static assets:Translations.CUSTOMIZED_GAME}"/> <!--{x:Static assets:Translations.CUSTOMIZED_GAME}-->
+                    <CheckBox  Margin="30, 0, 0, 0" 
+                               Name="FurtiveOption" 
+                               IsEnabled="{Binding ElementName=CustomizedGame, Path=IsChecked}" 
+                               ToolTipService.ShowOnDisabled="true" 
+                               Content="{x:Static assets:Translations.STEALTH_MODE}"><!--{x:Static assets:Translations.STEALTH_MODE}-->
+                        <CheckBox.ToolTip>
+                            <TextBlock Text="{x:Static assets:Translations.STEALTH_MODE_TOOLTIP}"/> <!--{x:Static assets:Translations.STEALTH_MODE_TOOLTIP}-->
+                        </CheckBox.ToolTip>
+                    </CheckBox>
+                    <CheckBox Margin="30, 0, 0, 0" 
+                              Name="FogOfWarOption" 
+                              IsEnabled="{Binding ElementName=CustomizedGame, Path=IsChecked}" 
+                              ToolTipService.ShowOnDisabled="true" 
+                              Content="{x:Static assets:Translations.FOG_OF_WAR_MODE}"> <!--{x:Static assets:Translations.FOG_OF_WAR_MODE}-->
+                        <CheckBox.ToolTip>
+                            <TextBlock Text="{x:Static assets:Translations.FOG_OF_WAR_MODE_TOOLTIP}"></TextBlock> <!--{x:Static assets:Translations.FOG_OF_WAR_MODE_TOOLTIP}-->
+                        </CheckBox.ToolTip>
+                    </CheckBox>
+                    <RadioButton Margin="45, 0, 0, 0" 
+                                 Name="DayFogOfWarOption" 
+                                 IsEnabled="{Binding ElementName=FogOfWarOption, Path=IsChecked}" 
+                                 GroupName="FogOfWarGroup" 
+                                 ToolTipService.ShowOnDisabled="true" 
+                                 Content="{x:Static assets:Translations.FOG_OF_WAR_MODE_DAY}"><!--{x:Static assets:Translations.FOG_OF_WAR_MODE_DAY}-->
+                        <RadioButton.ToolTip>
+                            <TextBlock Text="{x:Static assets:Translations.FOG_OF_WAR_MODE_DAY_TOOLTIP}"></TextBlock> <!--{x:Static assets:Translations.FOG_OF_WAR_MODE_DAY_TOOLTIP}-->
+                        </RadioButton.ToolTip>
+                    </RadioButton>
+                    <RadioButton Margin="45, 0, 0, 0" 
+                                 Name="NightFogOfWarOption" 
+                                 IsEnabled="{Binding ElementName=FogOfWarOption, Path=IsChecked}" 
+                                 GroupName="FogOfWarGroup" 
+                                 ToolTipService.ShowOnDisabled="true" 
+                                 Content="{x:Static assets:Translations.FOG_OF_WAR_MODE_NIGHT}"><!--{x:Static assets:Translations.FOG_OF_WAR_MODE_NIGHT}-->
+                        <RadioButton.ToolTip>
+                            <TextBlock Text="{x:Static assets:Translations.FOG_OF_WAR_MODE_NIGHT_TOOLTIP}"/> <!--{x:Static assets:Translations.FOG_OF_WAR_MODE_NIGHT_TOOLTIP}-->
+                        </RadioButton.ToolTip>
+                    </RadioButton>
+                </StackPanel>
+                <Image Grid.Column="1" Source="/Library;component/Image/Application/zombie.jpg"/>
+
+                <StackPanel Grid.Column="2" HorizontalAlignment="Center">
+                    <TextBlock Style="{StaticResource Header2Style}" Text="{x:Static assets:Translations.DIFFICULTY}"/>
+                    <ComboBox  Margin="15, 0, 0, 0" 
+                               x:Name="DifficultyComboBox" 
+                               Width="100" 
+                               SelectedItem="{Binding Difficulty, Mode=OneWay}"
+                               HorizontalAlignment="Left"
+                               DropDownClosed="DifficultyComboBox_OnDropDownClosed">
+                        <ComboBoxItem Content="{x:Static assets:Translations.DIFFICULTY_EASY}"/>
+                        <ComboBoxItem Content="{x:Static assets:Translations.DIFFICULTY_NORMAL}"/>
+                        <ComboBoxItem Content="{x:Static assets:Translations.DIFFICULTY_HARD}"/>
+                        <ComboBoxItem Content="{x:Static assets:Translations.DIFFICULTY_NIGHTMARE}"/>
+                    </ComboBox>
+                </StackPanel>
+            </Grid>
+
+            <!--choice character tile-->
+            <TextBlock Style="{StaticResource Header2Style}" 
+                       TextAlignment="Center"
+                       Text="{x:Static assets:Translations.CHARACTERS}"/>
+            <Grid HorizontalAlignment="Center">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="2*"/>
+                    <ColumnDefinition Width="50" />
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <!--number player choice-->
+                <TextBlock Style="{StaticResource Header3Style}"
+                           Text="{x:Static assets:Translations.PLAYER_NUMBER}"/>
+                <ComboBox x:Name="PlayerNumberComboBox" 
+                          Grid.Row="1" 
+                          Width="40"
+                          SelectedItem="{Binding PlayerNumber, Mode=OneWay}"
+                          DropDownClosed="PlayerNumberComboBox_OnDropDownClosed">
+                    <ComboBoxItem>1</ComboBoxItem>
+                    <ComboBoxItem>2</ComboBoxItem>
+                    <ComboBoxItem>3</ComboBoxItem>
+                </ComboBox>
+                <!--number character by player-->
+                <TextBlock Grid.Column="2" 
+                           Style="{StaticResource Header3Style}"
+                           Text="{x:Static assets:Translations.CHARACTER_NUMBER_BY_PLAYER}"/>
+                <ComboBox x:Name="CharacterNumberByPlayerComboBox" 
+                          Grid.Row="1" 
+                          Grid.Column="2" 
+                          SelectedItem="{Binding CharacterNumberByPlayer, Mode=OneWay}"
+                          Width="40"
+                          DropDownClosed="CharacterNumberByPlayerComboBox_OnDropDownClosed">
+                    <ComboBoxItem>1</ComboBoxItem>
+                    <ComboBoxItem>2</ComboBoxItem>
+                </ComboBox>
+            </Grid>
+            <!--character list-->
+            <DataGrid Margin="20, 10" Name="DgCharacters" AutoGenerateColumns="False" Width="800" CanUserAddRows="false" HorizontalAlignment="Left" ColumnWidth="Auto">
+                <DataGrid.Columns>
+                    <DataGridCheckBoxColumn x:Name="IsSelectedCharacter" Binding="{Binding IsSelected, UpdateSourceTrigger=PropertyChanged}" Width="Auto"  >
+
+                    </DataGridCheckBoxColumn>
+                    <!--<DataGridComboBoxColumn x:Name="PlayedByThePlayerNumber"></DataGridComboBoxColumn>-->
+                    <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="*" IsReadOnly="True" />
+                    <DataGridTextColumn Header="Description" Binding="{Binding ShortDescription}" Width="*" IsReadOnly="True" />
+                </DataGrid.Columns>
+                <DataGrid.RowDetailsTemplate>
+                    <DataTemplate>
+                        <DockPanel Background="GhostWhite">
+                            <Image x:Name="CardImage" DockPanel.Dock="Left" Source="{Binding BoardImage}" Height="64" Margin="10">
+                                <Image.ToolTip>
+                                    <Image Source="{Binding BoardImage}"/>
+                                </Image.ToolTip>
+                            </Image>
+                            <TextBlock Width="500" TextWrapping="Wrap" Text="{Binding LongDescription, StringFormat=d}" />
+                        </DockPanel>
+                    </DataTemplate>
+                </DataGrid.RowDetailsTemplate>
+            </DataGrid>
+
+
+            <!--start game button-->
+            <Button Margin="30" 
+                    Style="{StaticResource DefaultButton}" 
+                    Width="100"
+                    Content="GO"/>
+
+
+        </StackPanel>
+        <!--status bar-->
+
+    </DockPanel>
+</UserControl>

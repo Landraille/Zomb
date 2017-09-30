@@ -1,0 +1,111 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:Zombicide.Styles">
+    <Style x:Key="DefaultLabelStyle"
+           TargetType="{x:Type Label}">
+        <Setter Property="FontFamily"
+                Value="{DynamicResource DefaultFont}" />
+        <Setter Property="FontSize"
+                Value="{DynamicResource NormalFontSize}" />
+        <Setter Property="Foreground"
+                Value="{DynamicResource GrayBrush1}" />
+    </Style>
+    <Style x:Key="SubHeaderLabelStyle"
+           TargetType="{x:Type Label}">
+        <Setter Property="FontFamily"
+                Value="{DynamicResource DefaultFont}" />
+        <Setter Property="FontSize"
+                Value="{DynamicResource SubHeaderFontSize}" />
+        <Setter Property="Foreground"
+                Value="{DynamicResource GrayBrush1}" />
+    </Style>
+    <Style x:Key="FooterLabelStyle"
+           TargetType="{x:Type Label}">
+        <Setter Property="FontFamily"
+                Value="{DynamicResource DefaultFont}" />
+        <Setter Property="FontSize"
+                Value="{DynamicResource NormalFontSize}" />
+        <Setter Property="Foreground"
+                Value="{DynamicResource GrayBrush1}" />
+    </Style>
+    <Style x:Key="DisplayLabelStyle"
+           TargetType="{x:Type Label}"
+           BasedOn="{StaticResource DefaultLabelStyle}">
+        <Setter Property="FontSize"
+                Value="{DynamicResource DisplayFontSize}" />
+        <Setter Property="VerticalContentAlignment"
+                Value="Center" />
+    </Style>
+    <Style x:Key="FormLabelStyle"
+           TargetType="{x:Type Label}"
+           BasedOn="{StaticResource DefaultLabelStyle}">
+        <Setter Property="FontSize"
+                Value="{DynamicResource TicketFontSize}" />
+        <Setter Property="HorizontalAlignment"
+                Value="Right" />
+        <Setter Property="VerticalAlignment"
+                Value="Center" />
+        <Setter Property="Margin"                
+                Value="0 0 10 0" />
+
+    </Style>
+    <Style x:Key="DisplaySubHeaderLabelStyle"
+           TargetType="{x:Type Label}"
+           BasedOn="{StaticResource DisplayLabelStyle}">
+        <Setter Property="FontWeight"
+                Value="Regular" />
+        <Setter Property="Background"
+                Value="{DynamicResource LightBlue700Brush}">
+        </Setter>
+        <Setter Property="Foreground"
+                Value="{DynamicResource WhiteBrush}">
+        </Setter>
+        <Setter Property="Height"
+                Value="30">
+        </Setter>
+        <Setter Property="VerticalAlignment"
+                Value="Top">
+
+        </Setter>
+        <Setter Property="VerticalContentAlignment"
+                Value="Center">
+        </Setter>
+
+    </Style>
+    <Style x:Key="DisplayHeaderLabelStyle"
+           TargetType="{x:Type Label}"
+           BasedOn="{StaticResource DisplayLabelStyle}">
+        <Setter Property="FontWeight"
+                Value="Bold" />
+        <Setter Property="VerticalContentAlignment"
+                Value="Bottom" />
+        <Setter Property="FontSize"
+                Value="15" />
+    </Style>
+    <Style x:Key="ActionLabelStyle"
+           TargetType="Label">
+        <Setter Property="Foreground"
+                Value="{DynamicResource AccentBaseColorBrush}" />
+        <Setter Property="HorizontalContentAlignment"
+                Value="Right" />
+        <Setter Property="VerticalContentAlignment"
+                Value="Bottom" />
+        <Setter Property="HorizontalAlignment"
+                Value="Right" />
+        <Setter Property="VerticalAlignment"
+                Value="Bottom" />
+        <Setter Property="FontSize"
+                Value="{DynamicResource ShortCutFontSize}" />
+        <Setter Property="FontWeight"
+                Value="SemiBold" />
+        <Setter Property="Focusable"
+                Value="False" />
+        <Style.Triggers>
+            <Trigger Property="IsEnabled"
+                     Value="False">
+                <Setter Property="Foreground"
+                        Value="{DynamicResource AccentColorBrush3}" />
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+</ResourceDictionary>

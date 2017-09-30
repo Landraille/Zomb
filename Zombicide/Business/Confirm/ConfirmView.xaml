@@ -1,0 +1,69 @@
+﻿<UserControl x:Class="Zombicide.Business.Confirm.ConfirmView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Zombicide.Business.Confirm"
+             mc:Ignorable="d" 
+             d:DesignHeight="200"
+             d:DesignWidth="400"
+             MinWidth="400"
+             MinHeight="150"
+             Loaded="ConfirmView_OnLoaded"
+             Name="ConfirmControl"
+             BorderThickness="1"
+             BorderBrush="{StaticResource BlackBrush}">
+    <Grid Background="{StaticResource MainBackgroundColor}">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0"
+               Content="{Binding Title}"
+               Margin="20,0,0,0"
+               Style="{StaticResource SubHeaderLabelStyle}" />
+        <Separator Grid.Row="1"
+                   Background="{StaticResource GrayBrush8}"
+                   Focusable="False" />
+        <Grid Grid.Row="2"
+              Margin="10">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto" />
+                <ColumnDefinition Width="*" />
+            </Grid.ColumnDefinitions>
+            <Path Grid.Column="0"
+                  Style="{StaticResource ConfirmContentPathStyle}"
+                  Data="{StaticResource QuestionMark}" />
+            <TextBlock Grid.Column="1"
+                       Margin="20,0,0,0"
+                       Style="{StaticResource DefaultTextBlock}"
+                       Text="{Binding Label}"
+                       TextAlignment="Left"
+                       MaxWidth="600" />
+        </Grid>
+        <StackPanel Grid.Row="3"
+                    Margin="10"
+                    Orientation="Horizontal"
+                    HorizontalAlignment="Right"
+                    Focusable="False">
+            <Button x:Name="Ok"
+                    Style="{StaticResource ModalButton}"
+                    IsDefault="True">
+                <Path Grid.Column="0"
+                      Style="{StaticResource ValidatePathButton}"
+                      Data="{StaticResource CheckMark}" />
+            </Button>
+            <Button x:Name="Close"
+                    Margin="20 0 0 0"
+                    Style="{StaticResource ModalButton}"
+                    IsCancel="True">
+                <Path Grid.Column="0"
+                      Style="{StaticResource CancelPathButton}"
+                      Margin="-20 0 0 0"
+                      Data="{StaticResource Cancel}" />
+            </Button>
+        </StackPanel>
+    </Grid>
+</UserControl>

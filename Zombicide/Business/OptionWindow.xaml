@@ -1,0 +1,149 @@
+﻿<Window x:Class="Zombicide.OptionWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Zombicide"
+        xmlns:commands="clr-namespace:Zombicide.Command"
+        mc:Ignorable="d"
+        Title="OptionWindow" Height="800" Width="800">
+    <Window.CommandBindings>
+        <CommandBinding Command="commands:StartGameCommand.Start" CanExecute="StartGame_CanExecute" Executed="StartGame_Executed" />
+    </Window.CommandBindings>
+    <DockPanel>
+        <StatusBar DockPanel.Dock="Bottom" HorizontalAlignment="Center">
+            <StatusBarItem>
+                <TextBlock Name="ModeStatusBar">Mode: Standard</TextBlock>
+            </StatusBarItem>
+            <Separator/>
+            <StatusBarItem>
+                <TextBlock Name="DifficultyStatusBar" Foreground="Red">Difficulté: ??</TextBlock>
+            </StatusBarItem>
+            <Separator/>
+            <StatusBarItem>
+                <TextBlock Name="PlayerStatusBar" Foreground="Red">Joueurs: ??</TextBlock>
+            </StatusBarItem>
+            <Separator/>
+            <StatusBarItem>
+                <TextBlock Name="CharacterStatusBar" Foreground="Red">Personnages: ??
+                </TextBlock>
+            </StatusBarItem>
+        </StatusBar>
+        <StackPanel>
+        <!--option title-->
+        <TextBlock Style="{StaticResource Header1Style}" Text="OPTIONS"/>
+
+        <!--Mode game-->
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="Auto"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="120" />
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <StackPanel Grid.Column="0" HorizontalAlignment="Center">
+                <TextBlock Style="{StaticResource Header2Style}">Mode de jeu</TextBlock>
+                <RadioButton Margin="15, 0, 0, 0" Click="Game_OnClick" Name="StandardGame" IsChecked="True" GroupName="GameModeGroup" Content="Standard"/>
+                <RadioButton Margin="15, 0, 0, 0" Click="Game_OnClick" Name="CustomizedGame" GroupName="GameModeGroup" Content="Personnalisé"/>
+                <CheckBox  Margin="30, 0, 0, 0" Name="FurtiveOption" IsEnabled="{Binding ElementName=CustomizedGame, Path=IsChecked}" ToolTipService.ShowOnDisabled="true">Mode Furtif
+                    <CheckBox.ToolTip>
+                        <TextBlock Text="A chaque action bruyante, des zombies arrivent des cotés du plateau !"/>
+                    </CheckBox.ToolTip>
+                </CheckBox>
+                <CheckBox Margin="30, 0, 0, 0" Click="FogOfWarOption_OnClick" Unchecked="FogOfWarOption_OnClick" Name="FogOfWarOption" IsEnabled="{Binding ElementName=CustomizedGame, Path=IsChecked}" ToolTipService.ShowOnDisabled="true">Fog of War
+                    <CheckBox.ToolTip>
+                        <TextBlock Text="Seuls les zombies se trouvant dans le champ de vision des personnages sont visibles sur le plateau. Attention lorsque vous tournez au coin d'une rue !"></TextBlock>
+                    </CheckBox.ToolTip>
+                </CheckBox>
+                <RadioButton Margin="45, 0, 0, 0" Name="DayFogOfWarOption" IsEnabled="{Binding ElementName=FogOfWarOption, Path=IsChecked}" GroupName="FogOfWarGroup" ToolTipService.ShowOnDisabled="true">Jour
+                    <RadioButton.ToolTip>
+                        <TextBlock Text="(Fog of War) Pas de restriction sur le champ de vision."></TextBlock>
+                    </RadioButton.ToolTip>
+                </RadioButton>
+                <RadioButton Margin="45, 0, 0, 0" Name="NightFogOfWarOption" IsEnabled="{Binding ElementName=FogOfWarOption, Path=IsChecked}" GroupName="FogOfWarGroup" ToolTipService.ShowOnDisabled="true">Nuit
+                    <RadioButton.ToolTip>
+                        <TextBlock Text="(Fog of War) Le champ de vision est limité à 2 cases. N'avancez pas trop vite ni tout seul !"></TextBlock>
+                    </RadioButton.ToolTip>
+                </RadioButton>
+            </StackPanel>
+            <Image Grid.Column="1" Source="/WpfLibrary;component/Assets/Images/zombie.jpg"/>
+
+            <StackPanel Grid.Column="2" HorizontalAlignment="Center">
+                <TextBlock Style="{StaticResource Header2Style}">Difficulté</TextBlock>
+                <ComboBox  Margin="15, 0, 0, 0" x:Name="DifficultyComboBox" Width="100" SelectionChanged="Selector_Difficulty" HorizontalAlignment="Left">
+                    <ComboBoxItem>Facile</ComboBoxItem>
+                    <ComboBoxItem>Moyen</ComboBoxItem>
+                    <ComboBoxItem>Difficile</ComboBoxItem>
+                    <ComboBoxItem>Cauchemar</ComboBoxItem>
+                </ComboBox>
+            </StackPanel>
+        </Grid>
+
+        <!--choice character tile-->
+        <TextBlock Style="{StaticResource Header2Style}" TextAlignment="Center">Personnages</TextBlock>
+        <Grid HorizontalAlignment="Center">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="50" />
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <!--number player choice-->
+            <TextBlock Style="{StaticResource Header3Style}" >Nombre de joueur(s)</TextBlock>
+            <ComboBox x:Name="PlayerNumberComboBox" Grid.Row="1" Width="40" DropDownClosed="PlayerNumberComboBox_OnDropDownClosed">
+                <ComboBoxItem>1</ComboBoxItem>
+                <ComboBoxItem>2</ComboBoxItem>
+                <ComboBoxItem>3</ComboBoxItem>
+            </ComboBox>
+            <!--number character by player-->
+            <TextBlock Grid.Column="2" Style="{StaticResource Header3Style}" >Nombre de personnage(s) par joueur</TextBlock>
+            <ComboBox x:Name="CharacterNumberByPlayerComboBox" Grid.Row="1" Grid.Column="2"  Width="40" DropDownClosed ="CharacterNumberByPlayerComboBox_OnDropDownClosed"  >
+                <ComboBoxItem>1</ComboBoxItem>
+                <ComboBoxItem>2</ComboBoxItem>
+            </ComboBox>
+        </Grid>
+        <!--character list-->
+        <DataGrid Margin="20, 10" Name="DgCharacters" AutoGenerateColumns="False" Width="800" CanUserAddRows="false" HorizontalAlignment="Left" ColumnWidth="Auto">
+            <DataGrid.Columns>
+                <DataGridCheckBoxColumn x:Name="IsSelectedCharacter" Binding="{Binding IsSelected, UpdateSourceTrigger=PropertyChanged}" Width="Auto"  >
+                    <DataGridCheckBoxColumn.CellStyle>
+                        <Style>
+                            <EventSetter Event="CheckBox.Checked"  Handler="EventCharacterSelection_OnHandler"/>
+                            <EventSetter Event="CheckBox.Unchecked"  Handler="EventCharacterSelection_OnHandler"/>
+                        </Style>
+                    </DataGridCheckBoxColumn.CellStyle>
+                </DataGridCheckBoxColumn>
+                <!--<DataGridComboBoxColumn x:Name="PlayedByThePlayerNumber"></DataGridComboBoxColumn>-->
+                <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="*" IsReadOnly="True" />
+                <DataGridTextColumn Header="Description" Binding="{Binding ShortDescription}" Width="*" IsReadOnly="True" />
+            </DataGrid.Columns>
+            <DataGrid.RowDetailsTemplate>
+                <DataTemplate>
+                    <DockPanel Background="GhostWhite">
+                        <Image x:Name="CardImage" DockPanel.Dock="Left" Source="{Binding BoardImage}" Height="64" Margin="10">
+                            <Image.ToolTip>
+                                <Image Source="{Binding BoardImage}"/>
+                            </Image.ToolTip>
+                        </Image>
+                        <TextBlock Width="500" TextWrapping="Wrap" Text="{Binding LongDescription, StringFormat=d}" />
+                    </DockPanel>
+                </DataTemplate>
+            </DataGrid.RowDetailsTemplate>
+        </DataGrid>
+
+        
+        <!--start game button-->
+        <Button Margin="30" Style="{StaticResource DefaultButton}" Command="commands:StartGameCommand.Start"  Width="100">Start Game</Button>
+
+        
+    </StackPanel>
+        <!--status bar-->
+
+    </DockPanel>
+</Window>

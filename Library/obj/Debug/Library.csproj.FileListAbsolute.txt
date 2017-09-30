@@ -1,0 +1,10 @@
+C:\Users\Landry\Documents\Visual Studio 2015\Zombicide\WpfLibrary\bin\Debug\Library.dll
+C:\Users\Landry\Documents\Visual Studio 2015\Zombicide\WpfLibrary\bin\Debug\Library.pdb
+C:\Users\Landry\Documents\Visual Studio 2015\Zombicide\WpfLibrary\obj\Debug\Library.g.resources
+C:\Users\Landry\Documents\Visual Studio 2015\Zombicide\WpfLibrary\obj\Debug\Library.dll
+C:\Users\Landry\Documents\Visual Studio 2015\Zombicide\WpfLibrary\obj\Debug\Library.pdb
+C:\Users\Landry\Documents\Visual Studio 2015\Zombicide\Library\bin\Debug\Library.dll
+C:\Users\Landry\Documents\Visual Studio 2015\Zombicide\Library\bin\Debug\Library.pdb
+C:\Users\Landry\Documents\Visual Studio 2015\Zombicide\Library\obj\Debug\Library.g.resources
+C:\Users\Landry\Documents\Visual Studio 2015\Zombicide\Library\obj\Debug\Library.dll
+C:\Users\Landry\Documents\Visual Studio 2015\Zombicide\Library\obj\Debug\Library.pdb

@@ -1,0 +1,275 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{60B62EC5-7926-4ABD-8942-D12630A4A428}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Library</RootNamespace>
+    <AssemblyName>Library</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Application\menubutton.png" />
+    <Resource Include="Image\Board\Derek.jpg" />
+    <Resource Include="Image\Board\Doug.jpg" />
+    <Resource Include="Image\Board\Grindlock.jpg" />
+    <Resource Include="Image\Board\Ned.jpg" />
+    <Resource Include="Image\Board\Raoul.jpg" />
+    <Resource Include="Image\Board\Wanda.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Application\background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Board\Elsa.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Application\zombie.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Image\Maps\map1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Image\Card\Equipment\" />
+    <Folder Include="Image\Card\Zombie\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Image\Board\Adam.jpg" />
+    <Content Include="Image\Board\AdamZombie.jpg" />
+    <Content Include="Image\Board\Amy.jpg" />
+    <Content Include="Image\Board\AmyZombie.jpg" />
+    <Content Include="Image\Board\Bear.jpg" />
+    <Content Include="Image\Board\BearZombie.jpg" />
+    <Content Include="Image\Board\Belle.jpg" />
+    <Content Include="Image\Board\BelleZombie.jpg" />
+    <Content Include="Image\Board\Cathy.jpg" />
+    <Content Include="Image\Board\CathyZombie.jpg" />
+    <Content Include="Image\Board\Dan.jpg" />
+    <Content Include="Image\Board\DanZombie.jpg" />
+    <Content Include="Image\Board\DerekZombie.jpg" />
+    <Content Include="Image\Board\DougZombie.jpg" />
+    <Content Include="Image\Board\ElsaZombie.jpg" />
+    <Content Include="Image\Board\GrindlockZombie.jpg" />
+    <Content Include="Image\Board\James.jpg" />
+    <Content Include="Image\Board\JamesZombie.jpg" />
+    <Content Include="Image\Board\Jane.jpg" />
+    <Content Include="Image\Board\JaneZombie.jpg" />
+    <Content Include="Image\Board\Jeff.jpg" />
+    <Content Include="Image\Board\JeffZombie.jpg" />
+    <Content Include="Image\Board\Joe.jpg" />
+    <Content Include="Image\Board\JoeZombie.jpg" />
+    <Content Include="Image\Board\Josh.jpg" />
+    <Content Include="Image\Board\Joshua.jpg" />
+    <Content Include="Image\Board\JoshuaZombie.jpg" />
+    <Content Include="Image\Board\JoshZombie.jpg" />
+    <Content Include="Image\Board\Julien.jpg" />
+    <Content Include="Image\Board\JulienZombie.jpg" />
+    <Content Include="Image\Board\Kim.jpg" />
+    <Content Include="Image\Board\KimZombie.jpg" />
+    <Content Include="Image\Board\Laurie.jpg" />
+    <Content Include="Image\Board\LaurieZombie.jpg" />
+    <Content Include="Image\Board\Louise.jpg" />
+    <Content Include="Image\Board\LouiseZombie.jpg" />
+    <Content Include="Image\Board\Maddie.jpg" />
+    <Content Include="Image\Board\MaddieZombie.jpg" />
+    <Content Include="Image\Board\NedZombie.jpg" />
+    <Content Include="Image\Board\Neema.jpg" />
+    <Content Include="Image\Board\NeemaZombie.jpg" />
+    <Content Include="Image\Board\Parker.jpg" />
+    <Content Include="Image\Board\ParkerZombie.jpg" />
+    <Content Include="Image\Board\Phil.jpg" />
+    <Content Include="Image\Board\PhilZombie.jpg" />
+    <Content Include="Image\Board\RaoulZombie.jpg" />
+    <Content Include="Image\Board\Shannon.jpg" />
+    <Content Include="Image\Board\ShannonZombie.jpg" />
+    <Content Include="Image\Board\Terry.jpg" />
+    <Content Include="Image\Board\TerryZombie.jpg" />
+    <Content Include="Image\Board\Tiff.jpg" />
+    <Content Include="Image\Board\TiffZombie.jpg" />
+    <Content Include="Image\Board\Travis.jpg" />
+    <Content Include="Image\Board\TravisZombie.jpg" />
+    <Content Include="Image\Board\WandaZombie.jpg" />
+    <Content Include="Image\Board\Watts.jpg" />
+    <Content Include="Image\Board\WattsZombie.jpg" />
+    <Content Include="Image\Character\Adam.jpg" />
+    <Content Include="Image\Character\AdamZombie.jpg" />
+    <Content Include="Image\Character\Amy.jpg" />
+    <Content Include="Image\Character\AmyZombie.jpg" />
+    <Content Include="Image\Character\Bear.jpg" />
+    <Content Include="Image\Character\BearZombie.jpg" />
+    <Content Include="Image\Character\Belle.jpg" />
+    <Content Include="Image\Character\BelleZombie.jpg" />
+    <Content Include="Image\Character\Cathy.jpg" />
+    <Content Include="Image\Character\CathyZombie.jpg" />
+    <Content Include="Image\Character\Dan.jpg" />
+    <Content Include="Image\Character\DanZombie.jpg" />
+    <Content Include="Image\Character\Derek.jpg" />
+    <Content Include="Image\Character\DerekZombie.jpg" />
+    <Content Include="Image\Character\Doug.jpg" />
+    <Content Include="Image\Character\DougZombie.jpg" />
+    <Content Include="Image\Character\Elsa.jpg" />
+    <Content Include="Image\Character\ElsaZombie.jpg" />
+    <Content Include="Image\Character\Grindlock.jpg" />
+    <Content Include="Image\Character\GrindlockZombie.jpg" />
+    <Content Include="Image\Character\James.jpg" />
+    <Content Include="Image\Character\JamesZombie.jpg" />
+    <Content Include="Image\Character\Jane.jpg" />
+    <Content Include="Image\Character\JaneZombie.jpg" />
+    <Content Include="Image\Character\Jeff.jpg" />
+    <Content Include="Image\Character\JeffZombie.jpg" />
+    <Content Include="Image\Character\Joe.jpg" />
+    <Content Include="Image\Character\JoeZombie.jpg" />
+    <Content Include="Image\Character\Josh.jpg" />
+    <Content Include="Image\Character\Joshua.jpg" />
+    <Content Include="Image\Character\JoshuaZombie.jpg" />
+    <Content Include="Image\Character\JoshZombie.jpg" />
+    <Content Include="Image\Character\Julien.jpg" />
+    <Content Include="Image\Character\JulienZombie.jpg" />
+    <Content Include="Image\Character\Kim.jpg" />
+    <Content Include="Image\Character\KimZombie.jpg" />
+    <Content Include="Image\Character\Laurie.jpg" />
+    <Content Include="Image\Character\LaurieZombie.jpg" />
+    <Content Include="Image\Character\Louise.jpg" />
+    <Content Include="Image\Character\LouiseZombie.jpg" />
+    <Content Include="Image\Character\Maddie.jpg" />
+    <Content Include="Image\Character\MaddieZombie.jpg" />
+    <Content Include="Image\Character\Ned.jpg" />
+    <Content Include="Image\Character\NedZombie.jpg" />
+    <Content Include="Image\Character\Neema.jpg" />
+    <Content Include="Image\Character\NeemaZombie.jpg" />
+    <Content Include="Image\Character\Parker.jpg" />
+    <Content Include="Image\Character\ParkerZombie.jpg" />
+    <Content Include="Image\Character\Phil.jpg" />
+    <Content Include="Image\Character\PhilZombie.jpg" />
+    <Content Include="Image\Character\Raoul.jpg" />
+    <Content Include="Image\Character\RaoulZombie.jpg" />
+    <Content Include="Image\Character\Shannon.jpg" />
+    <Content Include="Image\Character\ShannonZombie.jpg" />
+    <Content Include="Image\Character\Terry.jpg" />
+    <Content Include="Image\Character\TerryZombie.jpg" />
+    <Content Include="Image\Character\Tiff.jpg" />
+    <Content Include="Image\Character\TiffZombie.jpg" />
+    <Content Include="Image\Character\Travis.jpg" />
+    <Content Include="Image\Character\TravisZombie.jpg" />
+    <Content Include="Image\Character\Wanda.jpg" />
+    <Content Include="Image\Character\WandaZombie.jpg" />
+    <Content Include="Image\Character\Watts.jpg" />
+    <Content Include="Image\Character\WattsZombie.jpg" />
+    <Content Include="Image\Idmage\Adam.jpg" />
+    <Content Include="Image\Idmage\AdamZombie.jpg" />
+    <Content Include="Image\Idmage\Amy.jpg" />
+    <Content Include="Image\Idmage\AmyZombie.jpg" />
+    <Content Include="Image\Idmage\Bear.jpg" />
+    <Content Include="Image\Idmage\BearZombie.jpg" />
+    <Content Include="Image\Idmage\Belle.jpg" />
+    <Content Include="Image\Idmage\BelleZombie.jpg" />
+    <Content Include="Image\Idmage\Cathy.jpg" />
+    <Content Include="Image\Idmage\CathyZombie.jpg" />
+    <Content Include="Image\Idmage\Dan.jpg" />
+    <Content Include="Image\Idmage\DanZombie.jpg" />
+    <Content Include="Image\Idmage\Derek.jpg" />
+    <Content Include="Image\Idmage\DerekZombie.jpg" />
+    <Content Include="Image\Idmage\Doug.jpg" />
+    <Content Include="Image\Idmage\DougZombie.jpg" />
+    <Content Include="Image\Idmage\Elsa.jpg" />
+    <Content Include="Image\Idmage\ElsaZombie.jpg" />
+    <Content Include="Image\Idmage\Grindlock.jpg" />
+    <Content Include="Image\Idmage\GrindlockZombie.jpg" />
+    <Content Include="Image\Idmage\James.jpg" />
+    <Content Include="Image\Idmage\JamesZombie.jpg" />
+    <Content Include="Image\Idmage\Jane.jpg" />
+    <Content Include="Image\Idmage\JaneZombie.jpg" />
+    <Content Include="Image\Idmage\Jeff.jpg" />
+    <Content Include="Image\Idmage\JeffZombie.jpg" />
+    <Content Include="Image\Idmage\Joe.jpg" />
+    <Content Include="Image\Idmage\JoeZombie.jpg" />
+    <Content Include="Image\Idmage\Josh.jpg" />
+    <Content Include="Image\Idmage\Joshua.jpg" />
+    <Content Include="Image\Idmage\JoshuaZombie.jpg" />
+    <Content Include="Image\Idmage\JoshZombie.jpg" />
+    <Content Include="Image\Idmage\Julien.jpg" />
+    <Content Include="Image\Idmage\JulienZombie.jpg" />
+    <Content Include="Image\Idmage\Kim.jpg" />
+    <Content Include="Image\Idmage\KimZombie.jpg" />
+    <Content Include="Image\Idmage\Laurie.jpg" />
+    <Content Include="Image\Idmage\LaurieZombie.jpg" />
+    <Content Include="Image\Idmage\Louise.jpg" />
+    <Content Include="Image\Idmage\LouiseZombie.jpg" />
+    <Content Include="Image\Idmage\Maddie.jpg" />
+    <Content Include="Image\Idmage\MaddieZombie.jpg" />
+    <Content Include="Image\Idmage\Ned.jpg" />
+    <Content Include="Image\Idmage\NedZombie.jpg" />
+    <Content Include="Image\Idmage\Neema.jpg" />
+    <Content Include="Image\Idmage\NeemaZombie.jpg" />
+    <Content Include="Image\Idmage\Parker.jpg" />
+    <Content Include="Image\Idmage\ParkerZombie.jpg" />
+    <Content Include="Image\Idmage\Phil.jpg" />
+    <Content Include="Image\Idmage\PhilZombie.jpg" />
+    <Content Include="Image\Idmage\Raoul.jpg" />
+    <Content Include="Image\Idmage\RaoulZombie.jpg" />
+    <Content Include="Image\Idmage\Shannon.jpg" />
+    <Content Include="Image\Idmage\ShannonZombie.jpg" />
+    <Content Include="Image\Idmage\Terry.jpg" />
+    <Content Include="Image\Idmage\TerryZombie.jpg" />
+    <Content Include="Image\Idmage\Tiff.jpg" />
+    <Content Include="Image\Idmage\TiffZombie.jpg" />
+    <Content Include="Image\Idmage\Travis.jpg" />
+    <Content Include="Image\Idmage\TravisZombie.jpg" />
+    <Content Include="Image\Idmage\Wanda.jpg" />
+    <Content Include="Image\Idmage\WandaZombie.jpg" />
+    <Content Include="Image\Idmage\Watts.jpg" />
+    <Content Include="Image\Idmage\WattsZombie.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Font\Chiller.ttf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Font\Something_Strange.ttf" />
+    <None Include="Font\Victorious.ttf" />
+    <None Include="Font\Zombie_Slayer.ttf" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

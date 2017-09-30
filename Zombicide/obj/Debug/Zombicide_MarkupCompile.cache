@@ -1,0 +1,20 @@
+﻿Zombicide
+
+
+winexe
+C#
+.cs
+C:\Users\Landry\Documents\Visual Studio 2015\Zombicide\Zombicide\obj\Debug\
+Zombicide
+none
+false
+DEBUG;TRACE
+C:\Users\Landry\Documents\Visual Studio 2015\Zombicide\Zombicide\App.xaml
+171853680081
+
+30-1971315939
+751583578500
+Business\Confirm\ConfirmView.xaml;Business\Exception\ExceptionView.xaml;Business\GameWindow.xaml;Business\Home\HomeView.xaml;Business\Information\InformationView.xaml;Business\MainView.xaml;Business\MainWindow.xaml;Business\OptionWindow.xaml;Business\Option\OptionView.xaml;Styles\AppStyle.xaml;Styles\Colors.xaml;Styles\Controls.Buttons.xaml;Styles\Controls.Label.xaml;Styles\Controls.Path.xaml;Styles\Controls.TextBlock.xaml;Styles\Fonts.xaml;Styles\IconsVector.xaml;
+
+False
+

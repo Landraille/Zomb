@@ -1,0 +1,43 @@
+﻿<UserControl x:Class="Zombicide.Business.Home.HomeView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Zombicide.Business.Home"
+             xmlns:assets="clr-namespace:Zombicide.Assets"
+             mc:Ignorable="d" 
+             MinHeight="752"
+             MinWidth="1280"
+             d:DesignHeight="300" d:DesignWidth="300">
+        <Grid>
+            <Grid.Background>
+                <ImageBrush ImageSource="/Library;component/Image/Application/background.jpg" />
+            </Grid.Background>
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="3*"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="50"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Button Grid.Column="1" Grid.Row="1" 
+                    x:Name="NewGame"
+                    Style="{StaticResource DefaultButton}" 
+                    Content="{x:Static assets:Translations.NEW_GAME}"/>
+            <Button Grid.Column="1" Grid.Row="2" 
+                    x:Name="LoadGame"
+                    Style="{StaticResource DefaultButton}" 
+                    Content="{x:Static assets:Translations.LOAD_GAME}"/>
+            <Button Grid.Column="1" Grid.Row="3" 
+                    x:Name="Quit"
+                    Style="{StaticResource DefaultButton}" 
+                    Content="{x:Static assets:Translations.QUIT_GAME}"/>
+        </Grid>
+    </Grid>
+</UserControl>

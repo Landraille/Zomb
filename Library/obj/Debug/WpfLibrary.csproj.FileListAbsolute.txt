@@ -1,0 +1,11 @@
+C:\Users\LandryC\Documents\Visual Studio 2015\Projects\ExoWPF\Zombicide\WpfLibrary\bin\Debug\WpfLibrary.dll
+C:\Users\LandryC\Documents\Visual Studio 2015\Projects\ExoWPF\Zombicide\WpfLibrary\bin\Debug\WpfLibrary.pdb
+C:\Users\LandryC\Documents\Visual Studio 2015\Projects\ExoWPF\Zombicide\WpfLibrary\obj\Debug\WpfLibrary.dll
+C:\Users\LandryC\Documents\Visual Studio 2015\Projects\ExoWPF\Zombicide\WpfLibrary\obj\Debug\WpfLibrary.pdb
+C:\Users\LandryC\Documents\Visual Studio 2015\Projects\ExoWPF\Zombicide\WpfLibrary\obj\Debug\WpfLibrary.g.resources
+C:\Users\LandryC\Documents\Visual Studio 2015\Projects\ExoWPF\Zombicide\WpfLibrary\obj\Debug\WpfLibrary.csprojResolveAssemblyReference.cache
+C:\Users\Landry\Documents\Visual Studio 2015\Zombicide\WpfLibrary\bin\Debug\WpfLibrary.dll
+C:\Users\Landry\Documents\Visual Studio 2015\Zombicide\WpfLibrary\bin\Debug\WpfLibrary.pdb
+C:\Users\Landry\Documents\Visual Studio 2015\Zombicide\WpfLibrary\obj\Debug\WpfLibrary.g.resources
+C:\Users\Landry\Documents\Visual Studio 2015\Zombicide\WpfLibrary\obj\Debug\WpfLibrary.dll
+C:\Users\Landry\Documents\Visual Studio 2015\Zombicide\WpfLibrary\obj\Debug\WpfLibrary.pdb
