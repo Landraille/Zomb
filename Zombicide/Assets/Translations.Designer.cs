@@ -241,6 +241,15 @@ namespace Zombicide.Assets {
         }
         
         /// <summary>
+        ///   Recherche une chaîne localisée semblable à OPTIONS.
+        /// </summary>
+        public static string OPTION_TITLE {
+            get {
+                return ResourceManager.GetString("OPTION_TITLE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Recherche une chaîne localisée semblable à Nombre de joueur(s).
         /// </summary>
         public static string PLAYER_NUMBER {

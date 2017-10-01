@@ -13,3 +13,18 @@ C:\Users\Landry\Documents\Visual Studio 2015\Zombicide\Services\obj\Debug\Servic
 C:\Users\Landry\Documents\Visual Studio 2015\Zombicide\Services\obj\Debug\Services.csproj.GenerateResource.Cache
 C:\Users\Landry\Documents\Visual Studio 2015\Zombicide\Services\obj\Debug\Services.dll
 C:\Users\Landry\Documents\Visual Studio 2015\Zombicide\Services\obj\Debug\Services.pdb
+C:\Users\Landry\Documents\_Projet\Zombicide\Services\bin\Debug\Services.dll
+C:\Users\Landry\Documents\_Projet\Zombicide\Services\bin\Debug\Services.pdb
+C:\Users\Landry\Documents\_Projet\Zombicide\Services\bin\Debug\Common.Logging.Core.dll
+C:\Users\Landry\Documents\_Projet\Zombicide\Services\bin\Debug\Common.Logging.dll
+C:\Users\Landry\Documents\_Projet\Zombicide\Services\bin\Debug\Domain.dll
+C:\Users\Landry\Documents\_Projet\Zombicide\Services\bin\Debug\Domain.pdb
+C:\Users\Landry\Documents\_Projet\Zombicide\Services\bin\Debug\Common.Logging.pdb
+C:\Users\Landry\Documents\_Projet\Zombicide\Services\bin\Debug\Common.Logging.xml
+C:\Users\Landry\Documents\_Projet\Zombicide\Services\bin\Debug\Common.Logging.Core.pdb
+C:\Users\Landry\Documents\_Projet\Zombicide\Services\bin\Debug\Common.Logging.Core.xml
+C:\Users\Landry\Documents\_Projet\Zombicide\Services\obj\Debug\Services.csprojResolveAssemblyReference.cache
+C:\Users\Landry\Documents\_Projet\Zombicide\Services\obj\Debug\Services.TranslationsService.resources
+C:\Users\Landry\Documents\_Projet\Zombicide\Services\obj\Debug\Services.csproj.GenerateResource.Cache
+C:\Users\Landry\Documents\_Projet\Zombicide\Services\obj\Debug\Services.dll
+C:\Users\Landry\Documents\_Projet\Zombicide\Services\obj\Debug\Services.pdb

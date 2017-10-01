@@ -38,7 +38,7 @@
         </StatusBar>
         <StackPanel>
             <!--option title-->
-            <TextBlock Style="{StaticResource Header1Style}" Text="OPTIONS"/>
+            <TextBlock Style="{StaticResource Header1Style}" Text="{x:Static assets:Translations.OPTION_TITLE}"/>
 
             <!--Mode game-->
             <Grid>

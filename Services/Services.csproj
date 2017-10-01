@@ -49,6 +49,7 @@
     <Compile Include="GameOption\GameOptionService.cs" />
     <Compile Include="GameOption\IGameOptionService.cs" />
     <Compile Include="Map\IRouteEngineService.cs" />
+    <Compile Include="Map\MapDto.cs" />
     <Compile Include="Map\RouteEngineService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TranslationsService.Designer.cs">

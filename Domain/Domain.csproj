@@ -55,7 +55,6 @@
     <Compile Include="Map\Connection.cs" />
     <Compile Include="Map\Location.cs" />
     <Compile Include="Map\Route.cs" />
-    <Compile Include="Map\RouteEngine.cs" />
     <Compile Include="Map\WeightValue.cs" />
     <Compile Include="Map\ZombicideMapFile.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -85,7 +84,7 @@
     <Compile Include="Zombie\Toxic\WalkerToxic.cs" />
     <Compile Include="Zombie\Toxic\ZombieToxic.cs" />
     <Compile Include="Zombie\Zombie.cs" />
-    <Compile Include="Zombie\ZombieType.cs" />
+    <Compile Include="Zombie\ZombieTypeEnum.cs" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
