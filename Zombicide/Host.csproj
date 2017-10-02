@@ -107,10 +107,27 @@
       <DependentUpon>MainView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Business\MainViewModel.cs" />
+    <Compile Include="Business\Option\IOptionScreen.cs" />
     <Compile Include="Business\Option\OptionView.xaml.cs">
       <DependentUpon>OptionView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Business\Option\OptionViewModel.cs" />
+    <Compile Include="Business\Option\Tab\OptionCharacterView.xaml.cs">
+      <DependentUpon>OptionCharacterView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Business\Option\Tab\OptionCharacterViewModel.cs" />
+    <Compile Include="Business\Option\Tab\OptionGameView.xaml.cs">
+      <DependentUpon>OptionGameView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Business\Option\Tab\OptionGameViewModel.cs" />
+    <Compile Include="Business\Option\Tab\OptionMapView.xaml.cs">
+      <DependentUpon>OptionMapView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Business\Option\Tab\OptionMapViewModel.cs" />
+    <Compile Include="Business\Option\Tab\OptionParameterView.xaml.cs">
+      <DependentUpon>OptionParameterView.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Business\Option\Tab\OptionParameterViewModel.cs" />
     <Compile Include="Event\OpenOptionScreenEvent.cs" />
     <Compile Include="Extensions\ExceptionExtension.cs" />
     <Compile Include="Extensions\ScreenExtension.cs" />
@@ -164,6 +181,22 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Business\Option\OptionView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Business\Option\Tab\OptionCharacterView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Business\Option\Tab\OptionGameView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Business\Option\Tab\OptionMapView.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Business\Option\Tab\OptionParameterView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

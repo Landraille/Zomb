@@ -141,6 +141,9 @@
   <data name="DIFFICULTY_NORMAL" xml:space="preserve">
     <value>Moyen</value>
   </data>
+  <data name="EQUIPMENT_DECK_TITLE" xml:space="preserve">
+    <value>Pioche Equipement</value>
+  </data>
   <data name="EXCEPTION_AN_ERROR_OCCURED" xml:space="preserve">
     <value>Une erreur est survenue.</value>
   </data>
@@ -167,6 +170,9 @@
   </data>
   <data name="GAME_MODE" xml:space="preserve">
     <value>Mode de jeu</value>
+  </data>
+  <data name="GAME_VERSION" xml:space="preserve">
+    <value>Version</value>
   </data>
   <data name="INFORMATION" xml:space="preserve">
     <value>Informations</value>
@@ -204,5 +210,11 @@ Souhaitez-vous continuer ?</value>
   </data>
   <data name="STEALTH_MODE_TOOLTIP" xml:space="preserve">
     <value>A chaque action bruyante, des zombies arrivent des cotés du plateau !</value>
+  </data>
+  <data name="ZOMBIE_DECK_TITLE" xml:space="preserve">
+    <value>Pioche Zombie</value>
+  </data>
+  <data name="ZOMBIE_TYPE" xml:space="preserve">
+    <value>Type de zombie</value>
   </data>
 </root>

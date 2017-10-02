@@ -1,0 +1,74 @@
+﻿<UserControl x:Class="Zombicide.Business.Option.Tab.OptionCharacterView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:Zombicide.Business.Option.Tab"
+             xmlns:assets="clr-namespace:Zombicide.Assets"
+             mc:Ignorable="d" 
+             d:DesignHeight="800" d:DesignWidth="800">
+    <Grid>
+        <!--choice character tile-->
+        <TextBlock Style="{StaticResource Header2Style}" 
+                   TextAlignment="Center"
+                   Text="{x:Static assets:Translations.CHARACTERS}"/>
+        <Grid HorizontalAlignment="Center">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="50" />
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <!--number player choice-->
+            <TextBlock Style="{StaticResource Header3Style}"
+                       Text="{x:Static assets:Translations.PLAYER_NUMBER}"/>
+            <ComboBox x:Name="PlayerNumberComboBox" 
+                      Grid.Row="1" 
+                      Width="40"
+                      SelectedItem="{Binding PlayerNumber, Mode=OneWay}">
+                <ComboBoxItem>1</ComboBoxItem>
+                <ComboBoxItem>2</ComboBoxItem>
+                <ComboBoxItem>3</ComboBoxItem>
+            </ComboBox>
+            <!--number character by player-->
+            <TextBlock Grid.Column="2" 
+                       Style="{StaticResource Header3Style}"
+                       Text="{x:Static assets:Translations.CHARACTER_NUMBER_BY_PLAYER}"/>
+            <ComboBox x:Name="CharacterNumberByPlayerComboBox" 
+                      Grid.Row="1" 
+                      Grid.Column="2" 
+                      SelectedItem="{Binding CharacterNumberByPlayer, Mode=OneWay}"
+                      Width="40">
+                <ComboBoxItem>1</ComboBoxItem>
+                <ComboBoxItem>2</ComboBoxItem>
+            </ComboBox>
+        </Grid>
+        <!--character list-->
+        <DataGrid Margin="20, 10" Name="DgCharacters" AutoGenerateColumns="False" Width="800" CanUserAddRows="false" HorizontalAlignment="Left" ColumnWidth="Auto">
+            <DataGrid.Columns>
+                <DataGridCheckBoxColumn x:Name="IsSelectedCharacter" Binding="{Binding IsSelected, UpdateSourceTrigger=PropertyChanged}" Width="Auto"  >
+
+                </DataGridCheckBoxColumn>
+                <!--<DataGridComboBoxColumn x:Name="PlayedByThePlayerNumber"></DataGridComboBoxColumn>-->
+                <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="*" IsReadOnly="True" />
+                <DataGridTextColumn Header="Description" Binding="{Binding ShortDescription}" Width="*" IsReadOnly="True" />
+            </DataGrid.Columns>
+            <DataGrid.RowDetailsTemplate>
+                <DataTemplate>
+                    <DockPanel Background="GhostWhite">
+                        <Image x:Name="CardImage" DockPanel.Dock="Left" Source="{Binding BoardImage}" Height="64" Margin="10">
+                            <Image.ToolTip>
+                                <Image Source="{Binding BoardImage}"/>
+                            </Image.ToolTip>
+                        </Image>
+                        <TextBlock Width="500" TextWrapping="Wrap" Text="{Binding LongDescription, StringFormat=d}" />
+                    </DockPanel>
+                </DataTemplate>
+            </DataGrid.RowDetailsTemplate>
+        </DataGrid>
+
+    </Grid>
+</UserControl>

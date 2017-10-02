@@ -133,6 +133,15 @@ namespace Zombicide.Assets {
         }
         
         /// <summary>
+        ///   Recherche une chaîne localisée semblable à Pioche Equipement.
+        /// </summary>
+        public static string EQUIPMENT_DECK_TITLE {
+            get {
+                return ResourceManager.GetString("EQUIPMENT_DECK_TITLE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Recherche une chaîne localisée semblable à Une erreur est survenue..
         /// </summary>
         public static string EXCEPTION_AN_ERROR_OCCURED {
@@ -210,6 +219,15 @@ namespace Zombicide.Assets {
         public static string GAME_MODE {
             get {
                 return ResourceManager.GetString("GAME_MODE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Version.
+        /// </summary>
+        public static string GAME_VERSION {
+            get {
+                return ResourceManager.GetString("GAME_VERSION", resourceCulture);
             }
         }
         
@@ -319,6 +337,24 @@ namespace Zombicide.Assets {
         public static string STEALTH_MODE_TOOLTIP {
             get {
                 return ResourceManager.GetString("STEALTH_MODE_TOOLTIP", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Pioche Zombie.
+        /// </summary>
+        public static string ZOMBIE_DECK_TITLE {
+            get {
+                return ResourceManager.GetString("ZOMBIE_DECK_TITLE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Type de zombie.
+        /// </summary>
+        public static string ZOMBIE_TYPE {
+            get {
+                return ResourceManager.GetString("ZOMBIE_TYPE", resourceCulture);
             }
         }
     }

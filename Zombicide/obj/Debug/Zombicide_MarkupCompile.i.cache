@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\Landry\Documents\_Projet\Zombicide\Zombicide\App.xaml
-171853680081
+212091643328
 
-34-1360273131
+43-733444548
 75123110796
-Business\Confirm\ConfirmView.xaml;Business\Exception\ExceptionView.xaml;Business\GameWindow.xaml;Business\Home\HomeView.xaml;Business\Information\InformationView.xaml;Business\MainView.xaml;Business\MainWindow.xaml;Business\OptionWindow.xaml;Business\Option\OptionView.xaml;Styles\AppStyle.xaml;Styles\Colors.xaml;Styles\Controls.Buttons.xaml;Styles\Controls.Label.xaml;Styles\Controls.Path.xaml;Styles\Controls.TextBlock.xaml;Styles\Fonts.xaml;Styles\IconsVector.xaml;
+Business\Confirm\ConfirmView.xaml;Business\Exception\ExceptionView.xaml;Business\GameWindow.xaml;Business\Home\HomeView.xaml;Business\Information\InformationView.xaml;Business\MainView.xaml;Business\MainWindow.xaml;Business\OptionWindow.xaml;Business\Option\OptionView.xaml;Business\Option\Tab\OptionCharacterView.xaml;Business\Option\Tab\OptionGameView.xaml;Business\Option\Tab\OptionMapView.xaml;Business\Option\Tab\OptionParameterView.xaml;Styles\AppStyle.xaml;Styles\Colors.xaml;Styles\Controls.Buttons.xaml;Styles\Controls.Label.xaml;Styles\Controls.Path.xaml;Styles\Controls.TextBlock.xaml;Styles\Fonts.xaml;Styles\IconsVector.xaml;
 
-True
+False
 

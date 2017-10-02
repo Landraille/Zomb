@@ -132,3 +132,11 @@ C:\Users\Landry\Documents\_Projet\Zombicide\Zombicide\obj\Debug\Zombicide.Proper
 C:\Users\Landry\Documents\_Projet\Zombicide\Zombicide\obj\Debug\Host.csproj.GenerateResource.Cache
 C:\Users\Landry\Documents\_Projet\Zombicide\Zombicide\obj\Debug\Zombicide.exe
 C:\Users\Landry\Documents\_Projet\Zombicide\Zombicide\obj\Debug\Zombicide.pdb
+C:\Users\Landry\Documents\_Projet\Zombicide\Zombicide\obj\Debug\Business\Option\Tab\OptionCharacterView.g.cs
+C:\Users\Landry\Documents\_Projet\Zombicide\Zombicide\obj\Debug\Business\Option\Tab\OptionGameView.g.cs
+C:\Users\Landry\Documents\_Projet\Zombicide\Zombicide\obj\Debug\Business\Option\Tab\OptionMapView.g.cs
+C:\Users\Landry\Documents\_Projet\Zombicide\Zombicide\obj\Debug\Business\Option\Tab\OptionParameterView.g.cs
+C:\Users\Landry\Documents\_Projet\Zombicide\Zombicide\obj\Debug\Business\Option\Tab\OptionCharacterView.baml
+C:\Users\Landry\Documents\_Projet\Zombicide\Zombicide\obj\Debug\Business\Option\Tab\OptionGameView.baml
+C:\Users\Landry\Documents\_Projet\Zombicide\Zombicide\obj\Debug\Business\Option\Tab\OptionMapView.baml
+C:\Users\Landry\Documents\_Projet\Zombicide\Zombicide\obj\Debug\Business\Option\Tab\OptionParameterView.baml

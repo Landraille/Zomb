@@ -1,56 +1,47 @@
 ﻿using Caliburn.Micro;
-using Services.GameOption;
+using System.Collections.Generic;
+using Zombicide.Business.Option.Tab;
 
 namespace Zombicide.Business.Option
 {
-    public class OptionViewModel : Screen
+    public class OptionViewModel : Conductor<IOptionScreen>.Collection.OneActive
     {
-        private readonly IGameOptionService _gameOptionService;
+        private readonly IEventAggregator _eventAggregator;
+        private readonly OptionGameViewModel _optionGameViewModel;
+        private readonly OptionCharacterViewModel _optionCharacterViewModel;
+        private readonly OptionMapViewModel _optionMapViewModel;
+        private readonly OptionParameterViewModel _optionParameterViewModel;
 
-        private string _difficulty;
-        private int _playerNumber;
-        private int _characterNumberByPlayer;
-
-        public int CharacterNumberByPlayer
+        public OptionViewModel(IEventAggregator eventAggregator, OptionGameViewModel optionGameViewModel, OptionCharacterViewModel optionCharacterViewModel, OptionMapViewModel optionMapViewModel, OptionParameterViewModel optionParameterViewModel)
         {
-            get { return _characterNumberByPlayer; }
-            set
+            _eventAggregator = eventAggregator;
+            _optionGameViewModel = optionGameViewModel;
+            _optionCharacterViewModel = optionCharacterViewModel;
+            _optionMapViewModel = optionMapViewModel;
+            _optionParameterViewModel = optionParameterViewModel;
+
+            var tabs = new List<IOptionScreen>
             {
-                _characterNumberByPlayer = value; 
-                NotifyOfPropertyChange(() => CharacterNumberByPlayer);
-                NotifyOfPropertyChange(() => TotalCharacterNumber);
-            }
+                _optionGameViewModel,
+                _optionCharacterViewModel,
+                _optionMapViewModel,
+                _optionParameterViewModel
+            };
+
+            //add tab to tabcontrol
+            Items.AddRange(tabs);
         }
 
-
-        public int PlayerNumber
+        protected override void OnActivate()
         {
-            get { return _playerNumber; }
-            set
-            {
-                _playerNumber = value;
-                NotifyOfPropertyChange(() => PlayerNumber);
-                NotifyOfPropertyChange(() => TotalCharacterNumber);
-            }
+            base.OnActivate();
+            _eventAggregator.Subscribe(this);
         }
 
-
-        public string Difficulty
+        protected override void OnDeactivate(bool close)
         {
-            get { return _difficulty; }
-            set
-            {
-                _difficulty = value; 
-                NotifyOfPropertyChange(() => Difficulty);
-            }
-        }
-
-        public int TotalCharacterNumber => PlayerNumber * CharacterNumberByPlayer;
-
-
-        public OptionViewModel(IGameOptionService gameOptionService)
-        {
-            _gameOptionService = gameOptionService;
+            _eventAggregator.Unsubscribe(this);
+            base.OnDeactivate(close);
         }
     }
 }
