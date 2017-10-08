@@ -24,18 +24,20 @@
                        Text="{x:Static assets:Translations.GAME_MODE}"/>
             <RadioButton Margin="15, 0, 0, 0" 
                          Name="StandardGame" 
-                         IsChecked="True" 
+                         IsChecked="{Binding IsStandardGame}"
                          GroupName="GameModeGroup" 
                          Content="{x:Static assets:Translations.STANDARD_GAME}"/>
             <RadioButton Margin="15, 0, 0, 0" 
                          Name="CustomizedGame"
+                         IsChecked="{Binding IsCustomizedGame}"
                          GroupName="GameModeGroup" 
                          Content="{x:Static assets:Translations.CUSTOMIZED_GAME}"/>
             <CheckBox  Margin="30, 0, 0, 0" 
                        Name="FurtiveOption" 
                        IsEnabled="{Binding ElementName=CustomizedGame, Path=IsChecked}" 
                        ToolTipService.ShowOnDisabled="true" 
-                       Content="{x:Static assets:Translations.STEALTH_MODE}">
+                       Content="{x:Static assets:Translations.STEALTH_MODE}"
+                       IsChecked="{Binding IsStealthMode}">
                 <CheckBox.ToolTip>
                     <TextBlock Text="{x:Static assets:Translations.STEALTH_MODE_TOOLTIP}"/>
                 </CheckBox.ToolTip>
@@ -44,13 +46,15 @@
                       Name="FogOfWarOption" 
                       IsEnabled="{Binding ElementName=CustomizedGame, Path=IsChecked}" 
                       ToolTipService.ShowOnDisabled="true" 
-                      Content="{x:Static assets:Translations.FOG_OF_WAR_MODE}">
+                      Content="{x:Static assets:Translations.FOG_OF_WAR_MODE}"
+                      IsChecked="{Binding IsFogOfWarMode}">
                 <CheckBox.ToolTip>
                     <TextBlock Text="{x:Static assets:Translations.FOG_OF_WAR_MODE_TOOLTIP}"></TextBlock>
                 </CheckBox.ToolTip>
             </CheckBox>
             <RadioButton Margin="45, 0, 0, 0" 
                          Name="DayFogOfWarOption" 
+                         IsChecked="{Binding IsDayFogOfWar}"
                          IsEnabled="{Binding ElementName=FogOfWarOption, Path=IsChecked}" 
                          GroupName="FogOfWarGroup" 
                          ToolTipService.ShowOnDisabled="true" 
@@ -61,6 +65,7 @@
             </RadioButton>
             <RadioButton Margin="45, 0, 0, 0" 
                          Name="NightFogOfWarOption" 
+                         IsChecked="{Binding IsNightFogOfWar}"
                          IsEnabled="{Binding ElementName=FogOfWarOption, Path=IsChecked}" 
                          GroupName="FogOfWarGroup" 
                          ToolTipService.ShowOnDisabled="true" 
@@ -75,23 +80,7 @@
                Grid.RowSpan="3"
                Source="/Library;component/Image/Application/zombie.jpg"/>
         
-        <!--Difficulty-->
-        <StackPanel Grid.Column="2" 
-                    HorizontalAlignment="Center">
-            <TextBlock Style="{StaticResource Header2Style}" 
-                       Text="{x:Static assets:Translations.DIFFICULTY}"/>
-            <ComboBox  Margin="15, 0, 0, 0" 
-                       x:Name="DifficultyComboBox" 
-                       Width="100" 
-                       SelectedItem="{Binding Difficulty, Mode=OneWay}"
-                       HorizontalAlignment="Left">
-                <ComboBoxItem Content="{x:Static assets:Translations.DIFFICULTY_EASY}"/>
-                <ComboBoxItem Content="{x:Static assets:Translations.DIFFICULTY_NORMAL}"/>
-                <ComboBoxItem Content="{x:Static assets:Translations.DIFFICULTY_HARD}"/>
-                <ComboBoxItem Content="{x:Static assets:Translations.DIFFICULTY_NIGHTMARE}"/>
-            </ComboBox>
-        </StackPanel>
-        
+       
         <!--Zombie deck-->
         <StackPanel Grid.Row="1"
                     Grid.Column="0">

@@ -46,11 +46,29 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CardService\Dto\Card.cs" />
+    <Compile Include="CardService\Dto\Equipment.cs" />
+    <Compile Include="CardService\Dto\MeleeWeapon.cs" />
+    <Compile Include="CardService\Dto\MixWeapon.cs" />
+    <Compile Include="CardService\Dto\RangedWeapon.cs" />
+    <Compile Include="CardService\Dto\ZombieCard.cs" />
+    <Compile Include="Character\Character.cs" />
+    <Compile Include="Character\CharacterActionNumber.cs" />
+    <Compile Include="Character\CharacterEquipment.cs" />
+    <Compile Include="Character\CharacterPower.cs" />
+    <Compile Include="Character\PowerEnum.cs" />
+    <Compile Include="Character\TagEnum.cs" />
+    <Compile Include="Extension\ZombieTypeEnumExtension.cs" />
     <Compile Include="GameOption\GameOptionService.cs" />
     <Compile Include="GameOption\IGameOptionService.cs" />
+    <Compile Include="Map\Connection.cs" />
     <Compile Include="Map\IRouteEngineService.cs" />
+    <Compile Include="Map\Location.cs" />
     <Compile Include="Map\MapDto.cs" />
+    <Compile Include="Map\Route.cs" />
     <Compile Include="Map\RouteEngineService.cs" />
+    <Compile Include="Map\WeightValue.cs" />
+    <Compile Include="Map\ZombicideMapFile.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TranslationsService.Designer.cs">
       <DependentUpon>TranslationsService.resx</DependentUpon>
@@ -59,6 +77,36 @@
     </Compile>
     <Compile Include="CardService\ICardService.cs" />
     <Compile Include="CardService\CardService.cs" />
+    <Compile Include="ZombicideGameEnum.cs" />
+    <Compile Include="Zombie\dto\Berserker\AbominationBerserker.cs" />
+    <Compile Include="Zombie\dto\Berserker\FattyBerserker.cs" />
+    <Compile Include="Zombie\dto\Berserker\RunnerBerserker.cs" />
+    <Compile Include="Zombie\dto\Berserker\WalkerBerserker.cs" />
+    <Compile Include="Zombie\dto\Berserker\ZombieBerserker.cs" />
+    <Compile Include="Zombie\dto\Skinner\FattySkinner.cs" />
+    <Compile Include="Zombie\dto\Skinner\RunnerSkinner.cs" />
+    <Compile Include="Zombie\dto\Skinner\WalkerSkinner.cs" />
+    <Compile Include="Zombie\dto\Skinner\ZombieSkinner.cs" />
+    <Compile Include="Zombie\dto\Special\ABombAbomination.cs" />
+    <Compile Include="Zombie\dto\Special\Crawler.cs" />
+    <Compile Include="Zombie\dto\Special\Crowz.cs" />
+    <Compile Include="Zombie\dto\Special\Dogz.cs" />
+    <Compile Include="Zombie\dto\Special\Seeker.cs" />
+    <Compile Include="Zombie\dto\Special\VIP.cs" />
+    <Compile Include="Zombie\dto\Standard\Abomination.cs" />
+    <Compile Include="Zombie\dto\Standard\Fatty.cs" />
+    <Compile Include="Zombie\dto\Standard\Runner.cs" />
+    <Compile Include="Zombie\dto\Standard\StandardZombie.cs" />
+    <Compile Include="Zombie\dto\Standard\Walker.cs" />
+    <Compile Include="Zombie\dto\Toxic\AbominationToxic.cs" />
+    <Compile Include="Zombie\dto\Toxic\FattyToxic.cs" />
+    <Compile Include="Zombie\dto\Toxic\RunnerToxic.cs" />
+    <Compile Include="Zombie\dto\Toxic\WalkerToxic.cs" />
+    <Compile Include="Zombie\dto\Toxic\ZombieToxic.cs" />
+    <Compile Include="Zombie\dto\Zombie.cs" />
+    <Compile Include="Zombie\dto\ZombieTypeEnum.cs" />
+    <Compile Include="Zombie\IZombieService.cs" />
+    <Compile Include="Zombie\ZombieService.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Domain\Domain.csproj">
@@ -72,9 +120,7 @@
       <LastGenOutput>TranslationsService.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Zombie\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>

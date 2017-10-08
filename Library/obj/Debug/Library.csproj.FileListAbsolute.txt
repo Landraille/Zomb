@@ -13,3 +13,4 @@ C:\Users\Landry\Documents\_Projet\Zombicide\Library\bin\Debug\Library.pdb
 C:\Users\Landry\Documents\_Projet\Zombicide\Library\obj\Debug\Library.g.resources
 C:\Users\Landry\Documents\_Projet\Zombicide\Library\obj\Debug\Library.dll
 C:\Users\Landry\Documents\_Projet\Zombicide\Library\obj\Debug\Library.pdb
+C:\Users\Landry\Documents\_Projet\Zombicide\Library\obj\Debug\Library.csprojResolveAssemblyReference.cache

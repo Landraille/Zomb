@@ -1,14 +1,17 @@
 ﻿using System.Collections.Generic;
-using Domain;
+using Services.CardService.Dto;
+using Services.Zombie.dto;
 
 namespace Services.CardService
 {
     public interface ICardService
     {
-        List<Domain.Card.ZombieCard> GetZombieDeck(List<ZombicideGameEnum> zombicideGames);
+        List<ZombieCard> GetZombieDeck(List<ZombicideGameEnum> zombicideGames = null);
 
-        List<Domain.Card.Equipment> GetEquimentDeck(List<ZombicideGameEnum> zombicideGames);
+        List<Equipment> GetEquimentDeck(List<ZombicideGameEnum> zombicideGames = null);
 
-        Domain.Card.Card DrawCard(List<Domain.Card.Card> deck);
+        Card DrawCard(List<Card> deck);
+
+        List<ZombieFamilyEnum> GetDeckZombieFamilyFromVersion(ZombicideGameEnum version);
     }
 }

@@ -1,15 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using Domain;
-using Domain.Card;
-using Domain.Zombie;
-using Services.CardService;
+using Services.CardService.Dto;
+using Services.Extension;
+using Services.Zombie.dto;
+using ZombieTypeEnum = Services.Zombie.dto.ZombieTypeEnum;
 
-namespace Services.Zombie
+namespace Services.CardService
 {
     public class CardService : ICardService
     {
+        public List<ZombieCard> ZombieCards { get; private set; }
+
+        public List<Equipment> EquipmentCards { get; private set; }
+
         private List<ZombieCard> CreateAllZombieCard()
         {
             var list = new List<ZombieCard>();
@@ -2281,9 +2285,9 @@ namespace Services.Zombie
             return list;
         }
 
-        private List<Domain.Card.Equipment> CreateAllEquipmentCard()
+        private List<Equipment> CreateAllEquipmentCard()
         {
-            var list = new List<Domain.Card.Equipment>();
+            var list = new List<Equipment>();
 
             #region Season 1
             list.Add(new Equipment(ZombicideGameEnum.Season1, 1, TranslationsService.AAAH, TranslationsService.AAAA_DESCRIPTION));
@@ -2568,20 +2572,20 @@ namespace Services.Zombie
             return list;
         }
 
-
-        public List<ZombieCard> GetZombieDeck(List<ZombicideGameEnum> zombicideGames)
+        public CardService()
         {
-            var list = CreateAllZombieCard();
-
-            return list.Where(x => zombicideGames.Contains(x.ZombicideGame)).ToList();
+            ZombieCards = CreateAllZombieCard();
+            EquipmentCards = CreateAllEquipmentCard();
         }
 
-
-        public List<Equipment> GetEquimentDeck(List<ZombicideGameEnum> zombicideGames)
+        public List<ZombieCard> GetZombieDeck(List<ZombicideGameEnum> zombicideGames = null)
         {
-            var list = CreateAllEquipmentCard();
+            return zombicideGames == null ? ZombieCards : ZombieCards.Where(x => zombicideGames.Contains(x.ZombicideGame)).ToList();
+        }
 
-            return list.Where(x => zombicideGames.Contains(x.ZombicideGame)).ToList();
+        public List<Equipment> GetEquimentDeck(List<ZombicideGameEnum> zombicideGames = null)
+        {
+            return zombicideGames == null ? EquipmentCards : EquipmentCards.Where(x => zombicideGames.Contains(x.ZombicideGame)).ToList();
         }
 
         public Card DrawCard(List<Card> deck)
@@ -2594,6 +2598,28 @@ namespace Services.Zombie
             deck.RemoveAt(cardListId);
 
             return card;
+        }
+
+        public List<ZombieFamilyEnum> GetDeckZombieFamilyFromVersion(ZombicideGameEnum version)
+        {
+            var allZombie = GetZombieDeck(new List<ZombicideGameEnum> { version });
+
+            return allZombie
+                .Where(x => x.ZombicideGame == version && x.BlueInvasion != null)
+                .Select(x => x.BlueInvasion.ZombieType)
+                .Union(allZombie
+                    .Where(x => x.ZombicideGame == version && x.YellowInvasion != null)
+                    .Select(x => x.YellowInvasion.ZombieType))
+                .Union(allZombie
+                    .Where(x => x.ZombicideGame == version && x.OrangeInvasion != null)
+                    .Select(x => x.OrangeInvasion.ZombieType))
+                .Union(allZombie
+                    .Where(x => x.ZombicideGame == version && x.RedInvasion != null)
+                    .Select(x => x.RedInvasion.ZombieType))
+                .Distinct()
+                .ToZombieDtos()
+                .Select(x => x.Family)
+                .ToList();
         }
     }
 }

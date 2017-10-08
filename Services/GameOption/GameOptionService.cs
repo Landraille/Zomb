@@ -1,22 +1,18 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
-using Domain;
-using Domain.Card;
-using Domain.Character;
-using Domain.Zombie;
-using Domain.Zombie.Standard;
+using Services.Character;
 
 namespace Services.GameOption
 {
     public class GameOptionService : IGameOptionService
     {
         #region Create all Characters
-        private List<Domain.Character.Character> CreateAllCharacters()
+        private List<Character.Character> CreateAllCharacters()
         {
-            var list = new List<Domain.Character.Character>();
+            var list = new List<Character.Character>();
 
             //ADAM
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "Adam",
                 Tags = new List<TagEnum>
@@ -45,7 +41,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.AngryNeighbors
             });
 
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "AdamZ",
                 Tags = new List<TagEnum>
@@ -74,7 +70,7 @@ namespace Services.GameOption
             });
 
             //AMY
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "Amy",
                 Tags = new List<TagEnum>
@@ -103,7 +99,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.Season1
             });
 
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "AmyZ",
                 Tags = new List<TagEnum>
@@ -134,7 +130,7 @@ namespace Services.GameOption
             });
 
             //BEAR
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "Bear",
                 Tags = new List<TagEnum>
@@ -163,7 +159,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.RueMorgue
             });
 
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "BearZ",
                 Tags = new List<TagEnum>
@@ -193,7 +189,7 @@ namespace Services.GameOption
             });
 
             //BELLE
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "Belle",
                 Tags = new List<TagEnum>
@@ -222,7 +218,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.PrisonOutBreak
             });
 
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "BelleZ",
                 Tags = new List<TagEnum>
@@ -251,7 +247,7 @@ namespace Services.GameOption
             });
 
             //Cathy
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "Cathy",
                 Tags = new List<TagEnum>
@@ -280,7 +276,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.RueMorgue
             });
 
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "CathyZ",
                 Tags = new List<TagEnum>
@@ -310,7 +306,7 @@ namespace Services.GameOption
             });
 
             //Dan
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "Dan",
                 Tags = new List<TagEnum>
@@ -340,7 +336,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.RueMorgue
             });
 
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "DanZ",
                 Tags = new List<TagEnum>
@@ -371,7 +367,7 @@ namespace Services.GameOption
             });
 
             //Derek
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "Derek",
                 Tags = new List<TagEnum>
@@ -399,7 +395,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.ToxicCityMall
             });
 
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "DerekZ",
                 Tags = new List<TagEnum>
@@ -428,7 +424,7 @@ namespace Services.GameOption
             });
 
             //Doug
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "Doug",
                 Tags = new List<TagEnum>
@@ -456,7 +452,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.Season1
             });
 
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "DougZ",
                 Tags = new List<TagEnum>
@@ -485,7 +481,7 @@ namespace Services.GameOption
             });
 
             //Elsa
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "Elsa",
                 Tags = new List<TagEnum>
@@ -515,7 +511,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.ToxicCityMall
             });
 
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "ElsaZ",
                 Tags = new List<TagEnum>
@@ -545,7 +541,7 @@ namespace Services.GameOption
             });
 
             //Grindlock
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "Grindlock",
                 Tags = new List<TagEnum>
@@ -574,7 +570,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.PrisonOutBreak
             });
 
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "GrindlockZ",
                 Tags = new List<TagEnum>
@@ -603,7 +599,7 @@ namespace Services.GameOption
             });
 
             //James
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "James",
                 Tags = new List<TagEnum>
@@ -632,7 +628,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.RueMorgue
             });
 
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "JamesZ",
                 Tags = new List<TagEnum>
@@ -662,7 +658,7 @@ namespace Services.GameOption
             });
 
             //Jane
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "Jane",
                 Tags = new List<TagEnum>
@@ -690,7 +686,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.RueMorgue
             });
 
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "JaneZ",
                 Tags = new List<TagEnum>
@@ -719,7 +715,7 @@ namespace Services.GameOption
             });
 
             //Jeff
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "Jeff",
                 Tags = new List<TagEnum>
@@ -747,7 +743,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.AngryNeighbors
             });
 
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "JeffZ",
                 Tags = new List<TagEnum>
@@ -776,7 +772,7 @@ namespace Services.GameOption
             });
 
             //Joe
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "Joe",
                 Tags = new List<TagEnum>
@@ -805,7 +801,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.RueMorgue
             });
 
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "JoeZ",
                 Tags = new List<TagEnum>
@@ -835,7 +831,7 @@ namespace Services.GameOption
             });
 
             //Josh
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "Josh",
                 Tags = new List<TagEnum>
@@ -864,7 +860,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.Season1
             });
 
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "JoshZ",
                 Tags = new List<TagEnum>
@@ -895,7 +891,7 @@ namespace Services.GameOption
             });
 
             //Joshua
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "Joshua",
                 Tags = new List<TagEnum>
@@ -924,7 +920,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.PrisonOutBreak
             });
 
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "JoshuaZ",
                 Tags = new List<TagEnum>
@@ -954,7 +950,7 @@ namespace Services.GameOption
             });
 
             //Julien
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "Julien",
                 Tags = new List<TagEnum>
@@ -982,7 +978,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.AngryNeighbors
             });
 
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "JulienZ",
                 Tags = new List<TagEnum>
@@ -1011,7 +1007,7 @@ namespace Services.GameOption
             });
 
             //Kim
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "Kim",
                 Tags = new List<TagEnum>
@@ -1040,7 +1036,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.PrisonOutBreak
             });
 
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "KimZ",
                 Tags = new List<TagEnum>
@@ -1070,7 +1066,7 @@ namespace Services.GameOption
             });
 
             //Laurie
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "Laurie",
                 Tags = new List<TagEnum>
@@ -1098,7 +1094,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.RueMorgue
             });
 
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "LaurieZ",
                 Tags = new List<TagEnum>
@@ -1127,7 +1123,7 @@ namespace Services.GameOption
             });
 
             //Louise
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "Louise",
                 Tags = new List<TagEnum>
@@ -1156,7 +1152,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.RueMorgue
             });
 
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "LouiseZ",
                 Tags = new List<TagEnum>
@@ -1187,7 +1183,7 @@ namespace Services.GameOption
             });
 
             //Maddie
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "Maddie",
                 Tags = new List<TagEnum>
@@ -1215,7 +1211,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.RueMorgue
             });
 
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "MaddieZ",
                 Tags = new List<TagEnum>
@@ -1245,7 +1241,7 @@ namespace Services.GameOption
 
 
             //Ned
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "Ned",
                 Tags = new List<TagEnum>
@@ -1274,7 +1270,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.Season1
             });
 
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "NedZ",
                 Tags = new List<TagEnum>
@@ -1304,7 +1300,7 @@ namespace Services.GameOption
             });
 
             //Neema
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "Neema",
                 Tags = new List<TagEnum>
@@ -1333,7 +1329,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.ToxicCityMall
             });
 
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "NeemaZ",
                 Tags = new List<TagEnum>
@@ -1362,7 +1358,7 @@ namespace Services.GameOption
             });
 
             //Parker
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "Parker",
                 Tags = new List<TagEnum>
@@ -1392,7 +1388,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.RueMorgue
             });
 
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "ParkerZ",
                 Tags = new List<TagEnum>
@@ -1423,7 +1419,7 @@ namespace Services.GameOption
             });
 
             //Phil
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "Phil",
                 Tags = new List<TagEnum>
@@ -1451,7 +1447,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.Season1
             });
 
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "PhilZ",
                 Tags = new List<TagEnum>
@@ -1480,7 +1476,7 @@ namespace Services.GameOption
             });
 
             //Raoul
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "Raoul",
                 Tags = new List<TagEnum>
@@ -1508,7 +1504,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.ToxicCityMall
             });
 
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "RaoulZ",
                 Tags = new List<TagEnum>
@@ -1537,7 +1533,7 @@ namespace Services.GameOption
             });
 
             //Shannon
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "Shannon",
                 Tags = new List<TagEnum>
@@ -1565,7 +1561,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.PrisonOutBreak
             });
 
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "ShannonZ",
                 Tags = new List<TagEnum>
@@ -1594,7 +1590,7 @@ namespace Services.GameOption
             });
 
             //Terry
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "Terry",
                 Tags = new List<TagEnum>
@@ -1623,7 +1619,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.RueMorgue
             });
 
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "TerryZ",
                 Tags = new List<TagEnum>
@@ -1653,7 +1649,7 @@ namespace Services.GameOption
             });
 
             //Tiff
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "Tiff",
                 Tags = new List<TagEnum>
@@ -1681,7 +1677,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.AngryNeighbors
             });
 
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "TiffZ",
                 Tags = new List<TagEnum>
@@ -1712,7 +1708,7 @@ namespace Services.GameOption
             });
 
             //Travis
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "Travis",
                 Tags = new List<TagEnum>
@@ -1742,7 +1738,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.RueMorgue
             });
 
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "TravisZ",
                 Tags = new List<TagEnum>
@@ -1773,7 +1769,7 @@ namespace Services.GameOption
             });
 
             //Wanda
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "Wanda",
                 Tags = new List<TagEnum>
@@ -1801,7 +1797,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.Season1
             });
 
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "WandaZ",
                 Tags = new List<TagEnum>
@@ -1831,7 +1827,7 @@ namespace Services.GameOption
             });
 
             //Watts
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "Watts",
                 Tags = new List<TagEnum>
@@ -1859,7 +1855,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.PrisonOutBreak
             });
 
-            list.Add(new Domain.Character.Character
+            list.Add(new Character.Character
             {
                 Name = "WattsZ",
                 Tags = new List<TagEnum>
@@ -1891,7 +1887,7 @@ namespace Services.GameOption
         }
         #endregion
 
-        public List<Domain.Character.Character> GetCharacters(List<ZombicideGameEnum> zombicideGames, bool withZombie = false)
+        public List<Character.Character> GetCharacters(List<ZombicideGameEnum> zombicideGames, bool withZombie = false)
         {
             var list = CreateAllCharacters();
 

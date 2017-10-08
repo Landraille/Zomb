@@ -1,56 +1,135 @@
-﻿using Caliburn.Micro;
-using Services.GameOption;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using Caliburn.Micro;
+using Services;
+using Services.CardService;
+using Services.Zombie;
+using Zombicide.Business.Option.Tab.Model;
 
 namespace Zombicide.Business.Option.Tab
 {
     public class OptionGameViewModel : Screen, IOptionScreen
     {
-        private readonly IGameOptionService _gameOptionService;
+        private readonly ICardService _cardService;
+        private readonly IZombieService _zombieService;
+        private bool _isDayFogOfWar;
+        private bool _isNightFogOfWar;
+        private bool _isStealthMode;
+        private bool _isFogOfWarMode;
+        private bool _isStandardGame;
+        private bool _isCustomizedGame;
+        private List<ZombieDeckModel> _zombieDeckList;
 
-        private string _difficulty;
-        private int _playerNumber;
-        private int _characterNumberByPlayer;
-
-        public int CharacterNumberByPlayer
+        public List<ZombieDeckModel> ZombieDeckList
         {
-            get { return _characterNumberByPlayer; }
+            get => _zombieDeckList;
             set
             {
-                _characterNumberByPlayer = value;
-                NotifyOfPropertyChange(() => CharacterNumberByPlayer);
-                NotifyOfPropertyChange(() => TotalCharacterNumber);
+                _zombieDeckList = value; 
+                NotifyOfPropertyChange(() => ZombieDeckList);
+            }
+        }
+
+        public bool IsCustomizedGame
+        {
+            get => _isCustomizedGame;
+            set
+            {
+                if (value.Equals(_isCustomizedGame)) return;
+                _isCustomizedGame = value;
+                NotifyOfPropertyChange(() => IsCustomizedGame);
+            }
+        }
+
+        public bool IsStandardGame
+        {
+            get => _isStandardGame;
+            set
+            {
+                if (value.Equals(_isStandardGame)) return;
+                _isStandardGame = value;
+                if (value)
+                {
+                    IsFogOfWarMode = false;
+                    IsStealthMode = false;
+                    IsDayFogOfWar = false;
+                    IsNightFogOfWar = false;
+                    IsCustomizedGame = false;
+                }
+                NotifyOfPropertyChange(() => IsStandardGame);
+            }
+        }
+
+        public bool IsFogOfWarMode
+        {
+            get => _isFogOfWarMode;
+            set
+            {
+                _isFogOfWarMode = value;
+                if (!value)
+                {
+                    IsDayFogOfWar = false;
+                    IsNightFogOfWar = false;
+                }
+                NotifyOfPropertyChange(() => IsFogOfWarMode);
+            }
+        }
+
+        public bool IsStealthMode
+        {
+            get => _isStealthMode;
+            set
+            {
+                _isStealthMode = value; 
+                NotifyOfPropertyChange(() => IsStealthMode);
             }
         }
 
 
-        public int PlayerNumber
+        public bool IsNightFogOfWar
         {
-            get { return _playerNumber; }
+            get => _isNightFogOfWar;
             set
             {
-                _playerNumber = value;
-                NotifyOfPropertyChange(() => PlayerNumber);
-                NotifyOfPropertyChange(() => TotalCharacterNumber);
+                if (value.Equals(_isNightFogOfWar)) return;
+                _isNightFogOfWar = value;
+                NotifyOfPropertyChange(() => IsNightFogOfWar);
             }
         }
 
-
-        public string Difficulty
+        public bool IsDayFogOfWar
         {
-            get { return _difficulty; }
+            get => _isDayFogOfWar;
             set
             {
-                _difficulty = value;
-                NotifyOfPropertyChange(() => Difficulty);
+                if (value.Equals(_isDayFogOfWar)) return;
+                _isDayFogOfWar = value; 
+                NotifyOfPropertyChange(() => IsDayFogOfWar);
             }
         }
 
-        public int TotalCharacterNumber => PlayerNumber * CharacterNumberByPlayer;
-
-
-        public OptionGameViewModel(IGameOptionService gameOptionService)
+        public OptionGameViewModel(ICardService cardService, IZombieService zombieService)
         {
-            _gameOptionService = gameOptionService;
+            IsStandardGame = true;
+            _cardService = cardService;
+            _zombieService = zombieService;
+
+            ZombieDeckList = SetZombieDeckList();
+        }
+
+        private List<ZombieDeckModel> SetZombieDeckList()
+        {
+            var list = new List<ZombieDeckModel>();
+            foreach (ZombicideGameEnum version in Enum.GetValues(typeof(ZombicideGameEnum)))
+            {
+                list.Add(new ZombieDeckModel
+                {
+                    Version = version,
+                    ZombieTypeList = _cardService.GetDeckZombieFamilyFromVersion(version)
+                });
+            }
+            return list;
         }
     }
 }

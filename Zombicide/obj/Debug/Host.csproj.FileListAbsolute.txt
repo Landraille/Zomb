@@ -79,7 +79,6 @@ C:\Users\Landry\Documents\_Projet\Zombicide\Zombicide\bin\Debug\Library.dll
 C:\Users\Landry\Documents\_Projet\Zombicide\Zombicide\bin\Debug\log4net.dll
 C:\Users\Landry\Documents\_Projet\Zombicide\Zombicide\bin\Debug\Services.dll
 C:\Users\Landry\Documents\_Projet\Zombicide\Zombicide\bin\Debug\System.Windows.Interactivity.dll
-C:\Users\Landry\Documents\_Projet\Zombicide\Zombicide\bin\Debug\Domain.dll
 C:\Users\Landry\Documents\_Projet\Zombicide\Zombicide\bin\Debug\Services.pdb
 C:\Users\Landry\Documents\_Projet\Zombicide\Zombicide\bin\Debug\Library.pdb
 C:\Users\Landry\Documents\_Projet\Zombicide\Zombicide\bin\Debug\Autofac.xml
@@ -93,7 +92,6 @@ C:\Users\Landry\Documents\_Projet\Zombicide\Zombicide\bin\Debug\Common.Logging.C
 C:\Users\Landry\Documents\_Projet\Zombicide\Zombicide\bin\Debug\Common.Logging.Log4Net1215.pdb
 C:\Users\Landry\Documents\_Projet\Zombicide\Zombicide\bin\Debug\Common.Logging.Log4Net1215.xml
 C:\Users\Landry\Documents\_Projet\Zombicide\Zombicide\bin\Debug\log4net.xml
-C:\Users\Landry\Documents\_Projet\Zombicide\Zombicide\bin\Debug\Domain.pdb
 C:\Users\Landry\Documents\_Projet\Zombicide\Zombicide\obj\Debug\Host.csprojResolveAssemblyReference.cache
 C:\Users\Landry\Documents\_Projet\Zombicide\Zombicide\obj\Debug\Business\Confirm\ConfirmView.g.cs
 C:\Users\Landry\Documents\_Projet\Zombicide\Zombicide\obj\Debug\Business\Exception\ExceptionView.g.cs

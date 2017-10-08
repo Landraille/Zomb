@@ -112,6 +112,7 @@
       <DependentUpon>OptionView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Business\Option\OptionViewModel.cs" />
+    <Compile Include="Business\Option\Tab\Model\ZombieDeckModel.cs" />
     <Compile Include="Business\Option\Tab\OptionCharacterView.xaml.cs">
       <DependentUpon>OptionCharacterView.xaml</DependentUpon>
     </Compile>
