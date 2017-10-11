@@ -100,7 +100,7 @@
                                 </GridViewColumn.CellTemplate>
                             </GridViewColumn>
                             <GridViewColumn DisplayMemberBinding="{Binding Version}" Header="{x:Static assets:Translations.GAME_VERSION}" />
-                            <GridViewColumn DisplayMemberBinding="{Binding ZombieType}" Header="{x:Static assets:Translations.ZOMBIE_TYPE}" />
+                            <GridViewColumn DisplayMemberBinding="{Binding ZombieTypeList}" Header="{x:Static assets:Translations.ZOMBIE_TYPE}" />
                         </GridView.Columns>
                     </GridView>
                 </ListView.View>

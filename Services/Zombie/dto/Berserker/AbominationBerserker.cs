@@ -1,6 +1,6 @@
 ﻿using Services.Map;
 
-namespace Services.Zombie.dto.Berserker
+namespace Services.Zombie.dto
 {
     class AbominationBerserker : ZombieBerserker
     {

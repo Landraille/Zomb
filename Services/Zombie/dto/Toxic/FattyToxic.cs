@@ -1,6 +1,6 @@
 ﻿using Services.Map;
 
-namespace Services.Zombie.dto.Toxic
+namespace Services.Zombie.dto
 {
     public class FattyToxic : ZombieToxic
     {

@@ -8,10 +8,10 @@ namespace Services.Zombie
     {
         public dto.Zombie CreateZombie(ZombieTypeEnum zombieType, Location location)
         {
-            var zombie = zombieType.ToZombieDto();
-            var type = zombie.GetType();
-            var prop = type.GetProperty("Location");
-            prop?.SetValue(zombie, location);
+            var zombie = zombieType.ToZombieDto(location);
+            //var type = zombie.GetType();
+            //var prop = type.GetProperty("Location");
+            //prop?.SetValue(zombie, location);
 
             return zombie;
         }

@@ -1,6 +1,6 @@
 ﻿using Services.Map;
 
-namespace Services.Zombie.dto.Skinner
+namespace Services.Zombie.dto
 {
     public class FattySkinner : ZombieSkinner
     {

@@ -629,109 +629,109 @@ namespace Services.CardService
             list.Add(new ZombieCard(
                 ZombicideGameEnum.ToxicCityMall,
                 67, //number
-                new Invasion(1, ZombieTypeEnum.ToxicWalker), //blue invasion
-                new Invasion(2, ZombieTypeEnum.ToxicRunner), //yellow invasion
-                new Invasion(5, ZombieTypeEnum.ToxicWalker), //orange invasion
-                new Invasion(3, ZombieTypeEnum.ToxicFatty) //red invasion
+                new Invasion(1, ZombieTypeEnum.WalkerToxic), //blue invasion
+                new Invasion(2, ZombieTypeEnum.RunnerToxic), //yellow invasion
+                new Invasion(5, ZombieTypeEnum.WalkerToxic), //orange invasion
+                new Invasion(3, ZombieTypeEnum.FattyToxic) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.ToxicCityMall,
                 68, //number
-                new Invasion(1, ZombieTypeEnum.ToxicWalker), //blue invasion
-                new Invasion(2, ZombieTypeEnum.ToxicWalker), //yellow invasion
-                new Invasion(3, ZombieTypeEnum.ToxicRunner), //orange invasion
-                new Invasion(7, ZombieTypeEnum.ToxicWalker) //red invasion
+                new Invasion(1, ZombieTypeEnum.WalkerToxic), //blue invasion
+                new Invasion(2, ZombieTypeEnum.WalkerToxic), //yellow invasion
+                new Invasion(3, ZombieTypeEnum.RunnerToxic), //orange invasion
+                new Invasion(7, ZombieTypeEnum.WalkerToxic) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.ToxicCityMall,
                 69, //number
-                new Invasion(2, ZombieTypeEnum.ToxicWalker), //blue invasion
-                new Invasion(2, ZombieTypeEnum.ToxicWalker), //yellow invasion
-                new Invasion(3, ZombieTypeEnum.ToxicWalker), //orange invasion
-                new Invasion(4, ZombieTypeEnum.ToxicFatty) //red invasion
+                new Invasion(2, ZombieTypeEnum.WalkerToxic), //blue invasion
+                new Invasion(2, ZombieTypeEnum.WalkerToxic), //yellow invasion
+                new Invasion(3, ZombieTypeEnum.WalkerToxic), //orange invasion
+                new Invasion(4, ZombieTypeEnum.FattyToxic) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.ToxicCityMall,
                 70, //number
-                new Invasion(2, ZombieTypeEnum.ToxicWalker), //blue invasion
-                new Invasion(1, ZombieTypeEnum.ToxicAbomination), //yellow invasion
-                new Invasion(2, ZombieTypeEnum.ToxicRunner), //orange invasion
-                new Invasion(5, ZombieTypeEnum.ToxicWalker) //red invasion
+                new Invasion(2, ZombieTypeEnum.WalkerToxic), //blue invasion
+                new Invasion(1, ZombieTypeEnum.AbominationToxic), //yellow invasion
+                new Invasion(2, ZombieTypeEnum.RunnerToxic), //orange invasion
+                new Invasion(5, ZombieTypeEnum.WalkerToxic) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.ToxicCityMall,
                 71, //number
-                new Invasion(1, ZombieTypeEnum.ToxicWalker), //blue invasion
-                new Invasion(4, ZombieTypeEnum.ToxicWalker), //yellow invasion
-                new Invasion(1, ZombieTypeEnum.ToxicAbomination), //orange invasion
-                new Invasion(3, ZombieTypeEnum.ToxicRunner) //red invasion
+                new Invasion(1, ZombieTypeEnum.WalkerToxic), //blue invasion
+                new Invasion(4, ZombieTypeEnum.WalkerToxic), //yellow invasion
+                new Invasion(1, ZombieTypeEnum.AbominationToxic), //orange invasion
+                new Invasion(3, ZombieTypeEnum.RunnerToxic) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.ToxicCityMall,
                 72, //number
-                new Invasion(1, ZombieTypeEnum.ToxicWalker), //blue invasion
-                new Invasion(2, ZombieTypeEnum.ToxicWalker), //yellow invasion
-                new Invasion(6, ZombieTypeEnum.ToxicWalker), //orange invasion
-                new Invasion(1, ZombieTypeEnum.ToxicAbomination) //red invasion
+                new Invasion(1, ZombieTypeEnum.WalkerToxic), //blue invasion
+                new Invasion(2, ZombieTypeEnum.WalkerToxic), //yellow invasion
+                new Invasion(6, ZombieTypeEnum.WalkerToxic), //orange invasion
+                new Invasion(1, ZombieTypeEnum.AbominationToxic) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.ToxicCityMall,
                 73, //number
-                new Invasion(1, ZombieTypeEnum.ToxicFatty), //blue invasion
-                new Invasion(1, ZombieTypeEnum.ToxicRunner), //yellow invasion
-                new Invasion(3, ZombieTypeEnum.ToxicWalker), //orange invasion
-                new Invasion(8, ZombieTypeEnum.ToxicWalker) //red invasion
+                new Invasion(1, ZombieTypeEnum.FattyToxic), //blue invasion
+                new Invasion(1, ZombieTypeEnum.RunnerToxic), //yellow invasion
+                new Invasion(3, ZombieTypeEnum.WalkerToxic), //orange invasion
+                new Invasion(8, ZombieTypeEnum.WalkerToxic) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.ToxicCityMall,
                 74, //number
-                new Invasion(1, ZombieTypeEnum.ToxicRunner), //blue invasion
-                new Invasion(3, ZombieTypeEnum.ToxicWalker), //yellow invasion
-                new Invasion(2, ZombieTypeEnum.ToxicFatty), //orange invasion
-                new Invasion(5, ZombieTypeEnum.ToxicWalker) //red invasion
+                new Invasion(1, ZombieTypeEnum.RunnerToxic), //blue invasion
+                new Invasion(3, ZombieTypeEnum.WalkerToxic), //yellow invasion
+                new Invasion(2, ZombieTypeEnum.FattyToxic), //orange invasion
+                new Invasion(5, ZombieTypeEnum.WalkerToxic) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.ToxicCityMall,
                 75, //number
-                new Invasion(1, ZombieTypeEnum.ToxicWalker), //blue invasion
-                new Invasion(2, ZombieTypeEnum.ToxicFatty), //yellow invasion
-                new Invasion(5, ZombieTypeEnum.ToxicWalker), //orange invasion
-                new Invasion(3, ZombieTypeEnum.ToxicRunner) //red invasion
+                new Invasion(1, ZombieTypeEnum.WalkerToxic), //blue invasion
+                new Invasion(2, ZombieTypeEnum.FattyToxic), //yellow invasion
+                new Invasion(5, ZombieTypeEnum.WalkerToxic), //orange invasion
+                new Invasion(3, ZombieTypeEnum.RunnerToxic) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.ToxicCityMall,
                 76, //number
-                new Invasion(1, ZombieTypeEnum.ToxicWalker), //blue invasion
-                new Invasion(2, ZombieTypeEnum.ToxicWalker), //yellow invasion
-                new Invasion(3, ZombieTypeEnum.ToxicFatty), //orange invasion
-                new Invasion(7, ZombieTypeEnum.ToxicWalker) //red invasion
+                new Invasion(1, ZombieTypeEnum.WalkerToxic), //blue invasion
+                new Invasion(2, ZombieTypeEnum.WalkerToxic), //yellow invasion
+                new Invasion(3, ZombieTypeEnum.FattyToxic), //orange invasion
+                new Invasion(7, ZombieTypeEnum.WalkerToxic) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.ToxicCityMall,
                 77, //number
-                new Invasion(1, ZombieTypeEnum.ToxicRunner), //blue invasion
-                new Invasion(1, ZombieTypeEnum.ToxicFatty), //yellow invasion
-                new Invasion(3, ZombieTypeEnum.ToxicWalker), //orange invasion
-                new Invasion(4, ZombieTypeEnum.ToxicRunner) //red invasion
+                new Invasion(1, ZombieTypeEnum.RunnerToxic), //blue invasion
+                new Invasion(1, ZombieTypeEnum.FattyToxic), //yellow invasion
+                new Invasion(3, ZombieTypeEnum.WalkerToxic), //orange invasion
+                new Invasion(4, ZombieTypeEnum.RunnerToxic) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.ToxicCityMall,
                 78, //number
-                new Invasion(1, ZombieTypeEnum.ToxicAbomination), //blue invasion
-                new Invasion(3, ZombieTypeEnum.ToxicWalker), //yellow invasion
-                new Invasion(2, ZombieTypeEnum.ToxicRunner), //orange invasion
-                new Invasion(5, ZombieTypeEnum.ToxicWalker) //red invasion
+                new Invasion(1, ZombieTypeEnum.AbominationToxic), //blue invasion
+                new Invasion(3, ZombieTypeEnum.WalkerToxic), //yellow invasion
+                new Invasion(2, ZombieTypeEnum.RunnerToxic), //orange invasion
+                new Invasion(5, ZombieTypeEnum.WalkerToxic) //red invasion
                 ));
             #endregion
 
@@ -739,109 +739,109 @@ namespace Services.CardService
             list.Add(new ZombieCard(
                 ZombicideGameEnum.PrisonOutBreak,
                 79, //number
-                new Invasion(1, ZombieTypeEnum.BerserkerWalker), //blue invasion
-                new Invasion(2, ZombieTypeEnum.BerserkerRunner), //yellow invasion
-                new Invasion(5, ZombieTypeEnum.BerserkerWalker), //orange invasion
-                new Invasion(3, ZombieTypeEnum.BerserkerWalker) //red invasion
+                new Invasion(1, ZombieTypeEnum.WalkerBerserker), //blue invasion
+                new Invasion(2, ZombieTypeEnum.RunnerBerserker), //yellow invasion
+                new Invasion(5, ZombieTypeEnum.WalkerBerserker), //orange invasion
+                new Invasion(3, ZombieTypeEnum.WalkerBerserker) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.PrisonOutBreak,
                 80, //number
-                new Invasion(1, ZombieTypeEnum.BerserkerWalker), //blue invasion
-                new Invasion(2, ZombieTypeEnum.BerserkerWalker), //yellow invasion
-                new Invasion(3, ZombieTypeEnum.BerserkerRunner), //orange invasion
-                new Invasion(7, ZombieTypeEnum.BerserkerWalker) //red invasion
+                new Invasion(1, ZombieTypeEnum.WalkerBerserker), //blue invasion
+                new Invasion(2, ZombieTypeEnum.WalkerBerserker), //yellow invasion
+                new Invasion(3, ZombieTypeEnum.RunnerBerserker), //orange invasion
+                new Invasion(7, ZombieTypeEnum.WalkerBerserker) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.PrisonOutBreak,
                 81, //number
-                new Invasion(2, ZombieTypeEnum.BerserkerWalker), //blue invasion
-                new Invasion(2, ZombieTypeEnum.BerserkerWalker), //yellow invasion
-                new Invasion(3, ZombieTypeEnum.BerserkerWalker), //orange invasion
-                new Invasion(4, ZombieTypeEnum.BerserkerFatty) //red invasion
+                new Invasion(2, ZombieTypeEnum.WalkerBerserker), //blue invasion
+                new Invasion(2, ZombieTypeEnum.WalkerBerserker), //yellow invasion
+                new Invasion(3, ZombieTypeEnum.WalkerBerserker), //orange invasion
+                new Invasion(4, ZombieTypeEnum.FattyBerserker) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.PrisonOutBreak,
                 82, //number
-                new Invasion(2, ZombieTypeEnum.BerserkerWalker), //blue invasion
-                new Invasion(1, ZombieTypeEnum.BerserkerAbomination), //yellow invasion
-                new Invasion(2, ZombieTypeEnum.BerserkerRunner), //orange invasion
-                new Invasion(5, ZombieTypeEnum.BerserkerWalker) //red invasion
+                new Invasion(2, ZombieTypeEnum.WalkerBerserker), //blue invasion
+                new Invasion(1, ZombieTypeEnum.AbominationBerserker), //yellow invasion
+                new Invasion(2, ZombieTypeEnum.RunnerBerserker), //orange invasion
+                new Invasion(5, ZombieTypeEnum.WalkerBerserker) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.PrisonOutBreak,
                 83, //number
-                new Invasion(1, ZombieTypeEnum.BerserkerWalker), //blue invasion
-                new Invasion(4, ZombieTypeEnum.BerserkerWalker), //yellow invasion
-                new Invasion(1, ZombieTypeEnum.BerserkerAbomination), //orange invasion
-                new Invasion(3, ZombieTypeEnum.BerserkerRunner) //red invasion
+                new Invasion(1, ZombieTypeEnum.WalkerBerserker), //blue invasion
+                new Invasion(4, ZombieTypeEnum.WalkerBerserker), //yellow invasion
+                new Invasion(1, ZombieTypeEnum.AbominationBerserker), //orange invasion
+                new Invasion(3, ZombieTypeEnum.RunnerBerserker) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.PrisonOutBreak,
                 84, //number
-                new Invasion(1, ZombieTypeEnum.BerserkerWalker), //blue invasion
-                new Invasion(2, ZombieTypeEnum.BerserkerWalker), //yellow invasion
-                new Invasion(6, ZombieTypeEnum.BerserkerWalker), //orange invasion
-                new Invasion(1, ZombieTypeEnum.BerserkerAbomination) //red invasion
+                new Invasion(1, ZombieTypeEnum.WalkerBerserker), //blue invasion
+                new Invasion(2, ZombieTypeEnum.WalkerBerserker), //yellow invasion
+                new Invasion(6, ZombieTypeEnum.WalkerBerserker), //orange invasion
+                new Invasion(1, ZombieTypeEnum.AbominationBerserker) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.PrisonOutBreak,
                 85, //number
-                new Invasion(1, ZombieTypeEnum.BerserkerFatty), //blue invasion
-                new Invasion(1, ZombieTypeEnum.BerserkerRunner), //yellow invasion
-                new Invasion(3, ZombieTypeEnum.BerserkerWalker), //orange invasion
-                new Invasion(8, ZombieTypeEnum.BerserkerWalker) //red invasion
+                new Invasion(1, ZombieTypeEnum.FattyBerserker), //blue invasion
+                new Invasion(1, ZombieTypeEnum.RunnerBerserker), //yellow invasion
+                new Invasion(3, ZombieTypeEnum.WalkerBerserker), //orange invasion
+                new Invasion(8, ZombieTypeEnum.WalkerBerserker) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.PrisonOutBreak,
                 86, //number
-                new Invasion(1, ZombieTypeEnum.BerserkerRunner), //blue invasion
-                new Invasion(3, ZombieTypeEnum.BerserkerWalker), //yellow invasion
-                new Invasion(2, ZombieTypeEnum.BerserkerFatty), //orange invasion
-                new Invasion(5, ZombieTypeEnum.BerserkerWalker) //red invasion
+                new Invasion(1, ZombieTypeEnum.RunnerBerserker), //blue invasion
+                new Invasion(3, ZombieTypeEnum.WalkerBerserker), //yellow invasion
+                new Invasion(2, ZombieTypeEnum.FattyBerserker), //orange invasion
+                new Invasion(5, ZombieTypeEnum.WalkerBerserker) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.PrisonOutBreak,
                 87, //number
-                new Invasion(1, ZombieTypeEnum.BerserkerWalker), //blue invasion
-                new Invasion(2, ZombieTypeEnum.BerserkerFatty), //yellow invasion
-                new Invasion(5, ZombieTypeEnum.BerserkerWalker), //orange invasion
-                new Invasion(3, ZombieTypeEnum.BerserkerRunner) //red invasion
+                new Invasion(1, ZombieTypeEnum.WalkerBerserker), //blue invasion
+                new Invasion(2, ZombieTypeEnum.FattyBerserker), //yellow invasion
+                new Invasion(5, ZombieTypeEnum.WalkerBerserker), //orange invasion
+                new Invasion(3, ZombieTypeEnum.RunnerBerserker) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.PrisonOutBreak,
                 88, //number
-                new Invasion(1, ZombieTypeEnum.BerserkerWalker), //blue invasion
-                new Invasion(2, ZombieTypeEnum.BerserkerWalker), //yellow invasion
-                new Invasion(3, ZombieTypeEnum.BerserkerFatty), //orange invasion
-                new Invasion(7, ZombieTypeEnum.BerserkerWalker) //red invasion
+                new Invasion(1, ZombieTypeEnum.WalkerBerserker), //blue invasion
+                new Invasion(2, ZombieTypeEnum.WalkerBerserker), //yellow invasion
+                new Invasion(3, ZombieTypeEnum.FattyBerserker), //orange invasion
+                new Invasion(7, ZombieTypeEnum.WalkerBerserker) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.PrisonOutBreak,
                 89, //number
-                new Invasion(1, ZombieTypeEnum.BerserkerRunner), //blue invasion
-                new Invasion(1, ZombieTypeEnum.BerserkerFatty), //yellow invasion
-                new Invasion(3, ZombieTypeEnum.BerserkerWalker), //orange invasion
-                new Invasion(4, ZombieTypeEnum.BerserkerRunner) //red invasion
+                new Invasion(1, ZombieTypeEnum.RunnerBerserker), //blue invasion
+                new Invasion(1, ZombieTypeEnum.FattyBerserker), //yellow invasion
+                new Invasion(3, ZombieTypeEnum.WalkerBerserker), //orange invasion
+                new Invasion(4, ZombieTypeEnum.RunnerBerserker) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.PrisonOutBreak,
                 90, //number
-                new Invasion(1, ZombieTypeEnum.BerserkerAbomination), //blue invasion
-                new Invasion(3, ZombieTypeEnum.BerserkerWalker), //yellow invasion
-                new Invasion(2, ZombieTypeEnum.BerserkerRunner), //orange invasion
-                new Invasion(5, ZombieTypeEnum.BerserkerWalker) //red invasion
+                new Invasion(1, ZombieTypeEnum.AbominationBerserker), //blue invasion
+                new Invasion(3, ZombieTypeEnum.WalkerBerserker), //yellow invasion
+                new Invasion(2, ZombieTypeEnum.RunnerBerserker), //orange invasion
+                new Invasion(5, ZombieTypeEnum.WalkerBerserker) //red invasion
                 ));
 
             list.Add(new ZombieCard(
@@ -1242,54 +1242,54 @@ namespace Services.CardService
                 ZombicideGameEnum.ToxicCrowd,
                 133, //number
                 null, //blue invasion
-                new Invasion(4, ZombieTypeEnum.ToxicWalker), //yellow invasion
-                new Invasion(4, ZombieTypeEnum.ToxicWalker), //orange invasion
-                new Invasion(3, ZombieTypeEnum.ToxicRunner) //red invasion
+                new Invasion(4, ZombieTypeEnum.WalkerToxic), //yellow invasion
+                new Invasion(4, ZombieTypeEnum.WalkerToxic), //orange invasion
+                new Invasion(3, ZombieTypeEnum.RunnerToxic) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.ToxicCrowd,
                 134, //number
-                new Invasion(1, ZombieTypeEnum.ToxicWalker), //blue invasion
-                new Invasion(1, ZombieTypeEnum.ToxicRunner), //yellow invasion
-                new Invasion(6, ZombieTypeEnum.ToxicWalker), //orange invasion
-                new Invasion(7, ZombieTypeEnum.ToxicWalker) //red invasion
+                new Invasion(1, ZombieTypeEnum.WalkerToxic), //blue invasion
+                new Invasion(1, ZombieTypeEnum.RunnerToxic), //yellow invasion
+                new Invasion(6, ZombieTypeEnum.WalkerToxic), //orange invasion
+                new Invasion(7, ZombieTypeEnum.WalkerToxic) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.ToxicCrowd,
                 135, //number
-                new Invasion(2, ZombieTypeEnum.ToxicWalker), //blue invasion
-                new Invasion(3, ZombieTypeEnum.ToxicWalker), //yellow invasion
-                new Invasion(1, ZombieTypeEnum.ToxicRunner), //orange invasion
-                new Invasion(8, ZombieTypeEnum.ToxicWalker) //red invasion
+                new Invasion(2, ZombieTypeEnum.WalkerToxic), //blue invasion
+                new Invasion(3, ZombieTypeEnum.WalkerToxic), //yellow invasion
+                new Invasion(1, ZombieTypeEnum.RunnerToxic), //orange invasion
+                new Invasion(8, ZombieTypeEnum.WalkerToxic) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.ToxicCrowd,
                 136, //number
                 null, //blue invasion
-                new Invasion(4, ZombieTypeEnum.ToxicWalker), //yellow invasion
-                new Invasion(4, ZombieTypeEnum.ToxicWalker), //orange invasion
-                new Invasion(3, ZombieTypeEnum.ToxicFatty) //red invasion
+                new Invasion(4, ZombieTypeEnum.WalkerToxic), //yellow invasion
+                new Invasion(4, ZombieTypeEnum.WalkerToxic), //orange invasion
+                new Invasion(3, ZombieTypeEnum.FattyToxic) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.ToxicCrowd,
                 137, //number
-                new Invasion(1, ZombieTypeEnum.ToxicWalker), //blue invasion
-                new Invasion(1, ZombieTypeEnum.ToxicFatty), //yellow invasion
-                new Invasion(3, ZombieTypeEnum.ToxicRunner), //orange invasion
-                new Invasion(7, ZombieTypeEnum.ToxicWalker) //red invasion
+                new Invasion(1, ZombieTypeEnum.WalkerToxic), //blue invasion
+                new Invasion(1, ZombieTypeEnum.FattyToxic), //yellow invasion
+                new Invasion(3, ZombieTypeEnum.RunnerToxic), //orange invasion
+                new Invasion(7, ZombieTypeEnum.WalkerToxic) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.ToxicCrowd,
                 138, //number
-                new Invasion(1, ZombieTypeEnum.ToxicRunner), //blue invasion
-                new Invasion(3, ZombieTypeEnum.ToxicWalker), //yellow invasion
-                new Invasion(1, ZombieTypeEnum.ToxicFatty), //orange invasion
-                new Invasion(8, ZombieTypeEnum.ToxicWalker) //red invasion
+                new Invasion(1, ZombieTypeEnum.RunnerToxic), //blue invasion
+                new Invasion(3, ZombieTypeEnum.WalkerToxic), //yellow invasion
+                new Invasion(1, ZombieTypeEnum.FattyToxic), //orange invasion
+                new Invasion(8, ZombieTypeEnum.WalkerToxic) //red invasion
                 ));
             #endregion
 
@@ -1298,54 +1298,54 @@ namespace Services.CardService
                 ZombicideGameEnum.AngryZombies,
                 139, //number
                 null, //blue invasion
-                new Invasion(4, ZombieTypeEnum.BerserkerWalker), //yellow invasion
-                new Invasion(4, ZombieTypeEnum.BerserkerWalker), //orange invasion
-                new Invasion(3, ZombieTypeEnum.BerserkerRunner) //red invasion
+                new Invasion(4, ZombieTypeEnum.WalkerBerserker), //yellow invasion
+                new Invasion(4, ZombieTypeEnum.WalkerBerserker), //orange invasion
+                new Invasion(3, ZombieTypeEnum.RunnerBerserker) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.AngryZombies,
                 140, //number
-                new Invasion(1, ZombieTypeEnum.BerserkerWalker), //blue invasion
-                new Invasion(1, ZombieTypeEnum.BerserkerFatty), //yellow invasion
-                new Invasion(6, ZombieTypeEnum.BerserkerWalker), //orange invasion
-                new Invasion(7, ZombieTypeEnum.BerserkerWalker) //red invasion
+                new Invasion(1, ZombieTypeEnum.WalkerBerserker), //blue invasion
+                new Invasion(1, ZombieTypeEnum.FattyBerserker), //yellow invasion
+                new Invasion(6, ZombieTypeEnum.WalkerBerserker), //orange invasion
+                new Invasion(7, ZombieTypeEnum.WalkerBerserker) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.AngryZombies,
                 141, //number
-                new Invasion(2, ZombieTypeEnum.BerserkerWalker), //blue invasion
-                new Invasion(3, ZombieTypeEnum.BerserkerWalker), //yellow invasion
-                new Invasion(1, ZombieTypeEnum.BerserkerFatty), //orange invasion
-                new Invasion(4, ZombieTypeEnum.BerserkerRunner) //red invasion
+                new Invasion(2, ZombieTypeEnum.WalkerBerserker), //blue invasion
+                new Invasion(3, ZombieTypeEnum.WalkerBerserker), //yellow invasion
+                new Invasion(1, ZombieTypeEnum.FattyBerserker), //orange invasion
+                new Invasion(4, ZombieTypeEnum.RunnerBerserker) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.AngryZombies,
                 142, //number
                 null, //blue invasion
-                new Invasion(4, ZombieTypeEnum.BerserkerWalker), //yellow invasion
-                new Invasion(4, ZombieTypeEnum.BerserkerWalker), //orange invasion
-                new Invasion(3, ZombieTypeEnum.BerserkerFatty) //red invasion
+                new Invasion(4, ZombieTypeEnum.WalkerBerserker), //yellow invasion
+                new Invasion(4, ZombieTypeEnum.WalkerBerserker), //orange invasion
+                new Invasion(3, ZombieTypeEnum.FattyBerserker) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.AngryZombies,
                 143, //number
-                new Invasion(1, ZombieTypeEnum.BerserkerWalker), //blue invasion
-                new Invasion(1, ZombieTypeEnum.BerserkerRunner), //yellow invasion
-                new Invasion(3, ZombieTypeEnum.BerserkerRunner), //orange invasion
-                new Invasion(7, ZombieTypeEnum.BerserkerWalker) //red invasion
+                new Invasion(1, ZombieTypeEnum.WalkerBerserker), //blue invasion
+                new Invasion(1, ZombieTypeEnum.RunnerBerserker), //yellow invasion
+                new Invasion(3, ZombieTypeEnum.RunnerBerserker), //orange invasion
+                new Invasion(7, ZombieTypeEnum.WalkerBerserker) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.AngryZombies,
                 144, //number
-                new Invasion(1, ZombieTypeEnum.BerserkerRunner), //blue invasion
-                new Invasion(3, ZombieTypeEnum.BerserkerWalker), //yellow invasion
-                new Invasion(1, ZombieTypeEnum.BerserkerFatty), //orange invasion
-                new Invasion(8, ZombieTypeEnum.BerserkerWalker) //red invasion
+                new Invasion(1, ZombieTypeEnum.RunnerBerserker), //blue invasion
+                new Invasion(3, ZombieTypeEnum.WalkerBerserker), //yellow invasion
+                new Invasion(1, ZombieTypeEnum.FattyBerserker), //orange invasion
+                new Invasion(8, ZombieTypeEnum.WalkerBerserker) //red invasion
                 ));
             #endregion
 
@@ -1354,333 +1354,333 @@ namespace Services.CardService
                 ZombicideGameEnum.RueMorgue,
                 145, //number
                 null, //blue invasion
-                new Invasion(2, ZombieTypeEnum.SkinnerRunner), //yellow invasion
-                new Invasion(2, ZombieTypeEnum.SkinnerRunner), //orange invasion
-                new Invasion(5, ZombieTypeEnum.SkinnerWalker) //red invasion
+                new Invasion(2, ZombieTypeEnum.RunnerSkinner), //yellow invasion
+                new Invasion(2, ZombieTypeEnum.RunnerSkinner), //orange invasion
+                new Invasion(5, ZombieTypeEnum.WalkerSkinner) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.RueMorgue,
                 146, //number
-                new Invasion(1, ZombieTypeEnum.SkinnerWalker), //blue invasion
-                new Invasion(1, ZombieTypeEnum.SkinnerWalker), //yellow invasion
-                new Invasion(6, ZombieTypeEnum.SkinnerWalker), //orange invasion
-                new Invasion(7, ZombieTypeEnum.SkinnerWalker) //red invasion
+                new Invasion(1, ZombieTypeEnum.WalkerSkinner), //blue invasion
+                new Invasion(1, ZombieTypeEnum.WalkerSkinner), //yellow invasion
+                new Invasion(6, ZombieTypeEnum.WalkerSkinner), //orange invasion
+                new Invasion(7, ZombieTypeEnum.WalkerSkinner) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.RueMorgue,
                 147, //number
-                new Invasion(1, ZombieTypeEnum.SkinnerWalker), //blue invasion
-                new Invasion(1, ZombieTypeEnum.SkinnerRunner), //yellow invasion
-                new Invasion(1, ZombieTypeEnum.SkinnerFatty), //orange invasion
-                new Invasion(4, ZombieTypeEnum.SkinnerRunner) //red invasion
+                new Invasion(1, ZombieTypeEnum.WalkerSkinner), //blue invasion
+                new Invasion(1, ZombieTypeEnum.RunnerSkinner), //yellow invasion
+                new Invasion(1, ZombieTypeEnum.FattySkinner), //orange invasion
+                new Invasion(4, ZombieTypeEnum.RunnerSkinner) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.RueMorgue,
                 148, //number
-                new Invasion(1, ZombieTypeEnum.SkinnerWalker), //blue invasion
-                new Invasion(3, ZombieTypeEnum.SkinnerWalker), //yellow invasion
-                new Invasion(4, ZombieTypeEnum.SkinnerWalker), //orange invasion
-                new Invasion(2, ZombieTypeEnum.SkinnerRunner) //red invasion
+                new Invasion(1, ZombieTypeEnum.WalkerSkinner), //blue invasion
+                new Invasion(3, ZombieTypeEnum.WalkerSkinner), //yellow invasion
+                new Invasion(4, ZombieTypeEnum.WalkerSkinner), //orange invasion
+                new Invasion(2, ZombieTypeEnum.RunnerSkinner) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.RueMorgue,
                 149, //number
                 null, //blue invasion
-                new Invasion(4, ZombieTypeEnum.SkinnerWalker), //yellow invasion
-                new Invasion(2, ZombieTypeEnum.SkinnerFatty), //orange invasion
-                new Invasion(5, ZombieTypeEnum.SkinnerWalker) //red invasion
+                new Invasion(4, ZombieTypeEnum.WalkerSkinner), //yellow invasion
+                new Invasion(2, ZombieTypeEnum.FattySkinner), //orange invasion
+                new Invasion(5, ZombieTypeEnum.WalkerSkinner) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.RueMorgue,
                 150, //number
-                new Invasion(1, ZombieTypeEnum.SkinnerWalker), //blue invasion
-                new Invasion(1, ZombieTypeEnum.SkinnerWalker), //yellow invasion
-                new Invasion(3, ZombieTypeEnum.SkinnerRunner), //orange invasion
-                new Invasion(7, ZombieTypeEnum.SkinnerWalker) //red invasion
+                new Invasion(1, ZombieTypeEnum.WalkerSkinner), //blue invasion
+                new Invasion(1, ZombieTypeEnum.WalkerSkinner), //yellow invasion
+                new Invasion(3, ZombieTypeEnum.RunnerSkinner), //orange invasion
+                new Invasion(7, ZombieTypeEnum.WalkerSkinner) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.RueMorgue,
                 151, //number
-                new Invasion(1, ZombieTypeEnum.SkinnerWalker), //blue invasion
-                new Invasion(2, ZombieTypeEnum.SkinnerWalker), //yellow invasion
-                new Invasion(2, ZombieTypeEnum.SkinnerWalker), //orange invasion
-                new Invasion(4, ZombieTypeEnum.SkinnerRunner) //red invasion
+                new Invasion(1, ZombieTypeEnum.WalkerSkinner), //blue invasion
+                new Invasion(2, ZombieTypeEnum.WalkerSkinner), //yellow invasion
+                new Invasion(2, ZombieTypeEnum.WalkerSkinner), //orange invasion
+                new Invasion(4, ZombieTypeEnum.RunnerSkinner) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.RueMorgue,
                 152, //number
-                new Invasion(2, ZombieTypeEnum.SkinnerWalker), //blue invasion
-                new Invasion(3, ZombieTypeEnum.SkinnerWalker), //yellow invasion
-                new Invasion(4, ZombieTypeEnum.SkinnerWalker), //orange invasion
-                new Invasion(2, ZombieTypeEnum.SkinnerFatty) //red invasion
+                new Invasion(2, ZombieTypeEnum.WalkerSkinner), //blue invasion
+                new Invasion(3, ZombieTypeEnum.WalkerSkinner), //yellow invasion
+                new Invasion(4, ZombieTypeEnum.WalkerSkinner), //orange invasion
+                new Invasion(2, ZombieTypeEnum.FattySkinner) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.RueMorgue,
                 153, //number
                 null, //blue invasion
-                new Invasion(4, ZombieTypeEnum.SkinnerWalker), //yellow invasion
-                new Invasion(2, ZombieTypeEnum.SkinnerRunner), //orange invasion
-                new Invasion(5, ZombieTypeEnum.SkinnerWalker) //red invasion
+                new Invasion(4, ZombieTypeEnum.WalkerSkinner), //yellow invasion
+                new Invasion(2, ZombieTypeEnum.RunnerSkinner), //orange invasion
+                new Invasion(5, ZombieTypeEnum.WalkerSkinner) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.RueMorgue,
                 154, //number
-                new Invasion(1, ZombieTypeEnum.SkinnerWalker), //blue invasion
-                new Invasion(1, ZombieTypeEnum.SkinnerWalker), //yellow invasion
-                new Invasion(3, ZombieTypeEnum.SkinnerRunner), //orange invasion
-                new Invasion(7, ZombieTypeEnum.SkinnerWalker) //red invasion
+                new Invasion(1, ZombieTypeEnum.WalkerSkinner), //blue invasion
+                new Invasion(1, ZombieTypeEnum.WalkerSkinner), //yellow invasion
+                new Invasion(3, ZombieTypeEnum.RunnerSkinner), //orange invasion
+                new Invasion(7, ZombieTypeEnum.WalkerSkinner) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.RueMorgue,
                 155, //number
-                new Invasion(1, ZombieTypeEnum.SkinnerWalker), //blue invasion
-                new Invasion(1, ZombieTypeEnum.SkinnerRunner), //yellow invasion
-                new Invasion(1, ZombieTypeEnum.SkinnerRunner), //orange invasion
-                new Invasion(4, ZombieTypeEnum.SkinnerFatty) //red invasion
+                new Invasion(1, ZombieTypeEnum.WalkerSkinner), //blue invasion
+                new Invasion(1, ZombieTypeEnum.RunnerSkinner), //yellow invasion
+                new Invasion(1, ZombieTypeEnum.RunnerSkinner), //orange invasion
+                new Invasion(4, ZombieTypeEnum.FattySkinner) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.RueMorgue,
                 156, //number
-                new Invasion(1, ZombieTypeEnum.SkinnerFatty), //blue invasion
-                new Invasion(3, ZombieTypeEnum.SkinnerWalker), //yellow invasion
-                new Invasion(4, ZombieTypeEnum.SkinnerWalker), //orange invasion
-                new Invasion(2, ZombieTypeEnum.SkinnerRunner) //red invasion
+                new Invasion(1, ZombieTypeEnum.FattySkinner), //blue invasion
+                new Invasion(3, ZombieTypeEnum.WalkerSkinner), //yellow invasion
+                new Invasion(4, ZombieTypeEnum.WalkerSkinner), //orange invasion
+                new Invasion(2, ZombieTypeEnum.RunnerSkinner) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.RueMorgue,
                 157, //number
                 null, //blue invasion
-                new Invasion(2, ZombieTypeEnum.SkinnerRunner), //yellow invasion
-                new Invasion(2, ZombieTypeEnum.SkinnerRunner), //orange invasion
-                new Invasion(5, ZombieTypeEnum.SkinnerWalker) //red invasion
+                new Invasion(2, ZombieTypeEnum.RunnerSkinner), //yellow invasion
+                new Invasion(2, ZombieTypeEnum.RunnerSkinner), //orange invasion
+                new Invasion(5, ZombieTypeEnum.WalkerSkinner) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.RueMorgue,
                 158, //number
-                new Invasion(1, ZombieTypeEnum.SkinnerWalker), //blue invasion
-                new Invasion(1, ZombieTypeEnum.SkinnerWalker), //yellow invasion
-                new Invasion(6, ZombieTypeEnum.SkinnerWalker), //orange invasion
-                new Invasion(7, ZombieTypeEnum.SkinnerWalker) //red invasion
+                new Invasion(1, ZombieTypeEnum.WalkerSkinner), //blue invasion
+                new Invasion(1, ZombieTypeEnum.WalkerSkinner), //yellow invasion
+                new Invasion(6, ZombieTypeEnum.WalkerSkinner), //orange invasion
+                new Invasion(7, ZombieTypeEnum.WalkerSkinner) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.RueMorgue,
                 159, //number
-                new Invasion(1, ZombieTypeEnum.SkinnerWalker), //blue invasion
-                new Invasion(1, ZombieTypeEnum.SkinnerRunner), //yellow invasion
-                new Invasion(1, ZombieTypeEnum.SkinnerFatty), //orange invasion
-                new Invasion(4, ZombieTypeEnum.SkinnerRunner) //red invasion
+                new Invasion(1, ZombieTypeEnum.WalkerSkinner), //blue invasion
+                new Invasion(1, ZombieTypeEnum.RunnerSkinner), //yellow invasion
+                new Invasion(1, ZombieTypeEnum.FattySkinner), //orange invasion
+                new Invasion(4, ZombieTypeEnum.RunnerSkinner) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.RueMorgue,
                 160, //number
-                new Invasion(2, ZombieTypeEnum.SkinnerWalker), //blue invasion
-                new Invasion(3, ZombieTypeEnum.SkinnerWalker), //yellow invasion
-                new Invasion(4, ZombieTypeEnum.SkinnerWalker), //orange invasion
-                new Invasion(2, ZombieTypeEnum.SkinnerRunner) //red invasion
+                new Invasion(2, ZombieTypeEnum.WalkerSkinner), //blue invasion
+                new Invasion(3, ZombieTypeEnum.WalkerSkinner), //yellow invasion
+                new Invasion(4, ZombieTypeEnum.WalkerSkinner), //orange invasion
+                new Invasion(2, ZombieTypeEnum.RunnerSkinner) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.RueMorgue,
                 161, //number
                 null, //blue invasion
-                new Invasion(4, ZombieTypeEnum.SkinnerWalker), //yellow invasion
-                new Invasion(2, ZombieTypeEnum.SkinnerFatty), //orange invasion
-                new Invasion(5, ZombieTypeEnum.SkinnerWalker) //red invasion
+                new Invasion(4, ZombieTypeEnum.WalkerSkinner), //yellow invasion
+                new Invasion(2, ZombieTypeEnum.FattySkinner), //orange invasion
+                new Invasion(5, ZombieTypeEnum.WalkerSkinner) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.RueMorgue,
                 162, //number
-                new Invasion(1, ZombieTypeEnum.SkinnerWalker), //blue invasion
-                new Invasion(1, ZombieTypeEnum.SkinnerWalker), //yellow invasion
-                new Invasion(3, ZombieTypeEnum.SkinnerRunner), //orange invasion
-                new Invasion(7, ZombieTypeEnum.SkinnerWalker) //red invasion
+                new Invasion(1, ZombieTypeEnum.WalkerSkinner), //blue invasion
+                new Invasion(1, ZombieTypeEnum.WalkerSkinner), //yellow invasion
+                new Invasion(3, ZombieTypeEnum.RunnerSkinner), //orange invasion
+                new Invasion(7, ZombieTypeEnum.WalkerSkinner) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.RueMorgue,
                 163, //number
-                new Invasion(1, ZombieTypeEnum.SkinnerWalker), //blue invasion
-                new Invasion(2, ZombieTypeEnum.SkinnerWalker), //yellow invasion
-                new Invasion(2, ZombieTypeEnum.SkinnerWalker), //orange invasion
-                new Invasion(4, ZombieTypeEnum.SkinnerRunner) //red invasion
+                new Invasion(1, ZombieTypeEnum.WalkerSkinner), //blue invasion
+                new Invasion(2, ZombieTypeEnum.WalkerSkinner), //yellow invasion
+                new Invasion(2, ZombieTypeEnum.WalkerSkinner), //orange invasion
+                new Invasion(4, ZombieTypeEnum.RunnerSkinner) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.RueMorgue,
                 164, //number
-                new Invasion(2, ZombieTypeEnum.SkinnerWalker), //blue invasion
-                new Invasion(3, ZombieTypeEnum.SkinnerWalker), //yellow invasion
-                new Invasion(4, ZombieTypeEnum.SkinnerWalker), //orange invasion
-                new Invasion(2, ZombieTypeEnum.SkinnerFatty) //red invasion
+                new Invasion(2, ZombieTypeEnum.WalkerSkinner), //blue invasion
+                new Invasion(3, ZombieTypeEnum.WalkerSkinner), //yellow invasion
+                new Invasion(4, ZombieTypeEnum.WalkerSkinner), //orange invasion
+                new Invasion(2, ZombieTypeEnum.FattySkinner) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.RueMorgue,
                 165, //number
                 null, //blue invasion
-                new Invasion(4, ZombieTypeEnum.SkinnerWalker), //yellow invasion
-                new Invasion(2, ZombieTypeEnum.SkinnerRunner), //orange invasion
-                new Invasion(5, ZombieTypeEnum.SkinnerWalker) //red invasion
+                new Invasion(4, ZombieTypeEnum.WalkerSkinner), //yellow invasion
+                new Invasion(2, ZombieTypeEnum.RunnerSkinner), //orange invasion
+                new Invasion(5, ZombieTypeEnum.WalkerSkinner) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.RueMorgue,
                 166, //number
-                new Invasion(1, ZombieTypeEnum.SkinnerWalker), //blue invasion
-                new Invasion(1, ZombieTypeEnum.SkinnerWalker), //yellow invasion
-                new Invasion(3, ZombieTypeEnum.SkinnerRunner), //orange invasion
-                new Invasion(7, ZombieTypeEnum.SkinnerWalker) //red invasion
+                new Invasion(1, ZombieTypeEnum.WalkerSkinner), //blue invasion
+                new Invasion(1, ZombieTypeEnum.WalkerSkinner), //yellow invasion
+                new Invasion(3, ZombieTypeEnum.RunnerSkinner), //orange invasion
+                new Invasion(7, ZombieTypeEnum.WalkerSkinner) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.RueMorgue,
                 167, //number
-                new Invasion(1, ZombieTypeEnum.SkinnerWalker), //blue invasion
-                new Invasion(1, ZombieTypeEnum.SkinnerRunner), //yellow invasion
-                new Invasion(1, ZombieTypeEnum.SkinnerRunner), //orange invasion
-                new Invasion(4, ZombieTypeEnum.SkinnerFatty) //red invasion
+                new Invasion(1, ZombieTypeEnum.WalkerSkinner), //blue invasion
+                new Invasion(1, ZombieTypeEnum.RunnerSkinner), //yellow invasion
+                new Invasion(1, ZombieTypeEnum.RunnerSkinner), //orange invasion
+                new Invasion(4, ZombieTypeEnum.FattySkinner) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.RueMorgue,
                 168, //number
-                new Invasion(1, ZombieTypeEnum.SkinnerFatty), //blue invasion
-                new Invasion(3, ZombieTypeEnum.SkinnerWalker), //yellow invasion
-                new Invasion(4, ZombieTypeEnum.SkinnerWalker), //orange invasion
-                new Invasion(2, ZombieTypeEnum.SkinnerRunner) //red invasion
+                new Invasion(1, ZombieTypeEnum.FattySkinner), //blue invasion
+                new Invasion(3, ZombieTypeEnum.WalkerSkinner), //yellow invasion
+                new Invasion(4, ZombieTypeEnum.WalkerSkinner), //orange invasion
+                new Invasion(2, ZombieTypeEnum.RunnerSkinner) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.RueMorgue,
                 169, //number
-                new Invasion(1, ZombieTypeEnum.SkinnerWalker), //blue invasion
-                new Invasion(2, ZombieTypeEnum.SkinnerRunner), //yellow invasion
-                new Invasion(5, ZombieTypeEnum.SkinnerWalker), //orange invasion
-                new Invasion(3, ZombieTypeEnum.SkinnerFatty) //red invasion
+                new Invasion(1, ZombieTypeEnum.WalkerSkinner), //blue invasion
+                new Invasion(2, ZombieTypeEnum.RunnerSkinner), //yellow invasion
+                new Invasion(5, ZombieTypeEnum.WalkerSkinner), //orange invasion
+                new Invasion(3, ZombieTypeEnum.FattySkinner) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.RueMorgue,
                 170, //number
-                new Invasion(1, ZombieTypeEnum.SkinnerWalker), //blue invasion
-                new Invasion(2, ZombieTypeEnum.SkinnerWalker), //yellow invasion
-                new Invasion(3, ZombieTypeEnum.SkinnerRunner), //orange invasion
-                new Invasion(7, ZombieTypeEnum.SkinnerWalker) //red invasion
+                new Invasion(1, ZombieTypeEnum.WalkerSkinner), //blue invasion
+                new Invasion(2, ZombieTypeEnum.WalkerSkinner), //yellow invasion
+                new Invasion(3, ZombieTypeEnum.RunnerSkinner), //orange invasion
+                new Invasion(7, ZombieTypeEnum.WalkerSkinner) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.RueMorgue,
                 171, //number
-                new Invasion(2, ZombieTypeEnum.SkinnerWalker), //blue invasion
-                new Invasion(2, ZombieTypeEnum.SkinnerWalker), //yellow invasion
-                new Invasion(3, ZombieTypeEnum.SkinnerWalker), //orange invasion
-                new Invasion(4, ZombieTypeEnum.SkinnerFatty) //red invasion
+                new Invasion(2, ZombieTypeEnum.WalkerSkinner), //blue invasion
+                new Invasion(2, ZombieTypeEnum.WalkerSkinner), //yellow invasion
+                new Invasion(3, ZombieTypeEnum.WalkerSkinner), //orange invasion
+                new Invasion(4, ZombieTypeEnum.FattySkinner) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.RueMorgue,
                 172, //number
-                new Invasion(2, ZombieTypeEnum.SkinnerWalker), //blue invasion
+                new Invasion(2, ZombieTypeEnum.WalkerSkinner), //blue invasion
                 new Invasion(1, ZombieTypeEnum.ABombAbomination), //yellow invasion
-                new Invasion(2, ZombieTypeEnum.SkinnerRunner), //orange invasion
-                new Invasion(5, ZombieTypeEnum.SkinnerWalker) //red invasion
+                new Invasion(2, ZombieTypeEnum.RunnerSkinner), //orange invasion
+                new Invasion(5, ZombieTypeEnum.WalkerSkinner) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.RueMorgue,
                 173, //number
-                new Invasion(1, ZombieTypeEnum.SkinnerWalker), //blue invasion
-                new Invasion(4, ZombieTypeEnum.SkinnerWalker), //yellow invasion
+                new Invasion(1, ZombieTypeEnum.WalkerSkinner), //blue invasion
+                new Invasion(4, ZombieTypeEnum.WalkerSkinner), //yellow invasion
                 new Invasion(1, ZombieTypeEnum.ABombAbomination), //orange invasion
-                new Invasion(6, ZombieTypeEnum.SkinnerWalker) //red invasion
+                new Invasion(6, ZombieTypeEnum.WalkerSkinner) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.RueMorgue,
                 174, //number
-                new Invasion(1, ZombieTypeEnum.SkinnerWalker), //blue invasion
-                new Invasion(2, ZombieTypeEnum.SkinnerWalker), //yellow invasion
-                new Invasion(6, ZombieTypeEnum.SkinnerWalker), //orange invasion
+                new Invasion(1, ZombieTypeEnum.WalkerSkinner), //blue invasion
+                new Invasion(2, ZombieTypeEnum.WalkerSkinner), //yellow invasion
+                new Invasion(6, ZombieTypeEnum.WalkerSkinner), //orange invasion
                 new Invasion(1, ZombieTypeEnum.ABombAbomination) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.RueMorgue,
                 175, //number
-                new Invasion(1, ZombieTypeEnum.SkinnerRunner), //blue invasion
-                new Invasion(1, ZombieTypeEnum.SkinnerRunner), //yellow invasion
-                new Invasion(3, ZombieTypeEnum.SkinnerWalker), //orange invasion
-                new Invasion(8, ZombieTypeEnum.SkinnerWalker) //red invasion
+                new Invasion(1, ZombieTypeEnum.RunnerSkinner), //blue invasion
+                new Invasion(1, ZombieTypeEnum.RunnerSkinner), //yellow invasion
+                new Invasion(3, ZombieTypeEnum.WalkerSkinner), //orange invasion
+                new Invasion(8, ZombieTypeEnum.WalkerSkinner) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.RueMorgue,
                 176, //number
-                new Invasion(1, ZombieTypeEnum.SkinnerFatty), //blue invasion
-                new Invasion(3, ZombieTypeEnum.SkinnerWalker), //yellow invasion
-                new Invasion(2, ZombieTypeEnum.SkinnerFatty), //orange invasion
-                new Invasion(5, ZombieTypeEnum.SkinnerWalker) //red invasion
+                new Invasion(1, ZombieTypeEnum.FattySkinner), //blue invasion
+                new Invasion(3, ZombieTypeEnum.WalkerSkinner), //yellow invasion
+                new Invasion(2, ZombieTypeEnum.FattySkinner), //orange invasion
+                new Invasion(5, ZombieTypeEnum.WalkerSkinner) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.RueMorgue,
                 177, //number
-                new Invasion(1, ZombieTypeEnum.SkinnerWalker), //blue invasion
-                new Invasion(2, ZombieTypeEnum.SkinnerRunner), //yellow invasion
-                new Invasion(5, ZombieTypeEnum.SkinnerWalker), //orange invasion
-                new Invasion(3, ZombieTypeEnum.SkinnerRunner) //red invasion
+                new Invasion(1, ZombieTypeEnum.WalkerSkinner), //blue invasion
+                new Invasion(2, ZombieTypeEnum.RunnerSkinner), //yellow invasion
+                new Invasion(5, ZombieTypeEnum.WalkerSkinner), //orange invasion
+                new Invasion(3, ZombieTypeEnum.RunnerSkinner) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.RueMorgue,
                 178, //number
-                new Invasion(1, ZombieTypeEnum.SkinnerWalker), //blue invasion
-                new Invasion(2, ZombieTypeEnum.SkinnerWalker), //yellow invasion
-                new Invasion(3, ZombieTypeEnum.SkinnerRunner), //orange invasion
-                new Invasion(7, ZombieTypeEnum.SkinnerWalker) //red invasion
+                new Invasion(1, ZombieTypeEnum.WalkerSkinner), //blue invasion
+                new Invasion(2, ZombieTypeEnum.WalkerSkinner), //yellow invasion
+                new Invasion(3, ZombieTypeEnum.RunnerSkinner), //orange invasion
+                new Invasion(7, ZombieTypeEnum.WalkerSkinner) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.RueMorgue,
                 179, //number
-                new Invasion(1, ZombieTypeEnum.SkinnerRunner), //blue invasion
-                new Invasion(1, ZombieTypeEnum.SkinnerFatty), //yellow invasion
-                new Invasion(3, ZombieTypeEnum.SkinnerWalker), //orange invasion
-                new Invasion(4, ZombieTypeEnum.SkinnerRunner) //red invasion
+                new Invasion(1, ZombieTypeEnum.RunnerSkinner), //blue invasion
+                new Invasion(1, ZombieTypeEnum.FattySkinner), //yellow invasion
+                new Invasion(3, ZombieTypeEnum.WalkerSkinner), //orange invasion
+                new Invasion(4, ZombieTypeEnum.RunnerSkinner) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.RueMorgue,
                 180, //number
                 new Invasion(1, ZombieTypeEnum.ABombAbomination), //blue invasion
-                new Invasion(3, ZombieTypeEnum.SkinnerWalker), //yellow invasion
-                new Invasion(2, ZombieTypeEnum.SkinnerRunner), //orange invasion
-                new Invasion(5, ZombieTypeEnum.SkinnerWalker) //red invasion
+                new Invasion(3, ZombieTypeEnum.WalkerSkinner), //yellow invasion
+                new Invasion(2, ZombieTypeEnum.RunnerSkinner), //orange invasion
+                new Invasion(5, ZombieTypeEnum.WalkerSkinner) //red invasion
                 ));
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.RueMorgue,
                 181, //number              
                 null, //blue invasion
-                new Invasion(1, ZombieTypeEnum.SkinnerWalker), //yellow invasion
-                new Invasion(1, ZombieTypeEnum.SkinnerWalker), //orange invasion
-                new Invasion(1, ZombieTypeEnum.SkinnerWalker) //red invasion
+                new Invasion(1, ZombieTypeEnum.WalkerSkinner), //yellow invasion
+                new Invasion(1, ZombieTypeEnum.WalkerSkinner), //orange invasion
+                new Invasion(1, ZombieTypeEnum.WalkerSkinner) //red invasion
                 )
             { IsSupplementaryActivation = true });
 
@@ -1688,9 +1688,9 @@ namespace Services.CardService
                 ZombicideGameEnum.RueMorgue,
                 182, //number              
                 null, //blue invasion
-                new Invasion(1, ZombieTypeEnum.SkinnerWalker), //yellow invasion
-                new Invasion(1, ZombieTypeEnum.SkinnerWalker), //orange invasion
-                new Invasion(1, ZombieTypeEnum.SkinnerWalker) //red invasion
+                new Invasion(1, ZombieTypeEnum.WalkerSkinner), //yellow invasion
+                new Invasion(1, ZombieTypeEnum.WalkerSkinner), //orange invasion
+                new Invasion(1, ZombieTypeEnum.WalkerSkinner) //red invasion
                 )
             { IsSupplementaryActivation = true });
 
@@ -1698,9 +1698,9 @@ namespace Services.CardService
                 ZombicideGameEnum.RueMorgue,
                 183, //number              
                 null, //blue invasion
-                new Invasion(1, ZombieTypeEnum.SkinnerFatty), //yellow invasion
-                new Invasion(1, ZombieTypeEnum.SkinnerFatty), //orange invasion
-                new Invasion(1, ZombieTypeEnum.SkinnerFatty) //red invasion
+                new Invasion(1, ZombieTypeEnum.FattySkinner), //yellow invasion
+                new Invasion(1, ZombieTypeEnum.FattySkinner), //orange invasion
+                new Invasion(1, ZombieTypeEnum.FattySkinner) //red invasion
                 )
             { IsSupplementaryActivation = true });
 
@@ -1708,29 +1708,29 @@ namespace Services.CardService
                 ZombicideGameEnum.RueMorgue,
                 184, //number              
                 null, //blue invasion
-                new Invasion(1, ZombieTypeEnum.SkinnerRunner), //yellow invasion
-                new Invasion(1, ZombieTypeEnum.SkinnerRunner), //orange invasion
-                new Invasion(1, ZombieTypeEnum.SkinnerRunner) //red invasion
+                new Invasion(1, ZombieTypeEnum.RunnerSkinner), //yellow invasion
+                new Invasion(1, ZombieTypeEnum.RunnerSkinner), //orange invasion
+                new Invasion(1, ZombieTypeEnum.RunnerSkinner) //red invasion
                 )
             { IsSupplementaryActivation = true });
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.RueMorgue,
                 185, //number
-                new Invasion(1, ZombieTypeEnum.SkinnerWalker), //blue invasion
-                new Invasion(2, ZombieTypeEnum.SkinnerWalker), //yellow invasion
-                new Invasion(1, ZombieTypeEnum.SkinnerFatty), //orange invasion
-                new Invasion(1, ZombieTypeEnum.SkinnerRunner) //red invasion
+                new Invasion(1, ZombieTypeEnum.WalkerSkinner), //blue invasion
+                new Invasion(2, ZombieTypeEnum.WalkerSkinner), //yellow invasion
+                new Invasion(1, ZombieTypeEnum.FattySkinner), //orange invasion
+                new Invasion(1, ZombieTypeEnum.RunnerSkinner) //red invasion
                 )
             { IsSewerInvasion = true });
 
             list.Add(new ZombieCard(
                 ZombicideGameEnum.RueMorgue,
                 186, //number
-                new Invasion(1, ZombieTypeEnum.SkinnerWalker), //blue invasion
-                new Invasion(1, ZombieTypeEnum.SkinnerRunner), //yellow invasion
-                new Invasion(2, ZombieTypeEnum.SkinnerWalker), //orange invasion
-                new Invasion(1, ZombieTypeEnum.SkinnerFatty) //red invasion
+                new Invasion(1, ZombieTypeEnum.WalkerSkinner), //blue invasion
+                new Invasion(1, ZombieTypeEnum.RunnerSkinner), //yellow invasion
+                new Invasion(2, ZombieTypeEnum.WalkerSkinner), //orange invasion
+                new Invasion(1, ZombieTypeEnum.FattySkinner) //red invasion
                 )
             { IsSewerInvasion = true });
 
@@ -1906,59 +1906,59 @@ namespace Services.CardService
             #endregion
 
             #region Lost Zombivors
-            list.Add(new ZombieCard(
-               ZombicideGameEnum.LostZombivors,
-               205, //number
-               new Invasion(1, ZombieTypeEnum.LostZombivor), //blue invasion
-               new Invasion(1, ZombieTypeEnum.LostZombivor), //yellow invasion
-               new Invasion(1, ZombieTypeEnum.LostZombivor), //orange invasion
-               new Invasion(1, ZombieTypeEnum.LostZombivor) //red invasion
-               ));
+            //list.Add(new ZombieCard(
+            //   ZombicideGameEnum.LostZombivors,
+            //   205, //number
+            //   new Invasion(1, ZombieTypeEnum.LostZombivor), //blue invasion
+            //   new Invasion(1, ZombieTypeEnum.LostZombivor), //yellow invasion
+            //   new Invasion(1, ZombieTypeEnum.LostZombivor), //orange invasion
+            //   new Invasion(1, ZombieTypeEnum.LostZombivor) //red invasion
+            //   ));
 
-            list.Add(new ZombieCard(
-               ZombicideGameEnum.LostZombivors,
-               206, //number
-               new Invasion(1, ZombieTypeEnum.LostZombivor), //blue invasion
-               new Invasion(1, ZombieTypeEnum.LostZombivor), //yellow invasion
-               new Invasion(1, ZombieTypeEnum.LostZombivor), //orange invasion
-               new Invasion(1, ZombieTypeEnum.LostZombivor) //red invasion
-               ));
+            //list.Add(new ZombieCard(
+            //   ZombicideGameEnum.LostZombivors,
+            //   206, //number
+            //   new Invasion(1, ZombieTypeEnum.LostZombivor), //blue invasion
+            //   new Invasion(1, ZombieTypeEnum.LostZombivor), //yellow invasion
+            //   new Invasion(1, ZombieTypeEnum.LostZombivor), //orange invasion
+            //   new Invasion(1, ZombieTypeEnum.LostZombivor) //red invasion
+            //   ));
 
-            list.Add(new ZombieCard(
-               ZombicideGameEnum.LostZombivors,
-               207, //number
-               new Invasion(1, ZombieTypeEnum.LostZombivor), //blue invasion
-               new Invasion(1, ZombieTypeEnum.LostZombivor), //yellow invasion
-               new Invasion(1, ZombieTypeEnum.LostZombivor), //orange invasion
-               new Invasion(1, ZombieTypeEnum.LostZombivor) //red invasion
-               ));
+            //list.Add(new ZombieCard(
+            //   ZombicideGameEnum.LostZombivors,
+            //   207, //number
+            //   new Invasion(1, ZombieTypeEnum.LostZombivor), //blue invasion
+            //   new Invasion(1, ZombieTypeEnum.LostZombivor), //yellow invasion
+            //   new Invasion(1, ZombieTypeEnum.LostZombivor), //orange invasion
+            //   new Invasion(1, ZombieTypeEnum.LostZombivor) //red invasion
+            //   ));
 
-            list.Add(new ZombieCard(
-               ZombicideGameEnum.LostZombivors,
-               208, //number
-               new Invasion(1, ZombieTypeEnum.LostZombivor), //blue invasion
-               new Invasion(1, ZombieTypeEnum.LostZombivor), //yellow invasion
-               new Invasion(1, ZombieTypeEnum.LostZombivor), //orange invasion
-               new Invasion(1, ZombieTypeEnum.LostZombivor) //red invasion
-               ));
+            //list.Add(new ZombieCard(
+            //   ZombicideGameEnum.LostZombivors,
+            //   208, //number
+            //   new Invasion(1, ZombieTypeEnum.LostZombivor), //blue invasion
+            //   new Invasion(1, ZombieTypeEnum.LostZombivor), //yellow invasion
+            //   new Invasion(1, ZombieTypeEnum.LostZombivor), //orange invasion
+            //   new Invasion(1, ZombieTypeEnum.LostZombivor) //red invasion
+            //   ));
 
-            list.Add(new ZombieCard(
-               ZombicideGameEnum.LostZombivors,
-               209, //number
-               new Invasion(1, ZombieTypeEnum.LostZombivor), //blue invasion
-               new Invasion(1, ZombieTypeEnum.LostZombivor), //yellow invasion
-               new Invasion(1, ZombieTypeEnum.LostZombivor), //orange invasion
-               new Invasion(1, ZombieTypeEnum.LostZombivor) //red invasion
-               ));
+            //list.Add(new ZombieCard(
+            //   ZombicideGameEnum.LostZombivors,
+            //   209, //number
+            //   new Invasion(1, ZombieTypeEnum.LostZombivor), //blue invasion
+            //   new Invasion(1, ZombieTypeEnum.LostZombivor), //yellow invasion
+            //   new Invasion(1, ZombieTypeEnum.LostZombivor), //orange invasion
+            //   new Invasion(1, ZombieTypeEnum.LostZombivor) //red invasion
+            //   ));
 
-            list.Add(new ZombieCard(
-               ZombicideGameEnum.LostZombivors,
-               210, //number
-               new Invasion(1, ZombieTypeEnum.LostZombivor), //blue invasion
-               new Invasion(1, ZombieTypeEnum.LostZombivor), //yellow invasion
-               new Invasion(1, ZombieTypeEnum.LostZombivor), //orange invasion
-               new Invasion(1, ZombieTypeEnum.LostZombivor) //red invasion
-               ));
+            //list.Add(new ZombieCard(
+            //   ZombicideGameEnum.LostZombivors,
+            //   210, //number
+            //   new Invasion(1, ZombieTypeEnum.LostZombivor), //blue invasion
+            //   new Invasion(1, ZombieTypeEnum.LostZombivor), //yellow invasion
+            //   new Invasion(1, ZombieTypeEnum.LostZombivor), //orange invasion
+            //   new Invasion(1, ZombieTypeEnum.LostZombivor) //red invasion
+            //   ));
             #endregion
 
             #region VIP1
@@ -2619,6 +2619,7 @@ namespace Services.CardService
                 .Distinct()
                 .ToZombieDtos()
                 .Select(x => x.Family)
+                .Distinct()
                 .ToList();
         }
     }

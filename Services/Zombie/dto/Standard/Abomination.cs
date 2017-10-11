@@ -1,6 +1,6 @@
 ﻿using Services.Map;
 
-namespace Services.Zombie.dto.Standard
+namespace Services.Zombie.dto
 {
     public class Abomination : StandardZombie
     {

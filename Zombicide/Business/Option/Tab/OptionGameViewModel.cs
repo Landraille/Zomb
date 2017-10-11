@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
 using Caliburn.Micro;
 using Services;
 using Services.CardService;
@@ -12,7 +11,6 @@ namespace Zombicide.Business.Option.Tab
     public class OptionGameViewModel : Screen, IOptionScreen
     {
         private readonly ICardService _cardService;
-        private readonly IZombieService _zombieService;
         private bool _isDayFogOfWar;
         private bool _isNightFogOfWar;
         private bool _isStealthMode;
@@ -109,13 +107,13 @@ namespace Zombicide.Business.Option.Tab
             }
         }
 
-        public OptionGameViewModel(ICardService cardService, IZombieService zombieService)
+        public OptionGameViewModel(ICardService cardService)
         {
             IsStandardGame = true;
             _cardService = cardService;
-            _zombieService = zombieService;
 
             ZombieDeckList = SetZombieDeckList();
+            NotifyOfPropertyChange(() => ZombieDeckList);
         }
 
         private List<ZombieDeckModel> SetZombieDeckList()
@@ -123,10 +121,11 @@ namespace Zombicide.Business.Option.Tab
             var list = new List<ZombieDeckModel>();
             foreach (ZombicideGameEnum version in Enum.GetValues(typeof(ZombicideGameEnum)))
             {
+                var zombielist = _cardService.GetDeckZombieFamilyFromVersion(version);
                 list.Add(new ZombieDeckModel
                 {
                     Version = version,
-                    ZombieTypeList = _cardService.GetDeckZombieFamilyFromVersion(version)
+                    ZombieTypeList = String.Join(", ", zombielist)
                 });
             }
             return list;

@@ -35,7 +35,7 @@
         ABombAbomination,
         Dogz,
         Crowz,
-        LostZombivor,
+        //LostZombivor,
         VIP
     }
 
