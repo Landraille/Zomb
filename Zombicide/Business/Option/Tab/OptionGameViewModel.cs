@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
 using Caliburn.Micro;
 using Services;
 using Services.CardService;
@@ -17,9 +18,9 @@ namespace Zombicide.Business.Option.Tab
         private bool _isFogOfWarMode;
         private bool _isStandardGame;
         private bool _isCustomizedGame;
-        private List<ZombieDeckModel> _zombieDeckList;
+        private ObservableCollection<ZombieDeckModel> _zombieDeckList;
 
-        public List<ZombieDeckModel> ZombieDeckList
+        public ObservableCollection<ZombieDeckModel> ZombieDeckList
         {
             get => _zombieDeckList;
             set
@@ -113,12 +114,11 @@ namespace Zombicide.Business.Option.Tab
             _cardService = cardService;
 
             ZombieDeckList = SetZombieDeckList();
-            NotifyOfPropertyChange(() => ZombieDeckList);
         }
 
-        private List<ZombieDeckModel> SetZombieDeckList()
+        private ObservableCollection<ZombieDeckModel> SetZombieDeckList()
         {
-            var list = new List<ZombieDeckModel>();
+            var list = new ObservableCollection<ZombieDeckModel>();
             foreach (ZombicideGameEnum version in Enum.GetValues(typeof(ZombicideGameEnum)))
             {
                 var zombielist = _cardService.GetDeckZombieFamilyFromVersion(version);

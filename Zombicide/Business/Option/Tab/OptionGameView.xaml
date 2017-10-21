@@ -4,6 +4,7 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:Zombicide.Business.Option.Tab"
+             xmlns:behaviors="clr-namespace:Zombicide.Behavior"
              xmlns:assets="clr-namespace:Zombicide.Assets"
              mc:Ignorable="d" 
              d:DesignHeight="800" d:DesignWidth="800">
@@ -82,12 +83,20 @@
         
        
         <!--Zombie deck-->
-        <StackPanel Grid.Row="1"
-                    Grid.Column="0">
-            <TextBlock Style="{StaticResource Header2Style}"
+        <Grid Grid.Row="2"
+              Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            <TextBlock Grid.Row="0" 
+                       Style="{StaticResource Header2Style}"
                        HorizontalAlignment="Center"
                        Text="{x:Static assets:Translations.ZOMBIE_DECK_TITLE}"/>
-            <ListView ItemsSource="{Binding ZombieDeckList}"
+            <ListView Grid.Row ="1" 
+                      ItemsSource="{Binding ZombieDeckList}"
+                      SelectionMode="Extended"
+                      HorizontalAlignment="Center"
                       IsSynchronizedWithCurrentItem="True">
                 <ListView.View>
                     <GridView>
@@ -95,21 +104,34 @@
                             <GridViewColumn>
                                 <GridViewColumn.CellTemplate>
                                     <DataTemplate>
-                                        <CheckBox IsChecked="{Binding RelativeSource={RelativeSource AncestorType={x:Type ListViewItem}}, Path=IsSelected}" />
+                                        <CheckBox IsChecked="{Binding Path=IsSelected}" />
                                     </DataTemplate>
                                 </GridViewColumn.CellTemplate>
                             </GridViewColumn>
-                            <GridViewColumn DisplayMemberBinding="{Binding Version}" Header="{x:Static assets:Translations.GAME_VERSION}" />
-                            <GridViewColumn DisplayMemberBinding="{Binding ZombieTypeList}" Header="{x:Static assets:Translations.ZOMBIE_TYPE}" />
+                            <GridViewColumn DisplayMemberBinding="{Binding Version}" 
+                                            Header="{x:Static assets:Translations.GAME_VERSION}" />
+                            <GridViewColumn Header="{x:Static assets:Translations.ZOMBIE_TYPE}"
+                                            Width="170">
+                                <GridViewColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <RichTextBox behaviors:RickTextBoxZombieColorBehavior.Text="{Binding ZombieTypeList, UpdateSourceTrigger=PropertyChanged}"
+                                                     BorderThickness="0" 
+                                                     Margin="0" 
+                                                     Padding="0"
+                                                     IsReadOnly="True"/>
+                                    </DataTemplate>
+                                </GridViewColumn.CellTemplate>
+                            </GridViewColumn>
+                            <!--<GridViewColumn DisplayMemberBinding="{Binding ZombieTypeList}" 
+                                            Header="{x:Static assets:Translations.ZOMBIE_TYPE}" />-->
                         </GridView.Columns>
                     </GridView>
                 </ListView.View>
             </ListView>
-
-        </StackPanel>
+        </Grid>
 
         <!--Equipment deck-->
-        <StackPanel Grid.Row="1"
+        <StackPanel Grid.Row="2"
                     Grid.Column="2">
             <TextBlock Style="{StaticResource Header2Style}"
                        HorizontalAlignment="Center"

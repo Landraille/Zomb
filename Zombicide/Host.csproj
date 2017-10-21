@@ -87,6 +87,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Translations.resx</DependentUpon>
     </Compile>
+    <Compile Include="Behavior\RickTextBoxZombieColorBehavior.cs" />
     <Compile Include="Business\Confirm\ConfirmView.xaml.cs">
       <DependentUpon>ConfirmView.xaml</DependentUpon>
     </Compile>
@@ -129,8 +130,10 @@
       <DependentUpon>OptionParameterView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Business\Option\Tab\OptionParameterViewModel.cs" />
+    <Compile Include="Dictionary\ZombieDictionary.cs" />
     <Compile Include="Event\OpenOptionScreenEvent.cs" />
     <Compile Include="Extensions\ExceptionExtension.cs" />
+    <Compile Include="Extensions\RichTextBoxExtensions.cs" />
     <Compile Include="Extensions\ScreenExtension.cs" />
     <Compile Include="Infrastructure\AppBootstrapper.cs" />
     <Compile Include="Infrastructure\IAmSingleton.cs" />
