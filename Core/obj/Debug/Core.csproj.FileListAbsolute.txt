@@ -1,0 +1,4 @@
+C:\Users\Landry\Documents\_Projet\Zombicide\Core\bin\Debug\Core.dll
+C:\Users\Landry\Documents\_Projet\Zombicide\Core\bin\Debug\Core.pdb
+C:\Users\Landry\Documents\_Projet\Zombicide\Core\obj\Debug\Core.dll
+C:\Users\Landry\Documents\_Projet\Zombicide\Core\obj\Debug\Core.pdb

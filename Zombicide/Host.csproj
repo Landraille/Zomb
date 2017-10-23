@@ -135,6 +135,7 @@
     <Compile Include="Extensions\ExceptionExtension.cs" />
     <Compile Include="Extensions\RichTextBoxExtensions.cs" />
     <Compile Include="Extensions\ScreenExtension.cs" />
+    <Compile Include="Extensions\ZombicideGameEnumExtension.cs" />
     <Compile Include="Infrastructure\AppBootstrapper.cs" />
     <Compile Include="Infrastructure\IAmSingleton.cs" />
     <Compile Include="Infrastructure\Ioc\CaliburnModule.cs" />
@@ -274,6 +275,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Core\Core.csproj">
+      <Project>{c6f3db2f-ebf8-46b6-8b2d-69ef2bd667f8}</Project>
+      <Name>Core</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Services\Services.csproj">
       <Project>{A5AF1617-E0D5-453E-9DFE-85872CC4213E}</Project>
       <Name>Services</Name>

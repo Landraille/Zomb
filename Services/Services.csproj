@@ -109,6 +109,10 @@
     <Compile Include="Zombie\ZombieService.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Core\Core.csproj">
+      <Project>{c6f3db2f-ebf8-46b6-8b2d-69ef2bd667f8}</Project>
+      <Name>Core</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Domain\Domain.csproj">
       <Project>{A54E5CE1-8B78-4BBE-9606-8ED5DE58EF30}</Project>
       <Name>Domain</Name>

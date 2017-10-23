@@ -138,3 +138,5 @@ C:\Users\Landry\Documents\_Projet\Zombicide\Zombicide\obj\Debug\Business\Option\
 C:\Users\Landry\Documents\_Projet\Zombicide\Zombicide\obj\Debug\Business\Option\Tab\OptionGameView.baml
 C:\Users\Landry\Documents\_Projet\Zombicide\Zombicide\obj\Debug\Business\Option\Tab\OptionMapView.baml
 C:\Users\Landry\Documents\_Projet\Zombicide\Zombicide\obj\Debug\Business\Option\Tab\OptionParameterView.baml
+C:\Users\Landry\Documents\_Projet\Zombicide\Zombicide\bin\Debug\Core.dll
+C:\Users\Landry\Documents\_Projet\Zombicide\Zombicide\bin\Debug\Core.pdb

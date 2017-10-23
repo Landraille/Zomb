@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
+using Core.GlobalVar;
 using Services.Zombie.dto;
 using Zombicide.Dictionary;
 using Zombicide.Extensions;
@@ -52,14 +53,14 @@ namespace Zombicide.Behavior
                     ZombieFamilyEnum type;
                     if (Enum.TryParse(stringType, out type))
                     {
-                        var color = ZombieDictionary.ZombieColors[type];
-                        if (string.IsNullOrWhiteSpace(color))
-                            color = "BlackBrush";
+                        var brushName = ZombieDictionary.ZombieColors[type];
+                        if (string.IsNullOrWhiteSpace(brushName))
+                            brushName = DesignGlobalVar.DEFAULT_BRUSH;
 
-                        textBox.AppendText(stringType, color);
+                        textBox.AppendText(stringType, brushName);
 
                         if (!stringType.Equals(types.Last()))
-                            textBox.AppendText(", ", "BlackBrush");
+                            textBox.AppendText(", ", DesignGlobalVar.DEFAULT_BRUSH);
                     }
                 }
             }

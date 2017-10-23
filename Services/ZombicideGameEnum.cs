@@ -23,7 +23,8 @@ namespace Services
     {
         Season1, 
         ToxicCityMall, 
-        PrisonOutBreak, 
+        PrisonOutBreak,
+        RueMorgue,
         Vip1,
         Vip2
     }

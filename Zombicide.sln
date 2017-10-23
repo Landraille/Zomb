@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Host", "Zombicide\Host.csproj", "{B77877DF-ED4A-4F35-A668-3A23B11D1E37}"
 EndProject
@@ -10,6 +10,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{A5AF1617-E0D5-453E-9DFE-85872CC4213E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{A54E5CE1-8B78-4BBE-9606-8ED5DE58EF30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{C6F3DB2F-EBF8-46B6-8B2D-69EF2BD667F8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{A54E5CE1-8B78-4BBE-9606-8ED5DE58EF30}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A54E5CE1-8B78-4BBE-9606-8ED5DE58EF30}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A54E5CE1-8B78-4BBE-9606-8ED5DE58EF30}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6F3DB2F-EBF8-46B6-8B2D-69EF2BD667F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6F3DB2F-EBF8-46B6-8B2D-69EF2BD667F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6F3DB2F-EBF8-46B6-8B2D-69EF2BD667F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6F3DB2F-EBF8-46B6-8B2D-69EF2BD667F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

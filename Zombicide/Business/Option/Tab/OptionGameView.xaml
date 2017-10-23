@@ -104,11 +104,12 @@
                             <GridViewColumn>
                                 <GridViewColumn.CellTemplate>
                                     <DataTemplate>
-                                        <CheckBox IsChecked="{Binding Path=IsSelected}" />
+                                        <CheckBox IsChecked="{Binding RelativeSource={RelativeSource AncestorType={x:Type ListViewItem}},
+                                                          Path=IsSelected,Mode=TwoWay}" />
                                     </DataTemplate>
                                 </GridViewColumn.CellTemplate>
                             </GridViewColumn>
-                            <GridViewColumn DisplayMemberBinding="{Binding Version}" 
+                            <GridViewColumn DisplayMemberBinding="{Binding VersionName}" 
                                             Header="{x:Static assets:Translations.GAME_VERSION}" />
                             <GridViewColumn Header="{x:Static assets:Translations.ZOMBIE_TYPE}"
                                             Width="170">

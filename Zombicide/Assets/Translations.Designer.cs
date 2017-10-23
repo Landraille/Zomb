@@ -223,6 +223,132 @@ namespace Zombicide.Assets {
         }
         
         /// <summary>
+        ///   Recherche une chaîne localisée semblable à Angry Neighbors.
+        /// </summary>
+        public static string GAME_NAME_ANGRYNEIGHBORS {
+            get {
+                return ResourceManager.GetString("GAME_NAME_ANGRYNEIGHBORS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Angry Zombies.
+        /// </summary>
+        public static string GAME_NAME_ANGRYZOMBIES {
+            get {
+                return ResourceManager.GetString("GAME_NAME_ANGRYZOMBIES", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Crowz.
+        /// </summary>
+        public static string GAME_NAME_CROWZ {
+            get {
+                return ResourceManager.GetString("GAME_NAME_CROWZ", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Lost Zombivors.
+        /// </summary>
+        public static string GAME_NAME_LOSTZOMBIVORS {
+            get {
+                return ResourceManager.GetString("GAME_NAME_LOSTZOMBIVORS", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Prison Outbreak.
+        /// </summary>
+        public static string GAME_NAME_PRISONOUTBREAK {
+            get {
+                return ResourceManager.GetString("GAME_NAME_PRISONOUTBREAK", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Rue Morgue.
+        /// </summary>
+        public static string GAME_NAME_RUEMORGUE {
+            get {
+                return ResourceManager.GetString("GAME_NAME_RUEMORGUE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Saison 1.
+        /// </summary>
+        public static string GAME_NAME_SEASON1 {
+            get {
+                return ResourceManager.GetString("GAME_NAME_SEASON1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Toxic City Mall.
+        /// </summary>
+        public static string GAME_NAME_TOXICCITYMALL {
+            get {
+                return ResourceManager.GetString("GAME_NAME_TOXICCITYMALL", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Toxic Crowd.
+        /// </summary>
+        public static string GAME_NAME_TOXICCROWD {
+            get {
+                return ResourceManager.GetString("GAME_NAME_TOXICCROWD", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à VIP 1.
+        /// </summary>
+        public static string GAME_NAME_VIP1 {
+            get {
+                return ResourceManager.GetString("GAME_NAME_VIP1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à VIP 2.
+        /// </summary>
+        public static string GAME_NAME_VIP2 {
+            get {
+                return ResourceManager.GetString("GAME_NAME_VIP2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Walk Of The Dead 1.
+        /// </summary>
+        public static string GAME_NAME_WALKOFTHEDEAD1 {
+            get {
+                return ResourceManager.GetString("GAME_NAME_WALKOFTHEDEAD1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Walk Of The Dead 2.
+        /// </summary>
+        public static string GAME_NAME_WALKOFTHEDEAD2 {
+            get {
+                return ResourceManager.GetString("GAME_NAME_WALKOFTHEDEAD2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Zombie Dogz.
+        /// </summary>
+        public static string GAME_NAME_ZOMBIEDOGZ {
+            get {
+                return ResourceManager.GetString("GAME_NAME_ZOMBIEDOGZ", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Recherche une chaîne localisée semblable à Version.
         /// </summary>
         public static string GAME_VERSION {

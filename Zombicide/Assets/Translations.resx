@@ -171,6 +171,48 @@
   <data name="GAME_MODE" xml:space="preserve">
     <value>Mode de jeu</value>
   </data>
+  <data name="GAME_NAME_ANGRYNEIGHBORS" xml:space="preserve">
+    <value>Angry Neighbors</value>
+  </data>
+  <data name="GAME_NAME_ANGRYZOMBIES" xml:space="preserve">
+    <value>Angry Zombies</value>
+  </data>
+  <data name="GAME_NAME_CROWZ" xml:space="preserve">
+    <value>Crowz</value>
+  </data>
+  <data name="GAME_NAME_LOSTZOMBIVORS" xml:space="preserve">
+    <value>Lost Zombivors</value>
+  </data>
+  <data name="GAME_NAME_PRISONOUTBREAK" xml:space="preserve">
+    <value>Prison Outbreak</value>
+  </data>
+  <data name="GAME_NAME_RUEMORGUE" xml:space="preserve">
+    <value>Rue Morgue</value>
+  </data>
+  <data name="GAME_NAME_SEASON1" xml:space="preserve">
+    <value>Saison 1</value>
+  </data>
+  <data name="GAME_NAME_TOXICCITYMALL" xml:space="preserve">
+    <value>Toxic City Mall</value>
+  </data>
+  <data name="GAME_NAME_TOXICCROWD" xml:space="preserve">
+    <value>Toxic Crowd</value>
+  </data>
+  <data name="GAME_NAME_VIP1" xml:space="preserve">
+    <value>VIP 1</value>
+  </data>
+  <data name="GAME_NAME_VIP2" xml:space="preserve">
+    <value>VIP 2</value>
+  </data>
+  <data name="GAME_NAME_WALKOFTHEDEAD1" xml:space="preserve">
+    <value>Walk Of The Dead 1</value>
+  </data>
+  <data name="GAME_NAME_WALKOFTHEDEAD2" xml:space="preserve">
+    <value>Walk Of The Dead 2</value>
+  </data>
+  <data name="GAME_NAME_ZOMBIEDOGZ" xml:space="preserve">
+    <value>Zombie Dogz</value>
+  </data>
   <data name="GAME_VERSION" xml:space="preserve">
     <value>Version</value>
   </data>
