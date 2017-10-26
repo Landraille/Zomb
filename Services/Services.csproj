@@ -36,6 +36,9 @@
     <Reference Include="Common.Logging.Core, Version=3.4.1.0, Culture=neutral, PublicKeyToken=af08829b84f0328e, processorArchitecture=MSIL">
       <HintPath>..\packages\Common.Logging.Core.3.4.1\lib\net40\Common.Logging.Core.dll</HintPath>
     </Reference>
+    <Reference Include="Newtonsoft.Json, Version=10.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.10.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -46,16 +49,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CardService\Dto\Card.cs" />
-    <Compile Include="CardService\Dto\Equipment.cs" />
-    <Compile Include="CardService\Dto\MeleeWeapon.cs" />
-    <Compile Include="CardService\Dto\MixWeapon.cs" />
-    <Compile Include="CardService\Dto\RangedWeapon.cs" />
-    <Compile Include="CardService\Dto\ZombieCard.cs" />
-    <Compile Include="Character\Character.cs" />
+    <Compile Include="CardService\Dto\CardDto.cs" />
+    <Compile Include="CardService\Dto\EquipmentDto.cs" />
+    <Compile Include="CardService\Dto\MeleeWeaponDto.cs" />
+    <Compile Include="CardService\Dto\MixWeaponDto.cs" />
+    <Compile Include="CardService\Dto\RangedWeaponDto.cs" />
+    <Compile Include="CardService\Dto\ZombieCardDto.cs" />
+    <Compile Include="Character\CharacterDto.cs" />
     <Compile Include="Character\CharacterActionNumber.cs" />
-    <Compile Include="Character\CharacterEquipment.cs" />
-    <Compile Include="Character\CharacterPower.cs" />
+    <Compile Include="Character\CharacterEquipmentDto.cs" />
+    <Compile Include="Character\CharacterPowerDto.cs" />
     <Compile Include="Character\PowerEnum.cs" />
     <Compile Include="Character\TagEnum.cs" />
     <Compile Include="Extension\ZombieTypeEnumExtension.cs" />

@@ -1,0 +1,13 @@
+{
+  "Name": "CROWBAR",
+  "InDeck": true,
+  "Dice": 1,
+  "MinDiceResult": 4,
+  "Damage": 1,
+  "CanOpenDoor": true,
+  "CanOpenDoorSilently": true,
+  "CanKillSilently": true,
+  "CanBeDual": false,
+  "IsPimpWeapon": false,
+  "IsUltraRedWeapon": false
+}

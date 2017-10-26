@@ -40,11 +40,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Card\Equipment\EquipmentDomain.cs" />
+    <Compile Include="Card\Weapon\MeleeWeapon\MeleeWeaponDomain.cs" />
+    <Compile Include="Card\Weapon\MixWeapon\MixWeaponDomain.cs" />
+    <Compile Include="Card\Weapon\RangedWeapon\RangedWeaponDomain.cs" />
+    <Compile Include="Card\Weapon\WeaponDomain.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Character\" />
-    <Folder Include="Equipment\" />
     <Folder Include="Map\" />
     <Folder Include="Zombie\" />
   </ItemGroup>
@@ -53,6 +57,213 @@
       <Project>{c6f3db2f-ebf8-46b6-8b2d-69ef2bd667f8}</Project>
       <Name>Core</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Equipment\AAAH.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Equipment\RICE.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Equipment\FOOD.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Equipment\FLASHLIGHT.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Equipment\GASOLINE.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Equipment\GLASSBOTTLE.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Equipment\GOALIEMASK.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Equipment\PLENTY_AMMO_BULLET.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Equipment\PLENTY_AMMO_SHOTGUN.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Equipment\SCOPE.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Equipment\WATER.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Equipment\COOKIES.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Equipment\GASMASK.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Equipment\HOLLOW_POINT_ROUNDS.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Equipment\LASER_POINTER.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Equipment\SPARE_CHANGE.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Equipment\NAILS.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Equipment\RIOT_SHIELD.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Equipment\BULLETPROOF_VEST.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Weapon\MeleeWeapon\BASEBALL_BAT.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Weapon\MeleeWeapon\CHAINSAW.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Weapon\MeleeWeapon\KATANA.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Weapon\MeleeWeapon\MACHETE.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Weapon\MeleeWeapon\PAN.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Weapon\MeleeWeapon\CROWBAR.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Weapon\MeleeWeapon\FIREAXE.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Weapon\MeleeWeapon\BETTY.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Weapon\MeleeWeapon\NEDS_FLASHLIGHT.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Weapon\MeleeWeapon\CONCRETE_SAW.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Weapon\MeleeWeapon\HATCHET.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Weapon\MeleeWeapon\KUKRI.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Weapon\MeleeWeapon\MEAT_CLEAVER.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Weapon\MeleeWeapon\WAKIZACHI.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Weapon\MeleeWeapon\CLAW_HAMMER.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Weapon\MeleeWeapon\NIGHT_STICK.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Weapon\MeleeWeapon\NAILBAT.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Weapon\MeleeWeapon\DAISHO.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Weapon\MeleeWeapon\KNIFE.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Weapon\MeleeWeapon\SABER.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Weapon\MeleeWeapon\SWORD.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Weapon\MeleeWeapon\URBAN_MACE.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Weapon\MixWeapon\MA_SHOTGUN.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Weapon\MixWeapon\SWEET_SISTERS.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Weapon\MixWeapon\GUNBLADE.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Weapon\RangedWeapon\PISTOL.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Weapon\RangedWeapon\RIFLE.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Weapon\RangedWeapon\SAWED_OFF.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Weapon\RangedWeapon\SHOTGUN.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Weapon\RangedWeapon\SUBMG.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Weapon\RangedWeapon\MOLOTOV.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Weapon\RangedWeapon\EVILTWIN.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Weapon\RangedWeapon\MAGNUM44.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Weapon\RangedWeapon\ASSAULT_RIFLE.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Weapon\RangedWeapon\FLAMETHROWER.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Weapon\RangedWeapon\PAS_GUN.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Weapon\RangedWeapon\SPECIAL911.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Weapon\RangedWeapon\DOUGS_DREAM.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Weapon\RangedWeapon\JACK_JILL.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Weapon\RangedWeapon\AUTOMATIC_SHOTGUN.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Weapon\RangedWeapon\GOLDEN_AK47.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Weapon\RangedWeapon\PINK_M4.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Weapon\RangedWeapon\SPAS12.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Weapon\RangedWeapon\DESERT_EAGLE.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Weapon\RangedWeapon\THOMPSON.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Weapon\RangedWeapon\AK47.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Weapon\RangedWeapon\DOUBLE_BARREL.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Weapon\RangedWeapon\MAC10.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Weapon\RangedWeapon\MP5.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Weapon\RangedWeapon\BOW.json" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

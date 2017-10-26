@@ -1,0 +1,13 @@
+{
+  "Name": "PAN",
+  "InDeck": true,
+  "Dice": 1,
+  "MinDiceResult": 6,
+  "Damage": 1,
+  "CanOpenDoor": false,
+  "CanOpenDoorSilently": false,
+  "CanKillSilently": true,
+  "CanBeDual": false,
+  "IsPimpWeapon": false,
+  "IsUltraRedWeapon": false
+}

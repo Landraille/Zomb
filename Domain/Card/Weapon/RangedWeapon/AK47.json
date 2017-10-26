@@ -1,0 +1,14 @@
+{
+  "Name": "AK47",
+  "InDeck": true,
+  "MinRange": 1,
+  "MaxRange": 2,
+  "Dice": 2,
+  "MinDiceResult": 4,
+  "Damage": 2,
+  "CanKillSilently": false,
+  "CanBeDual": false,
+  "HasToReload": false,
+  "IsPimpWeapon": false,
+  "IsUltraRedWeapon": false
+}

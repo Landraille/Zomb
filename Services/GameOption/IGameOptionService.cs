@@ -4,7 +4,7 @@ namespace Services.GameOption
 {
     public interface IGameOptionService
     {
-        List<Character.Character> GetCharacters(List<ZombicideGameEnum> zombicideGames, bool withZombie = false);
+        List<Character.CharacterDto> GetCharacters(List<ZombicideGameEnum> zombicideGames, bool withZombie = false);
 
     }
 }

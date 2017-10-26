@@ -1,0 +1,13 @@
+{
+  "Name": "BETTY",
+  "InDeck": false,
+  "Dice": 7,
+  "MinDiceResult": 4,
+  "Damage": 2,
+  "CanOpenDoor": true,
+  "CanOpenDoorSilently": false,
+  "CanKillSilently": false,
+  "CanBeDual": false,
+  "IsPimpWeapon": false,
+  "IsUltraRedWeapon": true
+}

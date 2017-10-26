@@ -6,11 +6,11 @@ namespace Services.CardService
 {
     public interface ICardService
     {
-        List<ZombieCard> GetZombieDeck(List<ZombicideGameEnum> zombicideGames = null);
+        List<ZombieCardDto> GetZombieDeck(List<ZombicideGameEnum> zombicideGames = null);
 
-        List<Equipment> GetEquimentDeck(List<ZombicideGameEnum> zombicideGames = null);
+        List<EquipmentDto> GetEquimentDeck(List<ZombicideGameEnum> zombicideGames = null);
 
-        Card DrawCard(List<Card> deck);
+        CardDto DrawCard(List<CardDto> deck);
 
         List<ZombieFamilyEnum> GetDeckZombieFamilyFromVersion(ZombicideGameEnum version);
     }

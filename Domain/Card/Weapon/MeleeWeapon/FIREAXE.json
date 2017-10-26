@@ -1,0 +1,13 @@
+{
+  "Name": "FIREAXE",
+  "InDeck": true,
+  "Dice": 1,
+  "MinDiceResult": 4,
+  "Damage": 2,
+  "CanOpenDoor": true,
+  "CanOpenDoorSilently": false,
+  "CanKillSilently": true,
+  "CanBeDual": false,
+  "IsPimpWeapon": false,
+  "IsUltraRedWeapon": false
+}

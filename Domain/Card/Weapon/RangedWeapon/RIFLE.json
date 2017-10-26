@@ -1,0 +1,14 @@
+{
+  "Name": "RIFLE",
+  "InDeck": true,
+  "MinRange": 1,
+  "MaxRange": 3,
+  "Dice": 1,
+  "MinDiceResult": 3,
+  "Damage": 1,
+  "CanKillSilently": false,
+  "CanBeDual": false,
+  "HasToReload": false,
+  "IsPimpWeapon": false,
+  "IsUltraRedWeapon": false
+}

@@ -30,3 +30,5 @@ C:\Users\Landry\Documents\_Projet\Zombicide\Services\obj\Debug\Services.dll
 C:\Users\Landry\Documents\_Projet\Zombicide\Services\obj\Debug\Services.pdb
 C:\Users\Landry\Documents\_Projet\Zombicide\Services\bin\Debug\Core.dll
 C:\Users\Landry\Documents\_Projet\Zombicide\Services\bin\Debug\Core.pdb
+C:\Users\Landry\Documents\_Projet\Zombicide\Services\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Landry\Documents\_Projet\Zombicide\Services\bin\Debug\Newtonsoft.Json.xml

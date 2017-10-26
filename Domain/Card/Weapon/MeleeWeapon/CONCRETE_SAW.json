@@ -1,0 +1,13 @@
+{
+  "Name": "CONCRETE_SAW",
+  "InDeck": true,
+  "Dice": 3,
+  "MinDiceResult": 5,
+  "Damage": 3,
+  "CanOpenDoor": true,
+  "CanOpenDoorSilently": false,
+  "CanKillSilently": false,
+  "CanBeDual": false,
+  "IsPimpWeapon": false,
+  "IsUltraRedWeapon": false
+}

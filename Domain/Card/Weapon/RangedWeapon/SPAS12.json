@@ -1,0 +1,14 @@
+{
+  "Name": "SPAS12",
+  "InDeck": false,
+  "MinRange": 0,
+  "MaxRange": 1,
+  "Dice": 3,
+  "MinDiceResult": 4,
+  "Damage": 2,
+  "CanKillSilently": false,
+  "CanBeDual": false,
+  "HasToReload": false,
+  "IsPimpWeapon": true,
+  "IsUltraRedWeapon": false
+}

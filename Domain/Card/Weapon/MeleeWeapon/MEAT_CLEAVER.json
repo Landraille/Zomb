@@ -1,0 +1,13 @@
+{
+  "Name": "MEAT_CLEAVER",
+  "InDeck": true,
+  "Dice": 1,
+  "MinDiceResult": 3,
+  "Damage": 2,
+  "CanOpenDoor": false,
+  "CanOpenDoorSilently": false,
+  "CanKillSilently": true,
+  "CanBeDual": true,
+  "IsPimpWeapon": false,
+  "IsUltraRedWeapon": false
+}

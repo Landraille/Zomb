@@ -1,0 +1,13 @@
+{
+  "Name": "CLAW_HAMMER",
+  "InDeck": true,
+  "Dice": 3,
+  "MinDiceResult": 5,
+  "Damage": 1,
+  "CanOpenDoor": true,
+  "CanOpenDoorSilently": true,
+  "CanKillSilently": true,
+  "CanBeDual": true,
+  "IsPimpWeapon": false,
+  "IsUltraRedWeapon": false
+}

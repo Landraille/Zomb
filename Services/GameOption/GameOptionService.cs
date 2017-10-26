@@ -7,12 +7,12 @@ namespace Services.GameOption
     public class GameOptionService : IGameOptionService
     {
         #region Create all Characters
-        private List<Character.Character> CreateAllCharacters()
+        private List<Character.CharacterDto> CreateAllCharacters()
         {
-            var list = new List<Character.Character>();
+            var list = new List<Character.CharacterDto>();
 
             //ADAM
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "Adam",
                 Tags = new List<TagEnum>
@@ -24,7 +24,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/Adam.jpg",
                 Image = "/Library;component/Image/Character/Adam.jpg",
                 IdImage = "/Library;component/Image/IdImage/Adam.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -41,7 +41,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.AngryNeighbors
             });
 
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "AdamZ",
                 Tags = new List<TagEnum>
@@ -52,7 +52,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/AdamZombie.jpg",
                 Image = "/Library;component/Image/Character/AdamZombie.jpg",
                 IdImage = "/Library;component/Image/IdImage/AdamZombie.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -70,7 +70,7 @@ namespace Services.GameOption
             });
 
             //AMY
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "Amy",
                 Tags = new List<TagEnum>
@@ -82,7 +82,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/Amy.jpg",
                 Image = "/Library;component/Image/Character/Amy.jpg",
                 IdImage = "/Library;component/Image/IdImage/Amy.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -99,7 +99,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.Season1
             });
 
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "AmyZ",
                 Tags = new List<TagEnum>
@@ -112,7 +112,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/AmyZombie.jpg",
                 Image = "/Library;component/Image/Character/AmyZombie.jpg",
                 IdImage = "/Library;component/Image/IdImage/AmyZombie.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -130,7 +130,7 @@ namespace Services.GameOption
             });
 
             //BEAR
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "Bear",
                 Tags = new List<TagEnum>
@@ -142,7 +142,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/Bear.jpg",
                 Image = "/Library;component/Image/Character/Bear.jpg",
                 IdImage = "/Library;component/Image/IdImage/Bear.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -159,7 +159,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.RueMorgue
             });
 
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "BearZ",
                 Tags = new List<TagEnum>
@@ -171,7 +171,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/BearZombie.jpg",
                 Image = "/Library;component/Image/Character/BearZombie.jpg",
                 IdImage = "/Library;component/Image/IdImage/BearZombie.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -189,7 +189,7 @@ namespace Services.GameOption
             });
 
             //BELLE
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "Belle",
                 Tags = new List<TagEnum>
@@ -201,7 +201,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/Belle.jpg",
                 Image = "/Library;component/Image/Character/Belle.jpg",
                 IdImage = "/Library;component/Image/IdImage/Belle.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -218,7 +218,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.PrisonOutBreak
             });
 
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "BelleZ",
                 Tags = new List<TagEnum>
@@ -229,7 +229,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/BelleZombie.jpg",
                 Image = "/Library;component/Image/Character/BelleZombie.jpg",
                 IdImage = "/Library;component/Image/IdImage/BelleZombie.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -247,7 +247,7 @@ namespace Services.GameOption
             });
 
             //Cathy
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "Cathy",
                 Tags = new List<TagEnum>
@@ -259,7 +259,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/Cathy.jpg",
                 Image = "/Library;component/Image/Character/Cathy.jpg",
                 IdImage = "/Library;component/Image/IdImage/Cathy.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -276,7 +276,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.RueMorgue
             });
 
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "CathyZ",
                 Tags = new List<TagEnum>
@@ -288,7 +288,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/CathyZombie.jpg",
                 Image = "/Library;component/Image/Character/CathyZombie.jpg",
                 IdImage = "/Library;component/Image/IdImage/CathyZombie.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -306,7 +306,7 @@ namespace Services.GameOption
             });
 
             //Dan
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "Dan",
                 Tags = new List<TagEnum>
@@ -318,7 +318,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/Dan.jpg",
                 Image = "/Library;component/Image/Character/Dan.jpg",
                 IdImage = "/Library;component/Image/IdImage/Dan.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -336,7 +336,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.RueMorgue
             });
 
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "DanZ",
                 Tags = new List<TagEnum>
@@ -348,7 +348,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/DanZombie.jpg",
                 Image = "/Library;component/Image/Character/DanZombie.jpg",
                 IdImage = "/Library;component/Image/IdImage/DanZombie.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -367,7 +367,7 @@ namespace Services.GameOption
             });
 
             //Derek
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "Derek",
                 Tags = new List<TagEnum>
@@ -378,7 +378,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/Derek.jpg",
                 Image = "/Library;component/Image/Character/Derek.jpg",
                 IdImage = "/Library;component/Image/IdImage/Derek.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -395,7 +395,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.ToxicCityMall
             });
 
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "DerekZ",
                 Tags = new List<TagEnum>
@@ -406,7 +406,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/DerekZombie.jpg",
                 Image = "/Library;component/Image/Character/DerekZombie.jpg",
                 IdImage = "/Library;component/Image/IdImage/DerekZombie.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -424,7 +424,7 @@ namespace Services.GameOption
             });
 
             //Doug
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "Doug",
                 Tags = new List<TagEnum>
@@ -435,7 +435,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/Doug.jpg",
                 Image = "/Library;component/Image/Character/Doug.jpg",
                 IdImage = "/Library;component/Image/IdImage/Doug.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -452,7 +452,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.Season1
             });
 
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "DougZ",
                 Tags = new List<TagEnum>
@@ -463,7 +463,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/DougZombie.jpg",
                 Image = "/Library;component/Image/Character/DougZombie.jpg",
                 IdImage = "/Library;component/Image/IdImage/DougZombie.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -481,7 +481,7 @@ namespace Services.GameOption
             });
 
             //Elsa
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "Elsa",
                 Tags = new List<TagEnum>
@@ -494,7 +494,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/Elsa.jpg",
                 Image = "/Library;component/Image/Character/Elsa.jpg",
                 IdImage = "/Library;component/Image/IdImage/Elsa.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -511,7 +511,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.ToxicCityMall
             });
 
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "ElsaZ",
                 Tags = new List<TagEnum>
@@ -523,7 +523,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/ElsaZombie.jpg",
                 Image = "/Library;component/Image/Character/ElsaZombie.jpg",
                 IdImage = "/Library;component/Image/IdImage/ElsaZombie.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -541,7 +541,7 @@ namespace Services.GameOption
             });
 
             //Grindlock
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "Grindlock",
                 Tags = new List<TagEnum>
@@ -553,7 +553,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/Grindlock.jpg",
                 Image = "/Library;component/Image/Character/Grindlock.jpg",
                 IdImage = "/Library;component/Image/IdImage/Grindlock.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -570,7 +570,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.PrisonOutBreak
             });
 
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "GrindlockZ",
                 Tags = new List<TagEnum>
@@ -581,7 +581,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/GrindlockZombie.jpg",
                 Image = "/Library;component/Image/Character/GrindlockZombie.jpg",
                 IdImage = "/Library;component/Image/IdImage/GrindlockZombie.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -599,7 +599,7 @@ namespace Services.GameOption
             });
 
             //James
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "James",
                 Tags = new List<TagEnum>
@@ -610,7 +610,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/James.jpg",
                 Image = "/Library;component/Image/Character/James.jpg",
                 IdImage = "/Library;component/Image/IdImage/James.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -628,7 +628,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.RueMorgue
             });
 
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "JamesZ",
                 Tags = new List<TagEnum>
@@ -639,7 +639,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/JamesZombie.jpg",
                 Image = "/Library;component/Image/Character/JamesZombie.jpg",
                 IdImage = "/Library;component/Image/IdImage/JamesZombie.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -658,7 +658,7 @@ namespace Services.GameOption
             });
 
             //Jane
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "Jane",
                 Tags = new List<TagEnum>
@@ -669,7 +669,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/Jane.jpg",
                 Image = "/Library;component/Image/Character/Jane.jpg",
                 IdImage = "/Library;component/Image/IdImage/Jane.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -686,7 +686,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.RueMorgue
             });
 
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "JaneZ",
                 Tags = new List<TagEnum>
@@ -697,7 +697,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/JaneZombie.jpg",
                 Image = "/Library;component/Image/Character/JaneZombie.jpg",
                 IdImage = "/Library;component/Image/IdImage/JaneZombie.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -715,7 +715,7 @@ namespace Services.GameOption
             });
 
             //Jeff
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "Jeff",
                 Tags = new List<TagEnum>
@@ -726,7 +726,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/Jeff.jpg",
                 Image = "/Library;component/Image/Character/Jeff.jpg",
                 IdImage = "/Library;component/Image/IdImage/Jeff.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -743,7 +743,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.AngryNeighbors
             });
 
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "JeffZ",
                 Tags = new List<TagEnum>
@@ -754,7 +754,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/JeffZombie.jpg",
                 Image = "/Library;component/Image/Character/JeffZombie.jpg",
                 IdImage = "/Library;component/Image/IdImage/JeffZombie.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -772,7 +772,7 @@ namespace Services.GameOption
             });
 
             //Joe
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "Joe",
                 Tags = new List<TagEnum>
@@ -784,7 +784,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/Joe.jpg",
                 Image = "/Library;component/Image/Character/Joe.jpg",
                 IdImage = "/Library;component/Image/IdImage/Joe.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -801,7 +801,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.RueMorgue
             });
 
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "JoeZ",
                 Tags = new List<TagEnum>
@@ -813,7 +813,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/JoeZombie.jpg",
                 Image = "/Library;component/Image/Character/JoeZombie.jpg",
                 IdImage = "/Library;component/Image/IdImage/JoeZombie.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -831,7 +831,7 @@ namespace Services.GameOption
             });
 
             //Josh
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "Josh",
                 Tags = new List<TagEnum>
@@ -843,7 +843,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/Josh.jpg",
                 Image = "/Library;component/Image/Character/Josh.jpg",
                 IdImage = "/Library;component/Image/IdImage/Josh.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -860,7 +860,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.Season1
             });
 
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "JoshZ",
                 Tags = new List<TagEnum>
@@ -873,7 +873,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/JoshZombie.jpg",
                 Image = "/Library;component/Image/Character/JoshZombie.jpg",
                 IdImage = "/Library;component/Image/IdImage/JoshZombie.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -891,7 +891,7 @@ namespace Services.GameOption
             });
 
             //Joshua
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "Joshua",
                 Tags = new List<TagEnum>
@@ -903,7 +903,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/Joshua.jpg",
                 Image = "/Library;component/Image/Character/Joshua.jpg",
                 IdImage = "/Library;component/Image/IdImage/Joshua.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -920,7 +920,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.PrisonOutBreak
             });
 
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "JoshuaZ",
                 Tags = new List<TagEnum>
@@ -932,7 +932,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/JoshuaZombie.jpg",
                 Image = "/Library;component/Image/Character/JoshuaZombie.jpg",
                 IdImage = "/Library;component/Image/IdImage/JoshuaZombie.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -950,7 +950,7 @@ namespace Services.GameOption
             });
 
             //Julien
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "Julien",
                 Tags = new List<TagEnum>
@@ -961,7 +961,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/Julien.jpg",
                 Image = "/Library;component/Image/Character/Julien.jpg",
                 IdImage = "/Library;component/Image/IdImage/Julien.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -978,7 +978,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.AngryNeighbors
             });
 
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "JulienZ",
                 Tags = new List<TagEnum>
@@ -989,7 +989,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/JulienZombie.jpg",
                 Image = "/Library;component/Image/Character/JulienZombie.jpg",
                 IdImage = "/Library;component/Image/IdImage/JulienZombie.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -1007,7 +1007,7 @@ namespace Services.GameOption
             });
 
             //Kim
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "Kim",
                 Tags = new List<TagEnum>
@@ -1019,7 +1019,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/Kim.jpg",
                 Image = "/Library;component/Image/Character/Kim.jpg",
                 IdImage = "/Library;component/Image/IdImage/Kim.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -1036,7 +1036,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.PrisonOutBreak
             });
 
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "KimZ",
                 Tags = new List<TagEnum>
@@ -1048,7 +1048,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/KimZombie.jpg",
                 Image = "/Library;component/Image/Character/KimZombie.jpg",
                 IdImage = "/Library;component/Image/IdImage/KimZombie.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -1066,7 +1066,7 @@ namespace Services.GameOption
             });
 
             //Laurie
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "Laurie",
                 Tags = new List<TagEnum>
@@ -1077,7 +1077,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/Laurie.jpg",
                 Image = "/Library;component/Image/Character/Laurie.jpg",
                 IdImage = "/Library;component/Image/IdImage/Laurie.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -1094,7 +1094,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.RueMorgue
             });
 
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "LaurieZ",
                 Tags = new List<TagEnum>
@@ -1105,7 +1105,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/LaurieZombie.jpg",
                 Image = "/Library;component/Image/Character/LaurieZombie.jpg",
                 IdImage = "/Library;component/Image/IdImage/LaurieZombie.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -1123,7 +1123,7 @@ namespace Services.GameOption
             });
 
             //Louise
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "Louise",
                 Tags = new List<TagEnum>
@@ -1134,7 +1134,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/Louise.jpg",
                 Image = "/Library;component/Image/Character/Louise.jpg",
                 IdImage = "/Library;component/Image/IdImage/Louise.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -1152,7 +1152,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.RueMorgue
             });
 
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "LouiseZ",
                 Tags = new List<TagEnum>
@@ -1164,7 +1164,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/LouiseZombie.jpg",
                 Image = "/Library;component/Image/Character/LouiseZombie.jpg",
                 IdImage = "/Library;component/Image/IdImage/LouiseZombie.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -1183,7 +1183,7 @@ namespace Services.GameOption
             });
 
             //Maddie
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "Maddie",
                 Tags = new List<TagEnum>
@@ -1194,7 +1194,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/Maddie.jpg",
                 Image = "/Library;component/Image/Character/Maddie.jpg",
                 IdImage = "/Library;component/Image/IdImage/Maddie.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -1211,7 +1211,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.RueMorgue
             });
 
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "MaddieZ",
                 Tags = new List<TagEnum>
@@ -1222,7 +1222,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/MaddieZombie.jpg",
                 Image = "/Library;component/Image/Character/MaddieZombie.jpg",
                 IdImage = "/Library;component/Image/IdImage/MaddieZombie.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -1241,7 +1241,7 @@ namespace Services.GameOption
 
 
             //Ned
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "Ned",
                 Tags = new List<TagEnum>
@@ -1253,7 +1253,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/Ned.jpg",
                 Image = "/Library;component/Image/Character/Ned.jpg",
                 IdImage = "/Library;component/Image/IdImage/Ned.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -1270,7 +1270,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.Season1
             });
 
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "NedZ",
                 Tags = new List<TagEnum>
@@ -1282,7 +1282,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/NedZombie.jpg",
                 Image = "/Library;component/Image/Character/NedZombie.jpg",
                 IdImage = "/Library;component/Image/IdImage/NedZombie.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -1300,7 +1300,7 @@ namespace Services.GameOption
             });
 
             //Neema
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "Neema",
                 Tags = new List<TagEnum>
@@ -1312,7 +1312,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/Neema.jpg",
                 Image = "/Library;component/Image/Character/Neema.jpg",
                 IdImage = "/Library;component/Image/IdImage/Neema.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -1329,7 +1329,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.ToxicCityMall
             });
 
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "NeemaZ",
                 Tags = new List<TagEnum>
@@ -1340,7 +1340,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/NeemaZombie.jpg",
                 Image = "/Library;component/Image/Character/NeemaZombie.jpg",
                 IdImage = "/Library;component/Image/IdImage/NeemaZombie.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -1358,7 +1358,7 @@ namespace Services.GameOption
             });
 
             //Parker
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "Parker",
                 Tags = new List<TagEnum>
@@ -1370,7 +1370,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/Parker.jpg",
                 Image = "/Library;component/Image/Character/Parker.jpg",
                 IdImage = "/Library;component/Image/IdImage/Parker.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -1388,7 +1388,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.RueMorgue
             });
 
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "ParkerZ",
                 Tags = new List<TagEnum>
@@ -1400,7 +1400,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/ParkerZombie.jpg",
                 Image = "/Library;component/Image/Character/ParkerZombie.jpg",
                 IdImage = "/Library;component/Image/IdImage/ParkerZombie.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -1419,7 +1419,7 @@ namespace Services.GameOption
             });
 
             //Phil
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "Phil",
                 Tags = new List<TagEnum>
@@ -1430,7 +1430,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/Phil.jpg",
                 Image = "/Library;component/Image/Character/Phil.jpg",
                 IdImage = "/Library;component/Image/IdImage/Phil.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -1447,7 +1447,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.Season1
             });
 
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "PhilZ",
                 Tags = new List<TagEnum>
@@ -1458,7 +1458,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/PhilZombie.jpg",
                 Image = "/Library;component/Image/Character/PhilZombie.jpg",
                 IdImage = "/Library;component/Image/IdImage/PhilZombie.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -1476,7 +1476,7 @@ namespace Services.GameOption
             });
 
             //Raoul
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "Raoul",
                 Tags = new List<TagEnum>
@@ -1487,7 +1487,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/Raoul.jpg",
                 Image = "/Library;component/Image/Character/Raoul.jpg",
                 IdImage = "/Library;component/Image/IdImage/Raoul.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -1504,7 +1504,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.ToxicCityMall
             });
 
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "RaoulZ",
                 Tags = new List<TagEnum>
@@ -1515,7 +1515,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/RaoulZombie.jpg",
                 Image = "/Library;component/Image/Character/RaoulZombie.jpg",
                 IdImage = "/Library;component/Image/IdImage/RaoulZombie.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -1533,7 +1533,7 @@ namespace Services.GameOption
             });
 
             //Shannon
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "Shannon",
                 Tags = new List<TagEnum>
@@ -1544,7 +1544,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/Shannon.jpg",
                 Image = "/Library;component/Image/Character/Shannon.jpg",
                 IdImage = "/Library;component/Image/IdImage/Shannon.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -1561,7 +1561,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.PrisonOutBreak
             });
 
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "ShannonZ",
                 Tags = new List<TagEnum>
@@ -1572,7 +1572,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/ShannonZombie.jpg",
                 Image = "/Library;component/Image/Character/ShannonZombie.jpg",
                 IdImage = "/Library;component/Image/IdImage/ShannonZombie.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -1590,7 +1590,7 @@ namespace Services.GameOption
             });
 
             //Terry
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "Terry",
                 Tags = new List<TagEnum>
@@ -1601,7 +1601,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/Terry.jpg",
                 Image = "/Library;component/Image/Character/Terry.jpg",
                 IdImage = "/Library;component/Image/IdImage/Terry.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -1619,7 +1619,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.RueMorgue
             });
 
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "TerryZ",
                 Tags = new List<TagEnum>
@@ -1630,7 +1630,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/TerryZombie.jpg",
                 Image = "/Library;component/Image/Character/TerryZombie.jpg",
                 IdImage = "/Library;component/Image/IdImage/TerryZombie.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -1649,7 +1649,7 @@ namespace Services.GameOption
             });
 
             //Tiff
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "Tiff",
                 Tags = new List<TagEnum>
@@ -1660,7 +1660,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/Tiff.jpg",
                 Image = "/Library;component/Image/Character/Tiff.jpg",
                 IdImage = "/Library;component/Image/IdImage/Tiff.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -1677,7 +1677,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.AngryNeighbors
             });
 
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "TiffZ",
                 Tags = new List<TagEnum>
@@ -1688,7 +1688,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/TiffZombie.jpg",
                 Image = "/Library;component/Image/Character/TiffZombie.jpg",
                 IdImage = "/Library;component/Image/IdImage/TiffZombie.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -1708,7 +1708,7 @@ namespace Services.GameOption
             });
 
             //Travis
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "Travis",
                 Tags = new List<TagEnum>
@@ -1720,7 +1720,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/Travis.jpg",
                 Image = "/Library;component/Image/Character/Travis.jpg",
                 IdImage = "/Library;component/Image/IdImage/Travis.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -1738,7 +1738,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.RueMorgue
             });
 
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "TravisZ",
                 Tags = new List<TagEnum>
@@ -1750,7 +1750,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/TravisZombie.jpg",
                 Image = "/Library;component/Image/Character/TravisZombie.jpg",
                 IdImage = "/Library;component/Image/IdImage/TravisZombie.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -1769,7 +1769,7 @@ namespace Services.GameOption
             });
 
             //Wanda
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "Wanda",
                 Tags = new List<TagEnum>
@@ -1780,7 +1780,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/Wanda.jpg",
                 Image = "/Library;component/Image/Character/Wanda.jpg",
                 IdImage = "/Library;component/Image/IdImage/Wanda.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -1797,7 +1797,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.Season1
             });
 
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "WandaZ",
                 Tags = new List<TagEnum>
@@ -1809,7 +1809,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/WandaZombie.jpg",
                 Image = "/Library;component/Image/Character/WandaZombie.jpg",
                 IdImage = "/Library;component/Image/IdImage/WandaZombie.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -1827,7 +1827,7 @@ namespace Services.GameOption
             });
 
             //Watts
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "Watts",
                 Tags = new List<TagEnum>
@@ -1838,7 +1838,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/Watts.jpg",
                 Image = "/Library;component/Image/Character/Watts.jpg",
                 IdImage = "/Library;component/Image/IdImage/Watts.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -1855,7 +1855,7 @@ namespace Services.GameOption
                 ZombicideGame = ZombicideGameEnum.PrisonOutBreak
             });
 
-            list.Add(new Character.Character
+            list.Add(new Character.CharacterDto
             {
                 Name = "WattsZ",
                 Tags = new List<TagEnum>
@@ -1866,7 +1866,7 @@ namespace Services.GameOption
                 BoardImage = "/Library;component/Image/Board/WattsZombie.jpg",
                 Image = "/Library;component/Image/Character/WattsZombie.jpg",
                 IdImage = "/Library;component/Image/IdImage/WattsZombie.jpg",
-                Powers = new CharacterPower
+                Powers = new CharacterPowerDto
                 {
                     BluePower = new List<PowerEnum>
                     {
@@ -1887,7 +1887,7 @@ namespace Services.GameOption
         }
         #endregion
 
-        public List<Character.Character> GetCharacters(List<ZombicideGameEnum> zombicideGames, bool withZombie = false)
+        public List<Character.CharacterDto> GetCharacters(List<ZombicideGameEnum> zombicideGames, bool withZombie = false)
         {
             var list = CreateAllCharacters();
 

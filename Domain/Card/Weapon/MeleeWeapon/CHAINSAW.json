@@ -1,0 +1,13 @@
+{
+  "Name": "CHAINSAW",
+  "InDeck": true,
+  "Dice": 5,
+  "MinDiceResult": 5,
+  "Damage": 2,
+  "CanOpenDoor": true,
+  "CanOpenDoorSilently": false,
+  "CanKillSilently": false,
+  "CanBeDual": false,
+  "IsPimpWeapon": false,
+  "IsUltraRedWeapon": false
+}

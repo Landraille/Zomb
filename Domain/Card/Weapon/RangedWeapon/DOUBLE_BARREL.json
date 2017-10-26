@@ -1,0 +1,14 @@
+{
+  "Name": "DOUBLE_BARREL",
+  "InDeck": true,
+  "MinRange": 0,
+  "MaxRange": 2,
+  "Dice": 2,
+  "MinDiceResult": 3,
+  "Damage": 1,
+  "CanKillSilently": false,
+  "CanBeDual": false,
+  "HasToReload": true,
+  "IsPimpWeapon": false,
+  "IsUltraRedWeapon": false
+}

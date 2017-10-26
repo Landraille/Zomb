@@ -1,0 +1,13 @@
+{
+  "Name": "KATANA",
+  "InDeck": true,
+  "Dice": 2,
+  "MinDiceResult": 4,
+  "Damage": 1,
+  "CanOpenDoor": false,
+  "CanOpenDoorSilently": false,
+  "CanKillSilently": true,
+  "CanBeDual": false,
+  "IsPimpWeapon": false,
+  "IsUltraRedWeapon": false
+}

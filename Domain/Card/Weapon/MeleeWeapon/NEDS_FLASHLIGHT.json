@@ -1,0 +1,13 @@
+{
+  "Name": "NEDS_FLASHLIGHT",
+  "InDeck": false,
+  "Dice": 5,
+  "MinDiceResult": 4,
+  "Damage": 3,
+  "CanOpenDoor": true,
+  "CanOpenDoorSilently": false,
+  "CanKillSilently": false,
+  "CanBeDual": false,
+  "IsPimpWeapon": false,
+  "IsUltraRedWeapon": true
+}

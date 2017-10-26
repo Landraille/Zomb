@@ -1,0 +1,14 @@
+{
+  "Name": "EVILTWIN",
+  "InDeck": false,
+  "MinRange": 0,
+  "MaxRange": 1,
+  "Dice": 2,
+  "MinDiceResult": 4,
+  "Damage": 1,
+  "CanKillSilently": false,
+  "CanBeDual": false,
+  "HasToReload": false,
+  "IsPimpWeapon": true,
+  "IsUltraRedWeapon": false
+}

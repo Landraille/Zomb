@@ -1,0 +1,14 @@
+{
+  "Name": "DOUGS_DREAM",
+  "InDeck": false,
+  "MinRange": 0,
+  "MaxRange": 1,
+  "Dice": 8,
+  "MinDiceResult": 4,
+  "Damage": 1,
+  "CanKillSilently": false,
+  "CanBeDual": false,
+  "HasToReload": false,
+  "IsPimpWeapon": false,
+  "IsUltraRedWeapon": true
+}

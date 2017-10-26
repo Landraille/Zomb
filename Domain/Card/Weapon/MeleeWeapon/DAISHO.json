@@ -1,0 +1,13 @@
+{
+  "Name": "DAISHO",
+  "InDeck": false,
+  "Dice": 4,
+  "MinDiceResult": 4,
+  "Damage": 1,
+  "CanOpenDoor": false,
+  "CanOpenDoorSilently": false,
+  "CanKillSilently": true,
+  "CanBeDual": false,
+  "IsPimpWeapon": true,
+  "IsUltraRedWeapon": false
+}

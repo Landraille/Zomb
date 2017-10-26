@@ -1,0 +1,18 @@
+{
+  "Name": "GUNBLADE",
+  "InDeck": false,
+  "MinRange": 0,
+  "MaxRange": 1,
+  "MeleeDice": 2,
+  "RangedDice": 1,
+  "MinDiceResult": 4,
+  "Damage": 2,
+  "CanOpenDoor": false,
+  "CanOpenDoorSilently": false,
+  "CanMeleeKillSilently": true,
+  "CanRangedKillSilently": false,
+  "CanBeDual": false,
+  "HasToReload": false,
+  "IsPimpWeapon": true,
+  "IsUltraRedWeapon": false
+}

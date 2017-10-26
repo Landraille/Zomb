@@ -1,0 +1,14 @@
+{
+  "Name": "MAC10",
+  "InDeck": true,
+  "MinRange": 0,
+  "MaxRange": 1,
+  "Dice": 5,
+  "MinDiceResult": 5,
+  "Damage": 1,
+  "CanKillSilently": false,
+  "CanBeDual": true,
+  "HasToReload": true,
+  "IsPimpWeapon": false,
+  "IsUltraRedWeapon": false
+}

@@ -7,7 +7,7 @@ namespace Zombicide
         public string Difficulty { get; set; }
         public int PlayerNumber { get; set; }
         public int CharacterNumberByPlayer { get; set; }
-        //public List<Character> SelectedCharacters {get; set; }
+        //public List<CharacterDto> SelectedCharacters {get; set; }
 
         public OptionGame(string difficulty, int playerNumber, int characterNumberByPlayer)
         {

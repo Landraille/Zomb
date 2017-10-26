@@ -1,0 +1,13 @@
+{
+  "Name": "NAILBAT",
+  "InDeck": false,
+  "Dice": 2,
+  "MinDiceResult": 3,
+  "Damage": 2,
+  "CanOpenDoor": false,
+  "CanOpenDoorSilently": false,
+  "CanKillSilently": true,
+  "CanBeDual": false,
+  "IsPimpWeapon": false,
+  "IsUltraRedWeapon": false
+}

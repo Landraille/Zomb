@@ -1,0 +1,18 @@
+{
+  "Name": "SWEET_SISTERS",
+  "InDeck": false,
+  "MinRange": 0,
+  "MaxRange": 1,
+  "MeleeDice": 6,
+  "RangedDice": 4,
+  "MinDiceResult": 3,
+  "Damage": 2,
+  "CanOpenDoor": false,
+  "CanOpenDoorSilently": false,
+  "CanMeleeKillSilently": true,
+  "CanRangedKillSilently": false,
+  "CanBeDual": false,
+  "HasToReload": false,
+  "IsPimpWeapon": false,
+  "IsUltraRedWeapon": true
+}

@@ -1,0 +1,14 @@
+{
+  "Name": "ASSAULT_RIFLE",
+  "InDeck": true,
+  "MinRange": 1,
+  "MaxRange": 2,
+  "Dice": 3,
+  "MinDiceResult": 4,
+  "Damage": 1,
+  "CanKillSilently": false,
+  "CanBeDual": false,
+  "HasToReload": false,
+  "IsPimpWeapon": false,
+  "IsUltraRedWeapon": false
+}

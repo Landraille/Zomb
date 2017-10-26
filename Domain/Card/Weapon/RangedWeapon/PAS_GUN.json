@@ -1,0 +1,14 @@
+{
+  "Name": "PAS_GUN",
+  "InDeck": false,
+  "MinRange": 0,
+  "MaxRange": 1,
+  "Dice": 1,
+  "MinDiceResult": 4,
+  "Damage": 3,
+  "CanKillSilently": false,
+  "CanBeDual": false,
+  "HasToReload": false,
+  "IsPimpWeapon": true,
+  "IsUltraRedWeapon": false
+}
