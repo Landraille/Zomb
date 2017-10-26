@@ -11,21 +11,7 @@ namespace Services.CardService.Dto
         public bool IsSewerInvasion { get; set; }
         public bool IsBlueBedInvasion { get; set; }
         public bool IsGreenBedInvasion { get; set; }
-        public bool IsSupplementaryActivation { get; set; }
-
-        public ZombieCardDto(ZombicideGameEnum zombicideGame, int number, Invasion blueInvasion, Invasion yellowInvasion,
-            Invasion orangeInvasion, Invasion redInvasion) : base(zombicideGame, number)
-        {
-            BlueInvasion = blueInvasion;
-            YellowInvasion = yellowInvasion;
-            OrangeInvasion = orangeInvasion;
-            RedInvasion = redInvasion;
-            IsBlueBedInvasion = false;
-            IsGreenBedInvasion = false;
-            IsSupplementaryActivation = false;
-            IsSewerInvasion = false;
-        }
-
+        public bool IsSupplementaryActivation { get; set; }        
     }
 
     public class Invasion
