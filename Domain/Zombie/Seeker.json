@@ -1,0 +1,8 @@
+{
+  "Name": "Seeker",
+  "Action": 1,
+  "Experience": 1,
+  "MinDamage": 1,
+  "Priority": 3,
+  "ZonePerMove": 1
+}

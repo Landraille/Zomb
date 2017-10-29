@@ -46,11 +46,11 @@
     <Compile Include="Card\Weapon\RangedWeapon\RangedWeaponDomain.cs" />
     <Compile Include="Card\Weapon\WeaponDomain.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Zombie\Zombie.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Character\" />
     <Folder Include="Map\" />
-    <Folder Include="Zombie\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Core\Core.csproj">
@@ -264,6 +264,69 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Card\Weapon\RangedWeapon\BOW.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Zombie\Walker.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Zombie\Runner.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Zombie\Fatty.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Zombie\Abomination.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Zombie\WalkerToxic.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Zombie\AbominationToxic.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Zombie\FattyToxic.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Zombie\RunnerToxic.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Zombie\AbominationBerserker.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Zombie\FattyBerserker.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Zombie\RunnerBerserker.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Zombie\WalkerBerserker.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Zombie\FattySkinner.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Zombie\RunnerSkinner.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Zombie\WalkerSkinner.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Zombie\ABombAbomination.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Zombie\Crawler.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Zombie\Crowz.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Zombie\Dogz.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Zombie\Seeker.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Zombie\VIP.json" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

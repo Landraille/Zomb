@@ -1,0 +1,8 @@
+{
+  "Name": "AbominationBerserker",
+  "Priority": 7,
+  "Action": 1,
+  "MinDamage": 3,
+  "Experience": 5,
+  "ZonePerMove": 1
+}

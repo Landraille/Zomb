@@ -1,0 +1,8 @@
+{
+  "Name": "Crowz",
+  "Action": 1,
+  "Experience": 1,
+  "MinDamage": 1,
+  "Priority": 2,
+  "ZonePerMove": 3
+}

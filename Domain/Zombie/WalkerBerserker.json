@@ -1,0 +1,8 @@
+{
+  "Name": "WalkerBerserker",
+  "Action": 1,
+  "Experience": 1,
+  "MinDamage": 1,
+  "Priority": 4,
+  "ZonePerMove": 1
+}

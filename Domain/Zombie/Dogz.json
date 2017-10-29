@@ -1,0 +1,8 @@
+{
+  "Name": "Dogz",
+  "Action": 3,
+  "Experience": 1,
+  "MinDamage": 1,
+  "Priority": 11,
+  "ZonePerMove": 1
+}

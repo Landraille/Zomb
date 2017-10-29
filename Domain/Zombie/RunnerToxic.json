@@ -1,0 +1,8 @@
+{
+  "Name": "RunnerToxic",
+  "Action": 2,
+  "Experience": 1,
+  "MinDamage": 1,
+  "Priority": 8,
+  "ZonePerMove": 1
+}

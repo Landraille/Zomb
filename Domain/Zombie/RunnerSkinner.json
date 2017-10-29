@@ -1,0 +1,8 @@
+{
+  "Name": "RunnerSkinner",
+  "Action": 2,
+  "Experience": 1,
+  "MinDamage": 1,
+  "Priority": 9,
+  "ZonePerMove": 1
+}

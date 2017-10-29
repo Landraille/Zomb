@@ -1,0 +1,8 @@
+{
+  "Name": "A-Bomb Abomination",
+  "Priority": 6,
+  "Action": 1,
+  "MinDamage": 3,
+  "Experience": 5,
+  "ZonePerMove": 1
+}

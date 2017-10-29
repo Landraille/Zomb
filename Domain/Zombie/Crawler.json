@@ -1,0 +1,8 @@
+{
+  "Name": "Crawler",
+  "Action": 1,
+  "Experience": 1,
+  "MinDamage": 1,
+  "Priority": 11,
+  "ZonePerMove": 1
+}

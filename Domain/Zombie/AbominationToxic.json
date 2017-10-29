@@ -1,0 +1,8 @@
+{
+  "Name": "AbominationToxic",
+  "Priority": 5,
+  "Action": 1,
+  "MinDamage": 3,
+  "Experience": 5,
+  "ZonePerMove": 1
+}
