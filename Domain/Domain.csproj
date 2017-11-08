@@ -45,6 +45,7 @@
     <Compile Include="Card\Weapon\MixWeapon\MixWeaponDomain.cs" />
     <Compile Include="Card\Weapon\RangedWeapon\RangedWeaponDomain.cs" />
     <Compile Include="Card\Weapon\WeaponDomain.cs" />
+    <Compile Include="Card\Zombie\ZombieCardDomain.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Zombie\Zombie.cs" />
   </ItemGroup>
@@ -327,6 +328,741 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Zombie\VIP.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\1.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\2.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\3.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\4.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\5.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\6.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\7.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\8.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\9.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\10.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\11.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\12.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\13.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\14.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\15.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\16.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\17.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\18.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\19.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\20.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\21.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\22.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\23.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\24.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\25.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\26.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\27.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\28.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\29.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\30.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\31.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\32.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\33.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\34.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\35.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\36.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\37.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\38.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\39.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\40.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\41.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\42.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\43.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\44.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\45.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\46.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\47.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\48.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\49.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\50.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\51.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\52.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\53.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\54.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\55.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\56.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\57.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\58.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\59.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\60.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\61.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\62.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\63.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\64.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\65.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\66.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\67.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\68.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\69.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\70.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\71.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\72.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\73.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\74.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\75.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\76.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\77.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\78.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\79.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\80.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\81.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\82.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\83.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\84.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\85.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\86.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\87.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\88.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\89.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\90.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\91.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\92.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\93.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\94.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\95.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\96.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\97.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\98.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\99.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\100.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\101.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\102.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\103.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\104.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\105.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\106.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\107.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\108.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\109.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\110.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\111.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\112.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\113.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\114.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\115.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\116.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\117.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\118.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\119.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\120.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\121.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\122.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\123.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\124.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\125.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\126.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\127.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\128.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\129.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\130.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\131.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\132.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\133.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\134.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\135.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\136.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\137.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\138.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\139.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\140.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\141.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\142.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\143.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\144.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\145.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\146.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\147.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\148.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\149.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\150.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\151.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\152.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\153.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\154.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\155.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\156.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\157.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\158.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\159.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\160.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\161.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\162.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\163.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\164.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\165.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\166.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\167.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\168.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\169.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\170.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\171.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\172.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\173.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\174.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\175.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\176.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\177.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\178.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\179.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\180.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\181.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\182.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\183.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\184.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\185.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\186.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\187.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\189.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\188.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\190.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\192.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\191.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\193.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\204.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\196.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\197.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\198.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\199.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\200.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\201.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\202.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\203.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\194.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\195.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\205.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\210.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\206.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\207.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\208.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\209.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\212.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\211.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\213.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\214.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\215.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\216.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\217.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\218.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\219.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\220.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\221.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\222.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\223.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\224.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\225.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\226.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\227.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\228.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\229.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\230.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\231.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\232.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\233.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\234.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\235.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\245.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\237.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\238.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\239.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\240.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\241.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\242.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\243.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\244.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Card\Zombie\236.json" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

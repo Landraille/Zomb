@@ -1,0 +1,22 @@
+{
+  "BlueInvasion": {
+    "ZombieNumber": 1,
+    "ZombieType": "Fatty"
+  },
+  "YellowInvasion": {
+    "ZombieNumber": 3,
+    "ZombieType": "Walker"
+  },
+  "OrangeInvasion": {
+    "ZombieNumber": 2,
+    "ZombieType": "Fatty"
+  },
+  "RedInvasion": {
+    "ZombieNumber": 5,
+    "ZombieType": "Walker"
+  },
+  "IsSewerInvasion": false,
+  "IsBlueBedInvasion": false,
+  "IsGreenBedInvasion": false,
+  "IsSupplementaryActivation": false
+}
