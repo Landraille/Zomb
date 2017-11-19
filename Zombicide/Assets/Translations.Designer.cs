@@ -88,6 +88,75 @@ namespace Zombicide.Assets {
         }
         
         /// <summary>
+        ///   Recherche une chaîne localisée semblable à Pas d&apos;abomination.
+        /// </summary>
+        public static string DETAILS_ZOMBIE_ANGRYZOMBIES {
+            get {
+                return ResourceManager.GetString("DETAILS_ZOMBIE_ANGRYZOMBIES", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Bouche d&apos;égout (zombie standard) 
+        ///Activation supplémentaire (zombie standard).
+        /// </summary>
+        public static string DETAILS_ZOMBIE_PRISONOUTBREAK {
+            get {
+                return ResourceManager.GetString("DETAILS_ZOMBIE_PRISONOUTBREAK", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Bouche d&apos;égout
+        ///Lit d&apos;hopital
+        ///Activation supplémentaire
+        ///.
+        /// </summary>
+        public static string DETAILS_ZOMBIE_RUEMORGUE {
+            get {
+                return ResourceManager.GetString("DETAILS_ZOMBIE_RUEMORGUE", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Bouche d&apos;égout
+        ///Activation supplémentaire.
+        /// </summary>
+        public static string DETAILS_ZOMBIE_SEASON1 {
+            get {
+                return ResourceManager.GetString("DETAILS_ZOMBIE_SEASON1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Pas d&apos;abomination.
+        /// </summary>
+        public static string DETAILS_ZOMBIE_TOXICCROWD {
+            get {
+                return ResourceManager.GetString("DETAILS_ZOMBIE_TOXICCROWD", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Walker seulement.
+        /// </summary>
+        public static string DETAILS_ZOMBIE_WALKOFTHEDEAD1 {
+            get {
+                return ResourceManager.GetString("DETAILS_ZOMBIE_WALKOFTHEDEAD1", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une chaîne localisée semblable à Pas d&apos;abomination
+        ///Bouche d&apos;égout.
+        /// </summary>
+        public static string DETAILS_ZOMBIE_WALKOFTHEDEAD2 {
+            get {
+                return ResourceManager.GetString("DETAILS_ZOMBIE_WALKOFTHEDEAD2", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Recherche une chaîne localisée semblable à Difficulté.
         /// </summary>
         public static string DIFFICULTY {

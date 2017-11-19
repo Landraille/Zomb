@@ -1,4 +1,5 @@
-﻿using Services;
+﻿using Core;
+using Services;
 using Zombicide.Extensions;
 
 namespace Zombicide.Business.Option.Tab.Model
@@ -8,6 +9,7 @@ namespace Zombicide.Business.Option.Tab.Model
         public ZombicideGameEnum Version { get; set; }
         public bool IsSelected { get; set; }
         public string ZombieTypeList { get; set; }
+        public string Details => Version.GetDetails();
         public string VersionName => Version.GetZombicideGameName();
     }
 }

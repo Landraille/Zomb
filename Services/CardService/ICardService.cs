@@ -1,4 +1,6 @@
 ﻿using System.Collections.Generic;
+using Core;
+using Domain.Zombie;
 using Services.CardService.Dto;
 using Services.Zombie.dto;
 
@@ -6,7 +8,7 @@ namespace Services.CardService
 {
     public interface ICardService
     {
-        List<ZombieCardDto> GetZombieDeck(List<ZombicideGameEnum> zombicideGames = null);
+        List<int> GetZombieDeck(List<ZombicideGameEnum> zombicideGames);
 
         List<EquipmentDto> GetEquimentDeck(List<ZombicideGameEnum> zombicideGames = null);
 

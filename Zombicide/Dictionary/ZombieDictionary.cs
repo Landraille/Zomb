@@ -1,12 +1,13 @@
 ﻿using System.Collections.Generic;
 using System.Windows.Media;
+using Core;
 using Services.Zombie.dto;
 
 namespace Zombicide.Dictionary
 {
     public static class ZombieDictionary
     {
-        public static Dictionary<ZombieFamilyEnum, string> ZombieColors { get; private set; }
+        public static Dictionary<ZombieFamilyEnum, string> ZombieColors { get; }
 
         static ZombieDictionary()
         {

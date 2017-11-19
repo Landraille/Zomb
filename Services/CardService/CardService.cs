@@ -5,13 +5,17 @@ using System.Linq;
 using System.Reflection;
 using System.Runtime.Serialization.Formatters;
 using System.Text;
+using Core;
+using Core.GlobalVar;
 using Domain;
 using Domain.Card.Equipment;
+using Domain.Card.Zombie;
+using Domain.Zombie;
 using Newtonsoft.Json;
 using Services.CardService.Dto;
 using Services.Extension;
 using Services.Zombie.dto;
-using ZombieTypeEnum = Services.Zombie.dto.ZombieTypeEnum;
+using ZombieTypeEnum = Domain.Zombie.ZombieTypeEnum;
 
 namespace Services.CardService
 {
@@ -2604,9 +2608,22 @@ namespace Services.CardService
             }
         }
 
-        public List<ZombieCardDto> GetZombieDeck(List<ZombicideGameEnum> zombicideGames = null)
+        public List<int> GetZombieDeck(List<ZombicideGameEnum> zombicideGames)
         {
-            return zombicideGames == null ? ZombieCards : ZombieCards.Where(x => zombicideGames.Contains(x.ZombicideGame)).ToList();
+            var deck = new List<int>();
+
+            if (zombicideGames == null || !zombicideGames.Any())
+                throw new Exception();
+
+            foreach (var game in zombicideGames)
+            {
+                var g = ZombieDeck.ZombieDeckCardNumber
+                            .SingleOrDefault(x => x.Game == game);
+
+               deck.AddRange(Enumerable.Range(g.First,g.Last));
+            }
+
+            return deck;
         }
 
         public List<EquipmentDto> GetEquimentDeck(List<ZombicideGameEnum> zombicideGames = null)

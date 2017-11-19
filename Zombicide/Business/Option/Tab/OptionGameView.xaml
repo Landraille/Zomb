@@ -111,7 +111,7 @@
                             </GridViewColumn>
                             <GridViewColumn DisplayMemberBinding="{Binding VersionName}" 
                                             Header="{x:Static assets:Translations.GAME_VERSION}" />
-                            <GridViewColumn Header="{x:Static assets:Translations.ZOMBIE_TYPE}"
+                            <!--<GridViewColumn Header="{x:Static assets:Translations.ZOMBIE_TYPE}"
                                             Width="170">
                                 <GridViewColumn.CellTemplate>
                                     <DataTemplate>
@@ -122,9 +122,9 @@
                                                      IsReadOnly="True"/>
                                     </DataTemplate>
                                 </GridViewColumn.CellTemplate>
-                            </GridViewColumn>
-                            <!--<GridViewColumn DisplayMemberBinding="{Binding ZombieTypeList}" 
-                                            Header="{x:Static assets:Translations.ZOMBIE_TYPE}" />-->
+                            </GridViewColumn>-->
+                            <GridViewColumn DisplayMemberBinding="{Binding ZombieTypeList}" 
+                                            Header="{x:Static assets:Translations.ZOMBIE_TYPE}" />
                         </GridView.Columns>
                     </GridView>
                 </ListView.View>

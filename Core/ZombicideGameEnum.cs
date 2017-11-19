@@ -1,5 +1,5 @@
 ﻿
-namespace Services
+namespace Core
 {
     public enum ZombicideGameEnum
     {

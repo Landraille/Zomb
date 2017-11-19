@@ -1,4 +1,6 @@
 ﻿using System.Collections.Generic;
+using Core;
+using Domain.Zombie;
 using Services.Map;
 using Services.Zombie.dto;
 

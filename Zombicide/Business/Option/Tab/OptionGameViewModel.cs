@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using Caliburn.Micro;
+using Core;
 using Services;
 using Services.CardService;
 using Services.Zombie;

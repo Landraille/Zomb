@@ -1,4 +1,4 @@
-﻿namespace Services.Zombie.dto
+﻿namespace Domain.Zombie
 {
     public enum ZombieMainTypeEnum
     {

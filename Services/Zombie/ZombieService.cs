@@ -1,4 +1,6 @@
-﻿using Services.Extension;
+﻿using Core;
+using Domain.Zombie;
+using Services.Extension;
 using Services.Map;
 using Services.Zombie.dto;
 

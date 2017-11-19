@@ -46,8 +46,11 @@
     <Compile Include="Card\Weapon\RangedWeapon\RangedWeaponDomain.cs" />
     <Compile Include="Card\Weapon\WeaponDomain.cs" />
     <Compile Include="Card\Zombie\ZombieCardDomain.cs" />
+    <Compile Include="Card\Zombie\ZombieDeck.cs" />
+    <Compile Include="Game\GameDetails.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Zombie\Zombie.cs" />
+    <Compile Include="Zombie\ZombieTypeEnum.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Character\" />
@@ -1063,6 +1066,48 @@
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Card\Zombie\236.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Game\Season1.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Game\ToxicCityMall.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Game\WalkOfTheDead1.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Game\ZombieDogz.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Game\PrisonOutBreak.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Game\WalkOfTheDead2.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Game\ToxicCrowd.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Game\AngryZombies.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Game\RueMorgue.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Game\AngryNeighbors.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Game\LostZombivors.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Game\Vip1.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Game\Vip2.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Game\Crowz.json" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

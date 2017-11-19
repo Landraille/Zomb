@@ -64,6 +64,9 @@
     <Compile Include="Extension\ZombieTypeEnumExtension.cs" />
     <Compile Include="GameOption\GameOptionService.cs" />
     <Compile Include="GameOption\IGameOptionService.cs" />
+    <Compile Include="Game\GameDetails.cs" />
+    <Compile Include="Game\GameService.cs" />
+    <Compile Include="Game\IGameService.cs" />
     <Compile Include="Map\Connection.cs" />
     <Compile Include="Map\IRouteEngineService.cs" />
     <Compile Include="Map\Location.cs" />
@@ -80,7 +83,6 @@
     </Compile>
     <Compile Include="CardService\ICardService.cs" />
     <Compile Include="CardService\CardService.cs" />
-    <Compile Include="ZombicideGameEnum.cs" />
     <Compile Include="Zombie\dto\Berserker\AbominationBerserker.cs" />
     <Compile Include="Zombie\dto\Berserker\FattyBerserker.cs" />
     <Compile Include="Zombie\dto\Berserker\RunnerBerserker.cs" />
@@ -107,7 +109,6 @@
     <Compile Include="Zombie\dto\Toxic\WalkerToxic.cs" />
     <Compile Include="Zombie\dto\Toxic\ZombieToxic.cs" />
     <Compile Include="Zombie\dto\Zombie.cs" />
-    <Compile Include="Zombie\dto\ZombieTypeEnum.cs" />
     <Compile Include="Zombie\IZombieService.cs" />
     <Compile Include="Zombie\ZombieService.cs" />
   </ItemGroup>

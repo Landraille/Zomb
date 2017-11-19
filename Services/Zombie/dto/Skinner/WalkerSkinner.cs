@@ -1,4 +1,6 @@
-﻿using Services.Map;
+﻿using Core;
+using Domain.Zombie;
+using Services.Map;
 
 namespace Services.Zombie.dto
 {

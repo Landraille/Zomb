@@ -2,6 +2,7 @@
 using System.Linq;
 using System.Windows;
 using System.Windows.Controls;
+using Core;
 using Core.GlobalVar;
 using Services.Zombie.dto;
 using Zombicide.Dictionary;

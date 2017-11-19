@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="GlobalVar\DesignGlobalVar.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ZombicideGameEnum.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

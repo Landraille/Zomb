@@ -126,6 +126,33 @@
   <data name="CUSTOMIZED_GAME" xml:space="preserve">
     <value>Personnalisé</value>
   </data>
+  <data name="DETAILS_ZOMBIE_ANGRYZOMBIES" xml:space="preserve">
+    <value>Pas d'abomination</value>
+  </data>
+  <data name="DETAILS_ZOMBIE_PRISONOUTBREAK" xml:space="preserve">
+    <value>Bouche d'égout (zombie standard) 
+Activation supplémentaire (zombie standard)</value>
+  </data>
+  <data name="DETAILS_ZOMBIE_RUEMORGUE" xml:space="preserve">
+    <value>Bouche d'égout
+Lit d'hopital
+Activation supplémentaire
+</value>
+  </data>
+  <data name="DETAILS_ZOMBIE_SEASON1" xml:space="preserve">
+    <value>Bouche d'égout
+Activation supplémentaire</value>
+  </data>
+  <data name="DETAILS_ZOMBIE_TOXICCROWD" xml:space="preserve">
+    <value>Pas d'abomination</value>
+  </data>
+  <data name="DETAILS_ZOMBIE_WALKOFTHEDEAD1" xml:space="preserve">
+    <value>Walker seulement</value>
+  </data>
+  <data name="DETAILS_ZOMBIE_WALKOFTHEDEAD2" xml:space="preserve">
+    <value>Pas d'abomination
+Bouche d'égout</value>
+  </data>
   <data name="DIFFICULTY" xml:space="preserve">
     <value>Difficulté</value>
   </data>

@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using Services.Zombie.dto;
 using System.Linq;
+using Core;
+using Domain.Zombie;
 using Services.Map;
 
 namespace Services.Extension

@@ -1,4 +1,6 @@
-﻿using Services.Zombie.dto;
+﻿using Core;
+using Domain.Zombie;
+using Services.Zombie.dto;
 
 namespace Services.CardService.Dto
 {

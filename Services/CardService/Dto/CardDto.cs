@@ -1,4 +1,6 @@
-﻿namespace Services.CardService.Dto
+﻿using Core;
+
+namespace Services.CardService.Dto
 {
     public abstract class CardDto
     {
